@@ -79,20 +79,6 @@
   # Set the default editor to vim
   environment.variables.EDITOR = "vim";
 
-  # Enable OpenGL
-  hardware.graphics = {
-    enable = true;
-    enable32Bit = true;
-  };
-
-  # Enable GPU drivers
-  services.xserver.videoDrivers = [ "nvidia" ];
-  hardware.nvidia.modesetting.enable = true;
-  hardware.nvidia.open = true;
-
-  # Enable XONE
-  hardware.xone.enable = true;
-
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
