@@ -3,11 +3,12 @@
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
 { config, pkgs, ... }: {
-  imports =
-    [
-      ./hardware-configuration.nix
-      ../common/core
-    ];
+  imports = [
+    ./hardware-configuration.nix
+    ../common/core
+    ../common/optional/spotify.nix
+    ../common/optional/steam.nix
+  ];
 
   # Enable flakes and nix command
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
