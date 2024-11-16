@@ -64,9 +64,7 @@
     isNormalUser = true;
     description = "Valyn";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-    #  thunderbird
-    ];
+    shell = pkgs.zsh;
   };
 
   # Allow unfree packages
