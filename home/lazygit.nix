@@ -8,7 +8,7 @@
       scrollOffBehaviour = "margin";
     
       # spinner
-      spinner.rate = 100;
+      spinner.rate = 50;
       spinner.frames = [ # (find more at https://www.npmjs.com/package/cli-spinners)
         "←"
         "↖"
