@@ -13,6 +13,7 @@
 
     # nixvim
     nixvim.url = "github:valyntyler/nixvim";
+    nixvim.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = { self, nixpkgs, ... }@inputs: {
