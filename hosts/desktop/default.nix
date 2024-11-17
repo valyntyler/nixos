@@ -76,8 +76,8 @@
 
   environment.systemPackages = with pkgs; [ git ];
 
-  # Set the default editor to vim
-  environment.variables.EDITOR = "vim";
+  # Set the default editor to nvim
+  environment.variables.EDITOR = "nvim";
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
