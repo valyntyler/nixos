@@ -17,4 +17,13 @@
     geary
     gnome-keyring
   ];
+
+  environment.systemPackages = with pkgs; [
+    # gnome tweaks
+    gnome-tweaks
+
+    # gnome extensions
+    gnomeExtensions.pop-shell
+    gnomeExtensions.blur-my-shell
+  ];
 }
