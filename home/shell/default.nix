@@ -1,5 +1,6 @@
 {
   imports = [
+    ./prompt
     ./zsh.nix
   ];
 }
