@@ -27,6 +27,8 @@
     history.ignorePatterns = [ "reboot" ];
 
     initExtra = ''
+      ${builtins.readFile ./yazi.sh}     
+
       # rebinds
       bindkey '^I' autosuggest-accept
     '';
