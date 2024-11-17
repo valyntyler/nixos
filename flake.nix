@@ -2,11 +2,17 @@
   description = "A simple NixOS flake";
 
   inputs = {
+    # nixpkgs
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+
+    # home manager
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    # nixvim
+    nixvim.url = "github:valyntyler/nixvim";
   };
 
   outputs = { self, nixpkgs, ... }@inputs: {
@@ -19,10 +25,10 @@
         {
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
-          home-manager.users."valyn" = import ./home;
 
-          # Optionally, use home-manager.extraSpecialArgs to pass
-          # arguments to home.nix
+          # import configuration
+          home-manager.users."valyn" = import ./home;
+          home-manager.extraSpecialArgs = { inherit inputs; };
         }
       ];
     };

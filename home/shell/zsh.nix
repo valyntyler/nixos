@@ -14,7 +14,6 @@
     shellAliases = {
       cl = "clear";
       lg = "lazygit";
-      nvim = "nix run github:valyntyler/nixvim";
     };
 
     dotDir = ".config/zsh";
