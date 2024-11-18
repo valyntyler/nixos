@@ -1,5 +1,6 @@
 {
   imports = [
+    ./bootloader.nix
     ./gnome.nix
     ./locale.nix
     ./pipewire.nix

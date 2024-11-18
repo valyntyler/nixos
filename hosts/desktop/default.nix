@@ -13,10 +13,6 @@
   # Enable flakes and nix command
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  # Bootloader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
-
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.valyn = {
     isNormalUser = true;
