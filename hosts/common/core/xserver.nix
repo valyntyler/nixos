@@ -10,6 +10,9 @@
     variant = "";
   };
 
+  # Enable touchpad support
+  services.xserver.libinput.enable = true;
+
   # disable XTerm
   services.xserver.excludePackages = with pkgs; [
     xterm
