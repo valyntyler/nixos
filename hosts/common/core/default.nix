@@ -7,6 +7,7 @@
     ./nvidia.nix
     ./xone.nix
     ./kanata.nix
+    ./network.nix
     ./xserver.nix
   ];
 }
