@@ -27,20 +27,6 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
-  # Enable the X11 windowing system.
-  services.xserver.enable = true;
-
-  # Configure keymap in X11
-  services.xserver.xkb = {
-    layout = "ro";
-    variant = "";
-  };
-
-  # disable XTerm
-  services.xserver.excludePackages = with pkgs; [
-    xterm
-  ];
-
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
