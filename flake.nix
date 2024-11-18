@@ -6,10 +6,8 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
     # home manager
-    home-manager = {
-      url = "github:nix-community/home-manager";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    home-manager.url = "github:nix-community/home-manager";
+    home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
     # nixvim
     nixvim.url = "github:valyntyler/nixvim";
