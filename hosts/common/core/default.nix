@@ -6,5 +6,6 @@
     ./graphics.nix
     ./nvidia.nix
     ./xone.nix
+    ./kanata.nix
   ];
 }
