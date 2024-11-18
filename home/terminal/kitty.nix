@@ -4,7 +4,7 @@
 
     # font
     font.size = 12;
-    font.name = "DejaVu Sans Mono";
+    font.name = "JetBrainsMonoNF";
 
     # theme
     themeFile = "gruvbox-dark"; 
