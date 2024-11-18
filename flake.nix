@@ -1,15 +1,15 @@
 {
-  description = "A simple NixOS flake";
+  description = "My custom NixOS flake";
 
   inputs = {
-    # nixpkgs
+    # import nixpkgs flake
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
-    # home manager
+    # import home manager flake
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
-    # nixvim
+    # import custom nixvim flake
     nixvim.url = "github:valyntyler/nixvim";
     nixvim.inputs.nixpkgs.follows = "nixpkgs";
   };
