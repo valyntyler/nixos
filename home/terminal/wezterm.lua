@@ -15,6 +15,8 @@ config.colors = {
   },
 };
 
+config.window_decorations = "RESIZE";
+
 config.font = wezterm.font 'JetBrainsMonoNF'
 config.font_size = 12.0;
 
