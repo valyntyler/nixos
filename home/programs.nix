@@ -8,6 +8,11 @@
     neofetch
     sl
 
+    # tools
+    usbutils
+    zip
+    unzip
+
     # text
     obsidian
 
