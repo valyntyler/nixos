@@ -10,6 +10,7 @@
     ./nixvim.nix
     ./fonts.nix
     ./dconf.nix
+    ./tmux.nix
     ./programs.nix
   ];
 
