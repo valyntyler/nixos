@@ -10,5 +10,6 @@
     ./kanata.nix
     ./network.nix
     ./xserver.nix
+    ./syncthing.nix
   ];
 }
