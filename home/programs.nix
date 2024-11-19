@@ -8,6 +8,9 @@
     neofetch
     sl
 
+    # text
+    obsidian
+
     # art
     gimp
     inkscape
