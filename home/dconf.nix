@@ -29,7 +29,7 @@
     };
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0" = {
       name = "launch terminal";
-      command = "kitty";
+      command = "wezterm";
       binding = "<Super>Q";
     };
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1" = {
