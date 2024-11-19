@@ -33,11 +33,49 @@ end)
 
 -- keybinds
 config.keys = {
+  -- press ctrl+shift+y to toggle transparent background
   {
-    -- press ctrl+shift+y to toggle transparent background
     key = 'Y',
     mods = 'CTRL',
     action = wezterm.action.EmitEvent 'toggle-opacity',
+  },
+  -- close current pane
+  {
+    key = 'w',
+    mods = 'ALT',
+    action = wezterm.action.CloseCurrentPane { confirm = true },
+  },
+  -- split current pane
+  {
+    key = 't',
+    mods = 'ALT',
+    action = wezterm.action.SplitHorizontal { domain = 'CurrentPaneDomain' },
+  },
+  {
+    key = 'T',
+    mods = 'ALT',
+    action = wezterm.action.SplitVertical { domain = 'CurrentPaneDomain' },
+  },
+  -- navigate panes
+  {
+    key = 'h',
+    mods = 'ALT',
+    action = wezterm.action.ActivatePaneDirection 'Left',
+  },
+  {
+    key = 'j',
+    mods = 'ALT',
+    action = wezterm.action.ActivatePaneDirection 'Down',
+  },
+  {
+    key = 'k',
+    mods = 'ALT',
+    action = wezterm.action.ActivatePaneDirection 'Up',
+  },
+  {
+    key = 'l',
+    mods = 'ALT',
+    action = wezterm.action.ActivatePaneDirection 'Right',
   },
 }
 
