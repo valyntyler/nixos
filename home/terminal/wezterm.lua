@@ -15,10 +15,10 @@ config.colors = {
   },
 };
 
-config.window_decorations = "RESIZE";
+config.window_decorations = "RESIZE"
 
 config.font = wezterm.font 'JetBrainsMonoNF'
-config.font_size = 12.0;
+config.font_size = 12.0
 
 -- toggle background opacity
 wezterm.on("toggle-opacity", function(window, _)
