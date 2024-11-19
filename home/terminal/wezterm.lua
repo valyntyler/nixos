@@ -6,6 +6,14 @@ config.front_end = "WebGpu"
 
 -- configure colorscheme
 config.color_scheme = 'GruvboxDark'
+config.colors = {
+  tab_bar = {
+    active_tab = {
+      fg_color = '#ebdbb2',
+      bg_color = '#282828',
+    },
+  },
+};
 
 config.font = wezterm.font 'JetBrainsMonoNF'
 config.font_size = 12.0;
