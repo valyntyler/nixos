@@ -11,7 +11,7 @@
   };
 
   # Enable touchpad support
-  services.xserver.libinput.enable = true;
+  services.libinput.enable = true;
 
   # disable XTerm
   services.xserver.excludePackages = with pkgs; [
