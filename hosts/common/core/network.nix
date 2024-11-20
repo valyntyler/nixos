@@ -1,9 +1,11 @@
+{ host, ... }:
+
 {
   networking = {
     # Enable networking
     networkmanager.enable = true;
 
-    hostName = "nixos-desktop"; # Define your hostname.
+    hostName = host;
     # wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
     # open ports for syncthing

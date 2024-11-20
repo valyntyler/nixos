@@ -22,7 +22,7 @@
     nixosConfigurations = {
       nixos-desktop = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
-        specialArgs = { inherit inputs; };
+        specialArgs = { inherit inputs; host = "nixos-desktop"; };
         modules = [
           ./hosts/desktop
           inputs.home-manager.nixosModules.home-manager
@@ -38,7 +38,7 @@
       };
       nixos-laptop = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
-        specialArgs = { inherit inputs; };
+        specialArgs = { inherit inputs; host = "nixos-laptop"; };
         modules = [
           ./hosts/laptop
           inputs.home-manager.nixosModules.home-manager
