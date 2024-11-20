@@ -6,8 +6,10 @@
 
 {
   imports =
-    [ # Include the results of the hardware scan.
+    [
       ./hardware-configuration.nix
+      ./../common/optional/steam.nix
+      ./../common/optional/spotify.nix
     ];
 
   # Bootloader.
