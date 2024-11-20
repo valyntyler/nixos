@@ -84,9 +84,7 @@
     isNormalUser = true;
     description = "Valyn";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-    #  thunderbird
-    ];
+    shell = pkgs.zsh;
   };
 
   # Install firefox.
@@ -95,13 +93,10 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  programs.git.enable = true;
+  programs.dconf.enable = true;
+  programs.zsh.enable = true;
 
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-  environment.systemPackages = with pkgs; [
-    vim
-  ];
+  environment.systemPackages = with pkgs; [ vim git ];
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
