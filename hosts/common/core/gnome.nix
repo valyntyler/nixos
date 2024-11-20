@@ -25,5 +25,6 @@
     # gnome extensions
     gnomeExtensions.pop-shell
     gnomeExtensions.blur-my-shell
+    gnomeExtensions.appindicator
   ];
 }
