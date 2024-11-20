@@ -5,7 +5,7 @@
     ./locale.nix
     ./pipewire.nix
     ./graphics.nix
-    ./nvidia.nix
+    # ./nvidia.nix
     ./xone.nix
     ./network.nix
     ./xserver.nix
