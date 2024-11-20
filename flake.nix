@@ -41,6 +41,15 @@
         specialArgs = { inherit inputs; };
         modules = [
           ./hosts/laptop/configuration.nix
+          inputs.home-manager.nixosModules.home-manager
+          {
+            home-manager.useGlobalPkgs = true;
+            home-manager.useUserPackages = true;
+
+            # import configuration
+            home-manager.users."valyn" = import ./home;
+            home-manager.extraSpecialArgs = { inherit inputs; };
+          }
         ];
       };
     };
