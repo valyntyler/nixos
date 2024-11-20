@@ -8,6 +8,8 @@
     ../common/core
     ../common/optional/spotify.nix
     ../common/optional/steam.nix
+    ../common/optional/syncthing.nix
+    ../common/optional/kanata.nix
   ];
 
   # Enable flakes and nix command
