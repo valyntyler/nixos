@@ -12,6 +12,10 @@
     # import custom nixvim flake
     nixvim.url = "github:valyntyler/nixvim";
     nixvim.inputs.nixpkgs.follows = "nixpkgs";
+
+    # spotify overlay
+    spotx.url = "github:oskardotglobal/.dotfiles/nix";
+    spotx.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = { self, nixpkgs, ... } @ inputs: {
