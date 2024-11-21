@@ -80,6 +80,26 @@ config.keys = {
     mods = 'ALT',
     action = wezterm.action.ActivatePaneDirection 'Right',
   },
+  -- resize panes
+  {
+    key = 'H',
+    mods = 'CTRL',
+    action = wezterm.action.AdjustPaneSize { 'Left', 5 },
+  },
+  {
+    key = 'J',
+    mods = 'CTRL',
+    action = wezterm.action.AdjustPaneSize { 'Down', 5 },
+  },
+  {
+    key = 'K',
+    mods = 'CTRL',
+    action = wezterm.action.AdjustPaneSize { 'Up', 5 } },
+  {
+    key = 'L',
+    mods = 'CTRL',
+    action = wezterm.action.AdjustPaneSize { 'Right', 5 },
+  },
 }
 
 return config
