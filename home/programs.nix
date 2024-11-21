@@ -6,9 +6,16 @@
     cbonsai
     cmatrix
     neofetch
+    pipes
     sl
 
     # tools
+    bat
+    fzf
+    glow
+
+    # utils
+    btop
     usbutils
     zip
     unzip
@@ -22,5 +29,8 @@
 
     # music
     musescore
+
+    # misc.
+    qbittorrent
   ];
 }
