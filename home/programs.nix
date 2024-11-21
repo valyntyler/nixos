@@ -19,6 +19,7 @@
     usbutils
     zip
     unzip
+    wl-clipboard
 
     # text
     obsidian
