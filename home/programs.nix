@@ -20,6 +20,7 @@
     zip
     unzip
     wl-clipboard
+    mkvtoolnix-cli
 
     # text
     obsidian
