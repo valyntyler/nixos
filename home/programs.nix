@@ -31,6 +31,7 @@
 
     # music
     musescore
+    vmpk
 
     # misc.
     qbittorrent
