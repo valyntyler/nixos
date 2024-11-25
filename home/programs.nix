@@ -33,6 +33,9 @@
     musescore
     vmpk
 
+    # 3D
+    freecad
+
     # misc.
     qbittorrent
   ];
