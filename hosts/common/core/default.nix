@@ -6,6 +6,7 @@
     ./pipewire.nix
     ./graphics.nix
     ./xone.nix
+    ./alsa.nix
     ./network.nix
     ./xserver.nix
   ];
