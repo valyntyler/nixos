@@ -30,8 +30,9 @@
     inkscape
 
     # music
-    musescore
     vmpk
+    musescore
+    reaper
 
     # 3D
     freecad
