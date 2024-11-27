@@ -15,6 +15,7 @@
     glow
 
     # utils
+    ripgrep
     btop
     usbutils
     zip
