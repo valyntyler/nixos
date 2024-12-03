@@ -1,6 +1,12 @@
 { pkgs, ... }:
 
 {
+  # browser
+  programs.firefox.enable = true;
+
+  # email client
+  programs.thunderbird.enable = true;
+
   home.packages = with pkgs; [
     # screensavers
     cbonsai
