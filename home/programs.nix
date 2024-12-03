@@ -6,6 +6,10 @@
 
   # email client
   programs.thunderbird.enable = true;
+  programs.thunderbird.profiles.valyn = {
+    isDefault = true;
+    search.default = "DuckDuckGo";
+  };
 
   home.packages = with pkgs; [
     # screensavers
