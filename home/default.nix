@@ -4,6 +4,8 @@
   imports = [
     ./terminal
     ./shell
+    ./browser
+    ./email
     ./git.nix
     ./lazygit.nix
     ./yazi.nix

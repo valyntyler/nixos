@@ -1,16 +1,6 @@
 { pkgs, ... }:
 
 {
-  # browser
-  programs.firefox.enable = true;
-
-  # email client
-  programs.thunderbird.enable = true;
-  programs.thunderbird.profiles.valyn = {
-    isDefault = true;
-    search.default = "DuckDuckGo";
-  };
-
   home.packages = with pkgs; [
     # screensavers
     cbonsai
