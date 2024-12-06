@@ -36,5 +36,11 @@
       symbol = " ";
       style = "bold bright-blue";
     }; 
+
+    nix_shell = {
+      format = "via [$symbol]($style)";
+      symbol = "󱄅 ";
+      style = "bold bright-blue";
+    }; 
   };
 }
