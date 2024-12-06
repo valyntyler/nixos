@@ -1,5 +1,6 @@
 {
   imports = [
+    ./direnv.nix
     ./bootloader.nix
     ./gnome.nix
     ./locale.nix
