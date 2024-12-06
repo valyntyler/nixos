@@ -22,6 +22,7 @@
     unzip
     wl-clipboard
     mkvtoolnix-cli
+    nmap
 
     # text
     obsidian
