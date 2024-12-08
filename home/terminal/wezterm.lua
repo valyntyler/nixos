@@ -18,7 +18,7 @@ config.colors = {
 config.window_decorations = "RESIZE"
 config.hide_tab_bar_if_only_one_tab = true
 
-config.font = wezterm.font 'JetBrainsMonoNF'
+config.font = wezterm.font 'JetBrainsMono NF'
 config.font_size = 12.0
 
 -- toggle background opacity
