@@ -20,9 +20,12 @@
     usbutils
     zip
     unzip
-    wl-clipboard
     mkvtoolnix-cli
     nmap
+
+    # clipboard providers
+    wl-clipboard
+    xsel
 
     # text
     obsidian
