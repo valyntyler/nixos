@@ -7,8 +7,9 @@
 
     autosuggestion.enable = true;
     autosuggestion.strategy = [
-      "history"
+      "match_prev_cmd"
       "completion"
+      "history"
     ];
 
     shellAliases = {
