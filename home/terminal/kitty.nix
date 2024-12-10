@@ -5,7 +5,7 @@
     # font
     font = {
       size = 12;
-      name = "JetBrainsMono NF";
+      name = "DejaVu Sans";
     };
 
     # theme
