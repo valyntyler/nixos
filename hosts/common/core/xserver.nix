@@ -16,8 +16,6 @@
   # Clipboard provider
   environment.systemPackages = with pkgs; [ xsel ];
 
-  # disable XTerm
-  services.xserver.excludePackages = with pkgs; [
-    xterm
-  ];
+  # Disable XTerm
+  services.xserver.excludePackages = with pkgs; [ xterm ];
 }
