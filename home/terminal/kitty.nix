@@ -3,8 +3,10 @@
     enable = true;
 
     # font
-    font.size = 12;
-    font.name = "JetBrainsMono NF";
+    font = {
+      size = 12;
+      name = "JetBrainsMono NF";
+    };
 
     # theme
     themeFile = "gruvbox-dark"; 
