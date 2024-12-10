@@ -13,6 +13,9 @@
   # Enable touchpad support
   services.libinput.enable = true;
 
+  # Clipboard provider
+  environment.systemPackages = with pkgs; [ xsel ];
+
   # disable XTerm
   services.xserver.excludePackages = with pkgs; [
     xterm

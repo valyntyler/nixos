@@ -25,7 +25,6 @@
 
     # clipboard providers
     wl-clipboard
-    xsel
 
     # text
     obsidian
