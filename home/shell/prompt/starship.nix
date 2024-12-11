@@ -7,6 +7,7 @@
     # disable modules
     line_break.disabled = true;
     package.disabled = true;
+    battery.disabled = true;
 
     # character
     character.success_symbol = "[❯](bold bright-green)";
