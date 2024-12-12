@@ -22,6 +22,7 @@
     unzip
     mkvtoolnix-cli
     nmap
+    imagemagick
 
     # clipboard providers
     wl-clipboard
