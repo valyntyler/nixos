@@ -1,6 +1,9 @@
 {
   programs.starship.enable = true;
   programs.starship.settings = {
+    format = "$character";
+    right_format = "$all";
+
     # disable newline before prompt
     add_newline = false;
   
@@ -15,6 +18,7 @@
 
     # folder
     directory.truncate_to_repo = false;
+    directory.truncation_length = -1;
     directory.format = "[$path]($style)[$read_only]($read_only_style) ";
 
     # git
