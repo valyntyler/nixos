@@ -7,6 +7,7 @@
     ./browser
     ./email
     ./git.nix
+    ./fzf.nix
     ./lazygit.nix
     ./yazi.nix
     ./zoxide.nix

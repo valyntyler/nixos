@@ -11,7 +11,6 @@
 
     # tools
     bat
-    fzf
     glow
 
     # utils
