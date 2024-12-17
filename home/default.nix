@@ -9,6 +9,7 @@
     ./git.nix
     ./lazygit.nix
     ./yazi.nix
+    ./zoxide.nix
     ./nixvim.nix
     ./fonts.nix
     ./dconf.nix
