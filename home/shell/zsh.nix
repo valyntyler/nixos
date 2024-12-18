@@ -35,6 +35,8 @@
         bindkey '^f' autosuggest-accept
         bindkey '^p' history-search-backward
         bindkey '^n' history-search-forward
+
+        zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
       ''
       + builtins.readFile ./yazi.sh;
   };
