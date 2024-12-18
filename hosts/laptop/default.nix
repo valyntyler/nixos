@@ -6,7 +6,7 @@
       ../common/core
       ../common/optional/steam.nix
       ../common/optional/spotify.nix
-      ../common/optional/syncthing.nix
+      # ../common/optional/syncthing.nix
       ../common/optional/kanata.nix
   ];
 
