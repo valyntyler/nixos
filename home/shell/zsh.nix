@@ -2,7 +2,8 @@
   programs.zsh = {
     enable = true;
 
-    syntaxHighlighting.enable = false;
+    # defaultKeymap = "emacs";
+    syntaxHighlighting.enable = true;
     enableCompletion = true;
 
     autosuggestion.enable = true;
@@ -19,18 +20,22 @@
 
     dotDir = ".config/zsh";
 
-    history.size = 10000;
-    history.path = "$ZDOTDIR/zsh_history";
+    history.append = true;
+    history.size = 5000;
+    history.save = 5000;
+    history.share = true;
+    history.path = "$ZDOTDIR/.zsh_history";
 
-    history.ignoreSpace = true;
     history.ignoreAllDups = true;
+    history.ignoreDups = true;
+    history.ignoreSpace = true;
     history.ignorePatterns = [ "reboot" ];
 
     initExtra = ''
-      ${builtins.readFile ./yazi.sh}     
-
-      # rebinds
-      bindkey '^I' autosuggest-accept
-    '';
+        bindkey '^f' autosuggest-accept
+        bindkey '^p' history-search-backward
+        bindkey '^n' history-search-forward
+      ''
+      + builtins.readFile ./yazi.sh;
   };
 }
