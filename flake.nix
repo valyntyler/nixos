@@ -29,6 +29,7 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
+            home-manager.backupFileExtension = "bak";
 
             # import configuration
             home-manager.users."valyn" = import ./home;
@@ -45,6 +46,7 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
+            home-manager.backupFileExtension = "bak";
 
             # import configuration
             home-manager.users."valyn" = import ./home;
