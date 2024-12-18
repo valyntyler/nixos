@@ -1,7 +1,7 @@
 {
   programs.starship.enable = true;
   programs.starship.settings = {
-    format = "$character";
+    format = "$directory$character";
     right_format = "$all";
 
     # disable newline before prompt
