@@ -2,12 +2,12 @@
 
 {
   imports = [
-      ./hardware-configuration.nix
-      ../common/core
-      ../common/optional/steam.nix
-      ../common/optional/spotify.nix
-      ../common/optional/syncthing.nix
-      ../common/optional/kanata.nix
+    ./hardware-configuration.nix
+    ../common/core
+    ../common/optional/steam.nix
+    ../common/optional/spotify.nix
+    ../common/optional/syncthing.nix
+    ../common/optional/kanata.nix
   ];
 
   # Enable flakes and nix command
