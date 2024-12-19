@@ -10,8 +10,8 @@
     dataDir = "/home/valyn";
 
     settings = {
-      folders."obsidian" = {
-        path = "~/obsidian";
+      folders."second-brain" = {
+        path = "~/Notes/second-brain";
         devices = [
           "phone"
           "raspi"
