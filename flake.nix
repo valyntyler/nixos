@@ -16,6 +16,9 @@
     # spotify overlay
     spotx.url = "github:oskardotglobal/.dotfiles/nix";
     spotx.inputs.nixpkgs.follows = "nixpkgs";
+
+    # xremap flake
+    xremap.url = "github:xremap/nix-flake";
   };
 
   outputs = { self, nixpkgs, ... } @ inputs: {
