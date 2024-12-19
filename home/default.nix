@@ -15,6 +15,7 @@
     ./fonts.nix
     ./dconf.nix
     ./tmux.nix
+    ./cava.nix
     ./programs.nix
   ];
 

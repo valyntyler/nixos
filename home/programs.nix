@@ -8,7 +8,6 @@
     neofetch
     pipes
     sl
-    cava
 
     # tools
     bat
