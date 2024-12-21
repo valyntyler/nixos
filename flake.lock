@@ -913,11 +913,11 @@
         "nixvim": "nixvim_2"
       },
       "locked": {
-        "lastModified": 1734813174,
-        "narHash": "sha256-+P5bxO5KGWLbKy+whjbdYpmeio0Wh227P7dxvzqIUUk=",
+        "lastModified": 1734818054,
+        "narHash": "sha256-WI56ek67kaoIwvYXr/fcenpIxZCiEw1MVCU8+a4cccI=",
         "owner": "valyntyler",
         "repo": "nixvim",
-        "rev": "950a6b1e64d4375556e0a820af679a0c6306a912",
+        "rev": "e9e67e0c84e85ce42c8b4246800c037043c37b55",
         "type": "github"
       },
       "original": {
