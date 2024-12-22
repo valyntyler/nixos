@@ -16,6 +16,8 @@
       search.default = "DuckDuckGo";
       search.force = true;
       search.engines = {
+        "Bing".metaData.hidden = true;
+        "Google".metaData.alias = "@g";
         "Nix Packages" = {
           icon = "${pkgs.nixos-icons}/share/icons/hicolor/scalable/apps/nix-snowflake.svg";
           definedAliases = [ "@np" ];
