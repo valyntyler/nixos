@@ -40,8 +40,6 @@
           }];
         };
         "NixVim Options" = {
-          iconUpdateURL = "https://github.com/nix-community/nixvim/blob/main/assets/nixvim_logo.svg";
-          updateInterval = 24 * 60 * 60 * 1000;
           definedAliases = [ "@nv" ];
           urls = [{
             template = "https://nix-community.github.io/nixvim";
