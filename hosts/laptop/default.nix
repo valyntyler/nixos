@@ -8,6 +8,7 @@
     ../common/optional/spotify.nix
     ../common/optional/syncthing.nix
     ../common/optional/kanata.nix
+    ../common/optional/virtualbox.nix
   ];
 
   # Enable flakes and nix command
