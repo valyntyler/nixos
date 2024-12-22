@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ pkgs, ... }:
 
 {
   imports = [
@@ -14,7 +14,7 @@
   # Enable flakes and nix command
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  # Define a user account. Don't forget to set a password with ‘passwd’.
+  # Define a user account
   users.users.valyn = {
     isNormalUser = true;
     description = "Valyn";
@@ -25,6 +25,7 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  # Enable some core programs
   programs.dconf.enable = true;
   programs.zsh.enable = true;
 
@@ -33,19 +34,5 @@
   # Set the default editor to nvim
   environment.variables.EDITOR = "nvim";
 
-  # Some programs need SUID wrappers, can be configured further or are
-  # started in user sessions.
-  # programs.mtr.enable = true;
-  # programs.gnupg.agent = {
-  #   enable = true;
-  #   enableSSHSupport = true;
-  # };
-
-  # List services that you want to enable:
-
-  # Enable the OpenSSH daemon.
-  # services.openssh.enable = true;
-
   system.stateVersion = "24.05";
-
 }
