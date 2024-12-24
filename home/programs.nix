@@ -12,7 +12,6 @@
     # tools
     bat
     glow
-    atuin
 
     # utils
     ripgrep

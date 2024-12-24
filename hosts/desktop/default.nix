@@ -11,6 +11,7 @@
     ../common/optional/steam.nix
     ../common/optional/syncthing.nix
     ../common/optional/kanata.nix
+    ../common/optional/atuin.nix
   ];
 
   # Enable flakes and nix command
