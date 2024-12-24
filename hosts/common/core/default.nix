@@ -2,6 +2,7 @@
   imports = [
     ./direnv.nix
     ./bootloader.nix
+    ./hyprland.nix
     ./gnome.nix
     ./locale.nix
     ./pipewire.nix
