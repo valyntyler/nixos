@@ -15,7 +15,6 @@
 
     # utils
     ripgrep
-    btop
     usbutils
     zip
     unzip
