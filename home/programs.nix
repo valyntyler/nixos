@@ -12,6 +12,7 @@
     # tools
     bat
     glow
+    atuin
 
     # utils
     ripgrep
@@ -22,6 +23,7 @@
     mkvtoolnix-cli
     nmap
     imagemagick
+    jellyfin-ffmpeg
 
     # clipboard providers
     wl-clipboard
