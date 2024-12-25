@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./wayland
     ./terminal
     ./shell
     ./browser
