@@ -22,6 +22,7 @@
     nmap
     imagemagick
     jellyfin-ffmpeg
+    pwvucontrol
 
     # clipboard providers
     wl-clipboard
