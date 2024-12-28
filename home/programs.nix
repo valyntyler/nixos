@@ -24,6 +24,9 @@
     jellyfin-ffmpeg
     pwvucontrol
 
+    # drivers
+    brightnessctl
+
     # clipboard providers
     wl-clipboard
 
