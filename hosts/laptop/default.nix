@@ -10,6 +10,7 @@
     ../common/optional/kanata.nix
     ../common/optional/atuin.nix
     ../common/optional/virtualbox.nix
+    ../common/optional/nvidia.nix
   ];
 
   # Enable flakes and nix command
