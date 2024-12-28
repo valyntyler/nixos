@@ -22,10 +22,11 @@
     nmap
     imagemagick
     jellyfin-ffmpeg
-    pwvucontrol
 
     # drivers
+    pwvucontrol
     brightnessctl
+    blueman
 
     # clipboard providers
     wl-clipboard
