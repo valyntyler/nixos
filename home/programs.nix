@@ -26,6 +26,7 @@
     # drivers
     pwvucontrol
     brightnessctl
+    playerctl
     blueman
 
     # clipboard providers
