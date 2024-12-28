@@ -28,7 +28,6 @@
     pwvucontrol
     brightnessctl
     playerctl
-    blueman
 
     # clipboard providers
     wl-clipboard

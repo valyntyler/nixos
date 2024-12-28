@@ -18,6 +18,7 @@
     ./tmux.nix
     ./btop.nix
     ./cava.nix
+    ./blueman.nix
     ./programs.nix
   ];
 
