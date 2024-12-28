@@ -16,6 +16,7 @@
     # utils
     ripgrep
     usbutils
+    pciutils
     zip
     unzip
     mkvtoolnix-cli
