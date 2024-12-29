@@ -28,6 +28,7 @@
     pwvucontrol
     brightnessctl
     playerctl
+    networkmanagerapplet
 
     # clipboard providers
     wl-clipboard
