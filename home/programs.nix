@@ -28,8 +28,6 @@
     pwvucontrol
     brightnessctl
     playerctl
-    networkmanagerapplet
-    gnome-bluetooth
 
     # clipboard providers
     wl-clipboard
