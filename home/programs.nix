@@ -23,6 +23,7 @@
     nmap
     imagemagick
     jellyfin-ffmpeg
+    helvum
 
     # drivers
     pwvucontrol
