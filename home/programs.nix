@@ -24,11 +24,16 @@
     imagemagick
     jellyfin-ffmpeg
     helvum
+    networkmanagerapplet
+    blueman
 
     # drivers
     pwvucontrol
     brightnessctl
     playerctl
+
+    # notifications
+    mako
 
     # clipboard providers
     wl-clipboard
