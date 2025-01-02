@@ -1,6 +1,6 @@
 {
   imports = [
-    ./wezterm.nix
+    ./alacritty.nix
     ./kitty.nix
   ];
 }
