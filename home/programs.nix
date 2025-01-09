@@ -24,6 +24,8 @@
     imagemagick
     jellyfin-ffmpeg
     helvum
+
+    # applets
     networkmanagerapplet
     blueman
 
