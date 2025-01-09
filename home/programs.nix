@@ -24,6 +24,7 @@
     imagemagick
     jellyfin-ffmpeg
     helvum
+    appimage-run
 
     # applets
     networkmanagerapplet
