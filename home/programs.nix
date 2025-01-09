@@ -42,6 +42,8 @@
 
     # text
     obsidian
+    evince
+    libreoffice
 
     # art
     gimp
