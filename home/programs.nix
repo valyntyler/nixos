@@ -53,6 +53,12 @@
     vmpk
     musescore
     reaper
+    # lmms
+
+    # VST
+    decent-sampler
+    vital
+    cardinal
 
     # 3D
     freecad
