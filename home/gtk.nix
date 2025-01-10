@@ -8,5 +8,9 @@
       name = "Gruvbox-Dark";
       package = pkgs.gruvbox-gtk-theme;
     };
+    iconTheme = {
+      name = "Gruvbox-Dark";
+      package = pkgs.gruvbox-dark-icons-gtk;
+    };
   };
 }
