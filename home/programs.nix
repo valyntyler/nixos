@@ -29,6 +29,7 @@
     # applets
     networkmanagerapplet
     blueman
+    nwg-look
 
     # drivers
     pwvucontrol
