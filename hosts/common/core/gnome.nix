@@ -23,6 +23,7 @@
     gnome-tweaks
 
     # gnome extensions
+    gnomeExtensions.user-themes
     gnomeExtensions.pop-shell
     gnomeExtensions.blur-my-shell
     gnomeExtensions.appindicator
