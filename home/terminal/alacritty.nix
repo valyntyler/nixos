@@ -12,6 +12,7 @@
       opacity = 0.8;
       blur = true;
     };
+    mouse.hide_when_typing = true;
     colors = {
       primary = {
         background = "#282828";
