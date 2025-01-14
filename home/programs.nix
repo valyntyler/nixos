@@ -14,6 +14,7 @@
     glow
 
     # utils
+    grub2
     ripgrep
     usbutils
     pciutils
