@@ -13,6 +13,9 @@
     bat
     glow
 
+    # emulation
+    mesen
+
     # utils
     grub2
     ripgrep
