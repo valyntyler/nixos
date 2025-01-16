@@ -1,5 +1,6 @@
 {
   imports = [
+    ./sddm.nix
     ./direnv.nix
     ./bootloader.nix
     ./locale.nix
