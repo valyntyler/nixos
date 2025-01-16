@@ -6,6 +6,7 @@
   imports = [
     ./hardware-configuration.nix
     ../common/core
+    ../common/optional/hyprland.nix
     ../common/optional/spotify.nix
     ../common/optional/steam.nix
     ../common/optional/syncthing.nix
