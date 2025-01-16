@@ -15,7 +15,6 @@
     ./zoxide.nix
     ./nixvim.nix
     ./fonts.nix
-    ./dconf.nix
     ./tmux.nix
     ./btop.nix
     ./cava.nix
