@@ -10,6 +10,5 @@
     ./xone.nix
     ./alsa.nix
     ./network.nix
-    ./xserver.nix
   ];
 }
