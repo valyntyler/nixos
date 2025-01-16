@@ -1,6 +1,5 @@
 {
   imports = [
-    ./ly.nix
     ./direnv.nix
     ./bootloader.nix
     ./locale.nix
