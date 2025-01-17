@@ -2,7 +2,7 @@
   # Enable GPU drivers
   services.xserver.videoDrivers = [ "nvidia" ];
   hardware.nvidia = {
-    open = true;
+    open = false; # open source drivers
     modesetting.enable = true;
     powerManagement.enable = true;
   };
