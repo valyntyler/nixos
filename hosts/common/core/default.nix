@@ -10,5 +10,6 @@
     ./xone.nix
     ./alsa.nix
     ./network.nix
+    ./bluetooth.nix
   ];
 }
