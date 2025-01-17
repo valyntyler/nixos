@@ -9,6 +9,10 @@
     pipes
     sl
 
+    # gnome
+    nautilus
+    baobab
+
     # tools
     bat
     glow
