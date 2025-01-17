@@ -40,6 +40,8 @@
     nwg-look
 
     # drivers
+    libinput
+    libnotify
     pwvucontrol
     brightnessctl
     playerctl
