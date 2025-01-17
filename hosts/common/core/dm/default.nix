@@ -1,3 +1,3 @@
 {
-  imports = [ ./sddm.nix ];
+  imports = [ ./gdm.nix ];
 }
