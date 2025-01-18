@@ -6,6 +6,7 @@
     ../common/core
     ../common/optional/steam.nix
     ../common/optional/spotify.nix
+    ../common/optional/discord.nix
     ../common/optional/syncthing.nix
     ../common/optional/kanata.nix
     ../common/optional/atuin.nix
