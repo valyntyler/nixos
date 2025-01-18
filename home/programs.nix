@@ -42,11 +42,11 @@
     networkmanagerapplet
     blueman
     nwg-look
+    pavucontrol
 
     # drivers
     libinput
     libnotify
-    pwvucontrol
     brightnessctl
     playerctl
 
