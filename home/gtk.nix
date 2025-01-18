@@ -3,14 +3,14 @@
 {
   gtk = {
     enable = true;
-    gtk3.extraConfig.gtk-decoration-layout = "menu:";
+    # gtk3.extraConfig.gtk-decoration-layout = "menu:";
     theme = {
-      name = "Gruvbox-Dark";
-      package = pkgs.gruvbox-gtk-theme;
+      name = "Nordic";
+      package = pkgs.nordic;
     };
     iconTheme = {
-      name = "Gruvbox-Dark";
-      package = pkgs.gruvbox-dark-icons-gtk;
+      name = "candy-icons";
+      package = pkgs.candy-icons;
     };
   };
 }
