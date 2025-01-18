@@ -31,6 +31,7 @@
     pciutils
     zip
     unzip
+    p7zip
     mkvtoolnix-cli
     nmap
     imagemagick
