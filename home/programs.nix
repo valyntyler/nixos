@@ -13,6 +13,10 @@
     nautilus
     baobab
 
+    # gtk
+    sassc
+    gtk-engine-murrine
+
     # tools
     bat
     glow
