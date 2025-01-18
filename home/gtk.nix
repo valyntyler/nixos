@@ -9,8 +9,8 @@
       package = pkgs.nordic;
     };
     iconTheme = {
-      name = "candy-icons";
-      package = pkgs.candy-icons;
+      name = "Adwaita";
+      package = pkgs.adwaita-icon-theme;
     };
   };
 }
