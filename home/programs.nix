@@ -57,6 +57,9 @@
     # clipboard providers
     wl-clipboard
 
+    # vnc client
+    tigervnc
+
     # text
     obsidian
     evince
