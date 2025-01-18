@@ -12,6 +12,7 @@
     ../common/optional/syncthing.nix
     ../common/optional/kanata.nix
     ../common/optional/atuin.nix
+    ../common/optional/virtualbox.nix
   ];
 
   # Enable flakes and nix command
