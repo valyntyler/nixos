@@ -38,6 +38,7 @@
     jellyfin-ffmpeg
     helvum
     appimage-run
+    smartmontools
 
     # applets
     networkmanagerapplet
