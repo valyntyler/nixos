@@ -40,6 +40,9 @@
     helvum
     appimage-run
     smartmontools
+    hfsprogs
+    parted
+    gptfdisk
 
     # applets
     networkmanagerapplet
