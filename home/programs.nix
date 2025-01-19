@@ -20,6 +20,7 @@
     # tools
     bat
     glow
+    wget
 
     # emulation
     mesen
