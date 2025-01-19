@@ -66,6 +66,10 @@
     # vnc client
     tigervnc
 
+    # vpn
+    protonvpn-gui
+    protonvpn-cli
+
     # text
     obsidian
     evince
