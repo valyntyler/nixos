@@ -27,6 +27,7 @@
     # utils
     grub2
     ripgrep
+    file
     usbutils
     pciutils
     zip
