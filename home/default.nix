@@ -3,6 +3,7 @@
 {
   imports = [
     ./wayland
+    ./widgets
     ./terminal
     ./shell
     ./browser
