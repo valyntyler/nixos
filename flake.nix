@@ -19,6 +19,10 @@
 
     # xremap flake
     xremap.url = "github:xremap/nix-flake";
+
+    # wofi pickers
+    wofirefox.url = "github:valyntyler/wofi-firefox";
+    wofiemail.url = "github:valyntyler/wofi-thunderbird";
   };
 
   outputs = { self, nixpkgs, ... } @ inputs: {
