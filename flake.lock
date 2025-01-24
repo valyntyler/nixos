@@ -1073,11 +1073,11 @@
         "nixvim": "nixvim_2"
       },
       "locked": {
-        "lastModified": 1737746640,
-        "narHash": "sha256-2lumnFJaT0v+7OwliF12Rz6UxTe6YjLDivG5P99KGcI=",
+        "lastModified": 1737748082,
+        "narHash": "sha256-DYaDvMVZw+tZ1eY/0XoOHFEazossULrpmkhzhg/QsWI=",
         "owner": "valyntyler",
         "repo": "nixvim",
-        "rev": "69e97687f64a132fe656a2d88f1fef43eed978b6",
+        "rev": "6637288844db9c8d2ea6260546d5a1be05746793",
         "type": "github"
       },
       "original": {
