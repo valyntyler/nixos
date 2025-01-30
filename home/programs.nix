@@ -70,6 +70,9 @@
     protonvpn-gui
     protonvpn-cli
 
+    # game
+    godot_4
+
     # text
     obsidian
     evince
