@@ -22,6 +22,10 @@
     glow
     wget
 
+    # dev
+    arduino-ide
+    arduino-cli
+
     # emulation
     mesen
 
