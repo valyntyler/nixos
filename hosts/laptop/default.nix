@@ -20,7 +20,7 @@
   users.users.valyn = {
     isNormalUser = true;
     description = "Valyn";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "uinput" "uupc" "dialout" ];
     shell = pkgs.zsh;
   };
 
