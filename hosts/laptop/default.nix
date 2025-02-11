@@ -31,6 +31,9 @@
   programs.dconf.enable = true;
   programs.zsh.enable = true;
 
+  # Gnome file system driver
+  services.gvfs.enable = true;
+
   environment.systemPackages = with pkgs; [ vim git ];
 
   # Set the default editor to nvim
