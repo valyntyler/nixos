@@ -25,6 +25,8 @@
     # dev
     arduino-ide
     arduino-cli
+    vscodium
+    chromium
 
     # emulation
     mesen
