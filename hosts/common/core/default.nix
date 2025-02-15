@@ -2,6 +2,7 @@
   imports = [
     ./dm
     ./de
+    ./avahi.nix
     ./direnv.nix
     ./bootloader.nix
     ./locale.nix
