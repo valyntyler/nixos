@@ -3,6 +3,7 @@
     ./dm
     ./de
     ./avahi.nix
+    ./gvfs.nix
     ./direnv.nix
     ./bootloader.nix
     ./locale.nix
