@@ -4,12 +4,12 @@
   environment.systemPackages = with pkgs; [ greetd.tuigreet ];
   services.greetd = {
     enable = true;
-    settings = rec {
-      initial_session = {
+    settings = {
+      vt = 1;
+      default_session = {
         command = "tuigreet --time --user-menu --asterisks";
-        user = "valyn";
+        user = "greeter";
       };
-      default_session = initial_session;
     };
   };
 }
