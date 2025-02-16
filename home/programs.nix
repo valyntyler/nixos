@@ -69,8 +69,9 @@
     # clipboard providers
     wl-clipboard
 
-    # vnc client
+    # remote desktop
     tigervnc
+    rustdesk
 
     # vpn
     protonvpn-gui
