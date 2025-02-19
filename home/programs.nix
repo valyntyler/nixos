@@ -50,6 +50,7 @@
     hfsprogs
     parted
     gptfdisk
+    dig
 
     # applets
     networkmanagerapplet
