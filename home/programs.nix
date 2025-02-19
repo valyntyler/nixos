@@ -55,7 +55,6 @@
     # applets
     networkmanagerapplet
     blueman
-    nwg-look
     pavucontrol
 
     # drivers

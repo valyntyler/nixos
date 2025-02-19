@@ -8,6 +8,7 @@
     ./shell
     ./browser
     ./email
+    ./nwg.nix
     ./gtk.nix
     ./git.nix
     ./fzf.nix
