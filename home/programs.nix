@@ -12,6 +12,7 @@
     # gnome
     nautilus
     baobab
+    file-roller
 
     # gtk
     sassc
