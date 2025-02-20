@@ -17,6 +17,9 @@
     spotx.url = "github:oskardotglobal/.dotfiles/nix";
     spotx.inputs.nixpkgs.follows = "nixpkgs";
 
+    # zen brower
+    zen-browser.url = "github:0xc000022070/zen-browser-flake";
+
     # xremap flake
     xremap.url = "github:xremap/nix-flake";
 
