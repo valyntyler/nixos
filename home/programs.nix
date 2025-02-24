@@ -72,7 +72,7 @@
 
     # remote desktop
     tigervnc
-    rustdesk
+    # rustdesk
 
     # vpn
     protonvpn-gui
