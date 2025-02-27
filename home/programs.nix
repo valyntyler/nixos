@@ -57,6 +57,7 @@
     networkmanagerapplet
     blueman
     pavucontrol
+    rofi-wayland
 
     # drivers
     libinput
