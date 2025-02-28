@@ -12,6 +12,7 @@
     ./gtk.nix
     ./git.nix
     ./fzf.nix
+    ./eza.nix
     ./lazygit.nix
     ./yazi.nix
     ./zoxide.nix
