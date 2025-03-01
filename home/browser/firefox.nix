@@ -10,10 +10,16 @@
       search.default = "Unduck";
       search.force = true;
       search.engines = {
-        "Unduck" = {
+        "Bing".metaData.hidden = true;
+        "Google".metaData.alias = "@g";
+        "Unduck" = let
+          url = "https://unduck.link";
+        in {
           urls = [{
-            template = "https://unduck.link";
+            template = url;
             params = [{ name = "q"; value = "{searchTerms}"; }];
+            iconUpdateURL = "${url}/search.svg";
+            updateInterval = 24 * 60 * 60 * 1000;
           }];
         };
       };
@@ -26,10 +32,14 @@
       search.engines = {
         "Bing".metaData.hidden = true;
         "Google".metaData.alias = "@g";
-        "Unduck" = {
+        "Unduck" = let
+          url = "https://unduck.link";
+        in {
           urls = [{
-            template = "https://unduck.link";
+            template = url;
             params = [{ name = "q"; value = "{searchTerms}"; }];
+            iconUpdateURL = "${url}/search.svg";
+            updateInterval = 24 * 60 * 60 * 1000;
           }];
         };
         "Nix Packages" = {
