@@ -9,6 +9,14 @@
       isDefault = false;
       search.default = "DuckDuckGo";
       search.force = true;
+      search.engines = {
+        "Unduck" = {
+          urls = [{
+            template = "https://unduck.link";
+            params = [{ name = "q"; value = "{searchTerms}"; }];
+          }];
+        };
+      };
     };
     profiles."work" = {
       id = 1;
@@ -18,14 +26,18 @@
       search.engines = {
         "Bing".metaData.hidden = true;
         "Google".metaData.alias = "@g";
+        "Unduck" = {
+          urls = [{
+            template = "https://unduck.link";
+            params = [{ name = "q"; value = "{searchTerms}"; }];
+          }];
+        };
         "Nix Packages" = {
           icon = "${pkgs.nixos-icons}/share/icons/hicolor/scalable/apps/nix-snowflake.svg";
           definedAliases = [ "@np" ];
           urls = [{
             template = "https://search.nixos.org/packages";
-            params = [
-            { name = "query"; value = "{searchTerms}"; }
-            ];
+            params = [{ name = "query"; value = "{searchTerms}"; }];
           }];
         };
         "Nix Options" = {
