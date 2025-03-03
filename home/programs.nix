@@ -12,7 +12,10 @@
     # gnome
     nautilus
     baobab
+    totem
     file-roller
+    gnome-music
+    gnome-photos
 
     # gtk
     sassc
