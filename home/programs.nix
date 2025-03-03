@@ -52,6 +52,7 @@
     parted
     gptfdisk
     dig
+    vlc
 
     # applets
     networkmanagerapplet
