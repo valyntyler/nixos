@@ -1,4 +1,4 @@
 {
-  programs.eww.enable = false;
+  programs.eww.enable = true;
   programs.eww.configDir = ./config;
 }
