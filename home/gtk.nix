@@ -2,7 +2,7 @@
 
 {
   gtk = {
-    enable = true;
+    enable = false;
     # gtk3.extraConfig.gtk-decoration-layout = "menu:";
     theme = {
       name = "Gruvbox-Dark";
