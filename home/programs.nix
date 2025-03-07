@@ -69,9 +69,6 @@
     brightnessctl
     playerctl
 
-    # notifications
-    mako
-
     # clipboard providers
     wl-clipboard
 
