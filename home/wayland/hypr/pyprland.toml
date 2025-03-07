@@ -6,6 +6,6 @@ plugins = [
 
 [scratchpads.term]
 animation = "fromTop"
-command = "alacritty"
-class = "Alacritty"
+command = "ghostty"
+class = "com.mitchellh.ghostty"
 size = "75% 60%" 
