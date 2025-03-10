@@ -6,6 +6,7 @@
     ./widgets
     ./terminal
     ./shell
+    ./prompt
     ./browser
     ./email
     ./nwg.nix
