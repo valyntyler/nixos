@@ -22,7 +22,6 @@
     gtk-engine-murrine
 
     # tools
-    bat
     glow
     wget
 

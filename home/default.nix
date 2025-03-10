@@ -14,6 +14,7 @@
     ./git.nix
     ./fzf.nix
     ./eza.nix
+    ./bat.nix
     ./lazygit.nix
     ./yazi.nix
     ./zoxide.nix
