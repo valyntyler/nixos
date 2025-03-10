@@ -56,6 +56,7 @@
     gptfdisk
     dig
     vlc
+    nvtop
 
     # applets
     networkmanagerapplet
