@@ -1,5 +1,7 @@
 {
   programs.ghostty.enable = true;
+  programs.ghostty.installBatSyntax = true;
+  programs.ghostty.installVimSyntax = true;
   programs.ghostty.settings = {
     # theme
     theme = "GruvboxDark";
