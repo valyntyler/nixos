@@ -8,9 +8,8 @@
     hostName = host;
     # wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
-    # open ports for syncthing
-    firewall.allowedTCPPorts = [ 8384 22000 8000 ];
-    firewall.allowedUDPPorts = [ 22000 21027 8000 ];
+    firewall.allowedTCPPorts = [ 8384 22000 8000 57621 ];
+    firewall.allowedUDPPorts = [ 22000 21027 8000 5353 ];
 
     # Configure network proxy if necessary
     # proxy.default = "http://user:password@proxy:port/";
