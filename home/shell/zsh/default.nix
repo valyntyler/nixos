@@ -37,7 +37,6 @@
         bindkey '^n' history-search-forward
 
         zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
-      ''
-      + builtins.readFile ./scripts/yazi.sh;
+      '';
   };
 }
