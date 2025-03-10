@@ -23,13 +23,14 @@
     isNormalUser = true;
     description = "Valyn";
     extraGroups = [ "networkmanager" "wheel" "uinput" "uupc" "dialout" ];
-    shell = pkgs.zsh;
+    shell = pkgs.fish;
   };
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
   programs.dconf.enable = true;
+  programs.fish.enable = true;
   programs.zsh.enable = true;
 
   environment.systemPackages = with pkgs; [ git ];
