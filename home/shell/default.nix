@@ -1,6 +1,6 @@
 {
   imports = [
-    ./fish
-    ./zsh
+    ./fish.nix
+    ./zsh.nix
   ];
 }
