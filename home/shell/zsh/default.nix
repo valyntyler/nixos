@@ -38,6 +38,6 @@
 
         zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
       ''
-      + builtins.readFile ./yazi.sh;
+      + builtins.readFile ./scripts/yazi.sh;
   };
 }
