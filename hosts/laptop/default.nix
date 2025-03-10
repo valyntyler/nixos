@@ -32,6 +32,8 @@
   programs.fish.enable = true;
   programs.zsh.enable = true;
 
+  services.gnome.at-spi2-core.enable = true;
+
   environment.systemPackages = with pkgs; [ vim git ];
 
   # Set the default editor to nvim
