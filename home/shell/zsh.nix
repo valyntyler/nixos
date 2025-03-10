@@ -13,11 +13,6 @@
       "history"
     ];
 
-    shellAliases = {
-      cl = "clear";
-      lg = "lazygit";
-    };
-
     dotDir = ".config/zsh";
 
     history.append = true;
