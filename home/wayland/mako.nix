@@ -1,5 +1,12 @@
 {
-  services.mako.enable = true;
+  services.mako = {
+    enable = true;
+    actions = true;
+    anchor = "bottom-right";
+    defaultTimeout = 5000;
+    icons = true;
+    ignoreTimeout = false;
+  };
   # services.mako.extraConfig = "
   #   sort=-time
   #   layer=overlay
