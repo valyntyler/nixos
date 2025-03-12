@@ -2,6 +2,7 @@
   imports = [
     ./dm
     ./de
+    ./xdg.nix
     ./avahi.nix
     ./gvfs.nix
     ./direnv.nix
