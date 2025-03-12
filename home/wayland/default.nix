@@ -1,6 +1,7 @@
 {
   imports = [
     ./hypr
+    ./gammastep.nix
     ./mako.nix
     ./grim.nix
     ./slurp.nix
