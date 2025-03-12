@@ -23,6 +23,9 @@
     # xremap flake
     xremap.url = "github:xremap/nix-flake";
 
+    # ghosttime flake
+    ghosttime.url = "github:valyntyler/ghosttime";
+
     # wofi pickers
     wofirefox.url = "github:valyntyler/wofi-firefox";
     wofiemail.url = "github:valyntyler/wofi-thunderbird";

@@ -1,3 +1,5 @@
+{ pkgs, inputs, ... }:
+
 {
   programs.ghostty = {
     enable = true;
@@ -28,4 +30,6 @@
       mouse-hide-while-typing = true;
     };
   };
+
+  home.packages = [ inputs.ghosttime.packages.${pkgs.system}.default ];
 }
