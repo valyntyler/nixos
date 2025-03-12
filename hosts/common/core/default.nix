@@ -7,6 +7,7 @@
     ./direnv.nix
     ./bootloader.nix
     ./locale.nix
+    ./location.nix
     ./pipewire.nix
     ./graphics.nix
     ./nvidia.nix
