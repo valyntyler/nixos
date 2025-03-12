@@ -13,6 +13,9 @@
     nixvim.url = "github:valyntyler/nixvim";
     nixvim.inputs.nixpkgs.follows = "nixpkgs";
 
+    # astal and ags
+    ags.url = "github:aylur/ags";
+
     # spotify overlay
     spotx.url = "github:oskardotglobal/.dotfiles/nix";
     spotx.inputs.nixpkgs.follows = "nixpkgs";
