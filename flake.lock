@@ -279,11 +279,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1741811012,
-        "narHash": "sha256-K4LJ88c7xfiAZgTMRbzr7P0wfDcqnb9qojXWobKQyis=",
+        "lastModified": 1741811678,
+        "narHash": "sha256-ZzBAPbvog3+nuuglP1yCk36VUtikJ9NTtFYd4vVrQvo=",
         "owner": "valyntyler",
         "repo": "ghosttime",
-        "rev": "026754c77a91a44377772ed1b58383be2c6e351d",
+        "rev": "3d20ff63112ab6aca49d5cf2d1ebfe90b4ece10d",
         "type": "github"
       },
       "original": {
