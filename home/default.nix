@@ -2,28 +2,19 @@
 
 {
   imports = [
-    ./wayland
-    ./widgets
-    ./terminal
-    ./shell
-    ./prompt
     ./browser
     ./email
-    ./nwg.nix
-    ./gtk.nix
-    ./git.nix
-    ./fzf.nix
-    ./eza.nix
     ./bat.nix
-    ./lazygit.nix
-    ./yazi.nix
+    ./eza.nix
+    ./fzf.nix
+    ./git.nix
     ./zoxide.nix
     ./nixvim.nix
-    ./fonts.nix
-    ./tmux.nix
+    ./yazi.nix
+    ./lazygit.nix
     ./btop.nix
     ./cava.nix
-    ./programs.nix
+    ./fonts.nix
   ];
 
   # Home Manager needs a bit of information about you and the paths it should
