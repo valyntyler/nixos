@@ -4,13 +4,17 @@
     enable = true;
     profiles."self" = {
       isDefault = false;
-      search.default = "DuckDuckGo";
-      search.force = true;
+      search = {
+        default = "DuckDuckGo";
+        force = true;
+      };
     };
     profiles."work" = {
       isDefault = true;
-      search.default = "DuckDuckGo";
-      search.force = true;
+      search = {
+        default = "DuckDuckGo";
+        force = true;
+      };
     };
   };
 }
