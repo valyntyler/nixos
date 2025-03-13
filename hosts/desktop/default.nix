@@ -97,13 +97,18 @@
   # Enable the Flakes feature and the accompanying new nix command-line tool
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
+  # Enable shell(s)
+  programs = {
+    bash.enable = true;
+    fish.enable = true;
+    zsh.enable = true;
+  };
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
-  # Enable shell(s)
-    bash fish nush zsh
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
