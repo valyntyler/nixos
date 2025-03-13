@@ -5,6 +5,7 @@
     ./browser
     ./email
     ./terminal
+    ./shell
     ./bat.nix
     ./eza.nix
     ./fzf.nix

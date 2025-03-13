@@ -82,6 +82,7 @@
     isNormalUser = true;
     description = "Valyn";
     extraGroups = [ "networkmanager" "wheel" ];
+    shell = pkgs.fish;
     packages = with pkgs; [
     #  thunderbird
     ];
@@ -101,6 +102,8 @@
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
+  # Enable shell(s)
+    bash fish nush zsh
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
