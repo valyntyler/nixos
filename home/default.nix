@@ -4,6 +4,7 @@
   imports = [
     ./browser
     ./email
+    ./terminal
     ./bat.nix
     ./eza.nix
     ./fzf.nix

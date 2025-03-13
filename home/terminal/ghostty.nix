@@ -1,12 +1,8 @@
-{ pkgs, inputs, ... }:
-
 {
   programs.ghostty = {
     enable = true;
 
-    installBatSyntax = true;
-    installVimSyntax = true;
-
+    # shell integrations
     enableZshIntegration = true;
     enableFishIntegration = true;
 
@@ -30,6 +26,4 @@
       mouse-hide-while-typing = true;
     };
   };
-
-  home.packages = [ inputs.ghosttime.packages.${pkgs.system}.default ];
 }
