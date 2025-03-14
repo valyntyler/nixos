@@ -70,6 +70,16 @@
         specialArgs = { inherit inputs; };
         modules = [
           ./hosts/isoimage
+          inputs.home-manager.nixosModules.home-manager
+          {
+            home-manager.useGlobalPkgs = true;
+            home-manager.useUserPackages = true;
+            home-manager.backupFileExtension = "bak";
+
+            # import configuration
+            home-manager.users."valyn" = import ./home;
+            home-manager.extraSpecialArgs = { inherit inputs; };
+          }
         ];
       };
     };
