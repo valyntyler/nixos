@@ -5,6 +5,7 @@
     ./hardware-configuration.nix
     ../common/core/bootloader.nix
     ../common/core/locale.nix
+    ../common/core/location.nix
     ../common/core/pipewire.nix
     ../common/core/network.nix
     ../common/core/xserver.nix

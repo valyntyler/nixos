@@ -5,7 +5,7 @@
   # provide location
   services.geoclue2 = {
     enable = true;
-    geoProviderUrl = "https://beacondb.net/v1/geolocate";
+    geoProviderUrl = "https://reallyfreegeoip.org/json/";
     submissionUrl = "https://beacondb.net/v2/geosubmit";
     submissionNick = "geoclue";
 
