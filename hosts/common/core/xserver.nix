@@ -10,12 +10,6 @@
     variant = "";
   };
 
-  # Enable touchpad support
-  services.libinput.enable = true;
-
-  # Clipboard provider
-  environment.systemPackages = with pkgs; [ xsel ];
-
   # Disable XTerm
   services.xserver.excludePackages = with pkgs; [ xterm ];
 }
