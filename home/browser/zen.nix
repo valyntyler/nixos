@@ -1,5 +1,5 @@
-{ system, inputs, ... }:
+{ inputs, ... }:
 
 {
-  home.packages = [ inputs.zen-browser.packages.x86_64-linux.twilight ];
+  home.packages = [ inputs.zen-browser.packages.x86_64-linux.default ];
 }
