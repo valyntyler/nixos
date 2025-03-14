@@ -1,11 +1,6 @@
 { pkgs, inputs, ... }:
 
 {
-  # nightly
-  home.packages = [
-    inputs.firefox.packages.${pkgs.system}.firefox-nightly-bin
-  ];
-
   # browser
   programs.firefox = let
     unduck.urls = [{
@@ -44,6 +39,7 @@
     };
   in {
     enable = true;
+    package = inputs.firefox.packages.${pkgs.system}.firefox-nightly-bin;
     profiles."self" = {
       id = 0;
       isDefault = false;
