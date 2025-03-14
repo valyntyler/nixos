@@ -7,22 +7,14 @@
     ../common/core/locale.nix
     ../common/core/pipewire.nix
     ../common/core/network.nix
+    ../common/core/xserver.nix
   ];
 
   networking.hostName = "nixos"; # Define your hostname.
 
-  # Enable the X11 windowing system.
-  services.xserver.enable = true;
-
   # Enable the GNOME Desktop Environment.
   services.xserver.displayManager.gdm.enable = true;
   services.xserver.desktopManager.gnome.enable = true;
-
-  # Configure keymap in X11
-  services.xserver.xkb = {
-    layout = "ro";
-    variant = "";
-  };
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.valyn = {
