@@ -1,6 +1,11 @@
-{ pkgs, ... }:
+{ pkgs, inputs, ... }:
 
 {
+  # nightly
+  home.packages = [
+    inputs.firefox.packages.${pkgs.system}.firefox-nightly-bin
+  ];
+
   # browser
   programs.firefox = let
     unduck.urls = [{

@@ -17,6 +17,10 @@
     spotx.url = "github:oskardotglobal/.dotfiles/nix";
     spotx.inputs.nixpkgs.follows = "nixpkgs";
 
+    # import firefox nightly flake
+    firefox.url = "github:nix-community/flake-firefox-nightly";
+    firefox.inputs.nixpkgs.follows = "nixpkgs";
+
     # import zen brower flake
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     zen-browser.inputs.nixpkgs.follows = "nixpkgs";
