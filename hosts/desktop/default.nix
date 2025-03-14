@@ -9,6 +9,9 @@
     ../common/core/network.nix
     ../common/core/xserver.nix
     ../common/core/gnome.nix
+    ../common/optional/steam.nix
+    ../common/optional/spotify.nix
+    ../common/optional/discord.nix
   ];
 
   networking.hostName = "nixos"; # Define your hostname.
