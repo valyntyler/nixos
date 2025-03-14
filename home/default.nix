@@ -20,6 +20,9 @@
     ./starship.nix
   ];
 
+  programs.nix-index.enable = true;
+  programs.nix-index.enableFishIntegration = true;
+
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "valyn";
