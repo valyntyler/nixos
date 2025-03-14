@@ -16,6 +16,9 @@
   # Enable flakes and nix command
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
+  # Hostname
+  networking.hostName = "nixos-laptop";
+
   # Define a user account
   users.users.valyn = {
     isNormalUser = true;

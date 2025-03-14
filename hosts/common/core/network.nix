@@ -1,11 +1,7 @@
-{ host, ... }:
-
 {
   networking = {
     # Enable networking
     networkmanager.enable = true;
-
-    hostName = host;
     # wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
     firewall.allowedTCPPorts = [ 8384 22000 8000 57621 ];
