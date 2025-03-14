@@ -6,40 +6,28 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
     # import home manager flake
-    home-manager.url = "github:nix-community/home-manager";
-    home-manager.inputs.nixpkgs.follows = "nixpkgs";
+    home-manager = {
+      url = "github:nix-community/home-manager";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     # import custom nixvim flake
-    nixvim.url = "github:valyntyler/nixvim";
-    nixvim.inputs.nixpkgs.follows = "nixpkgs";
-
-    # astal and ags widgets
-    astal = {
-      url = "github:aylur/astal";
+    nixvim = {
+      url = "github:valyntyler/nixvim";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    ags = {
-      url = "github:aylur/ags";
+    # import spotify overlay flake
+    spotx = {
+      url = "github:oskardotglobal/.dotfiles/nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    # spotify overlay
-    spotx.url = "github:oskardotglobal/.dotfiles/nix";
-    spotx.inputs.nixpkgs.follows = "nixpkgs";
-
-    # zen brower
-    zen-browser.url = "github:0xc000022070/zen-browser-flake";
-
-    # xremap flake
-    xremap.url = "github:xremap/nix-flake";
-
-    # ghosttime flake
-    ghosttime.url = "github:valyntyler/ghosttime";
-
-    # wofi pickers
-    wofirefox.url = "github:valyntyler/wofi-firefox";
-    wofiemail.url = "github:valyntyler/wofi-thunderbird";
+    # import zen brower flake
+    zen-browser = {
+      url = "github:0xc000022070/zen-browser-flake";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = { self, nixpkgs, ... } @ inputs: {
