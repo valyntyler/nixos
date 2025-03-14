@@ -18,6 +18,7 @@
     ./cava.nix
     ./fonts.nix
     ./starship.nix
+    ./xdg.nix
   ];
 
   programs.nix-index.enable = true;
