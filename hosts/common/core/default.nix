@@ -6,6 +6,7 @@
     ./avahi.nix
     ./gvfs.nix
     ./direnv.nix
+    ./libinput.nix
     ./bootloader.nix
     ./locale.nix
     ./location.nix
