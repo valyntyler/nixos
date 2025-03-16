@@ -25,6 +25,17 @@ in
   # browser
   programs.firefox = {
     enable = true;
+    policies = {
+      DisableTelemetry = true;
+      EnableTrackingProtection = {
+        Value= true;
+        Locked = true;
+        Cryptomining = true;
+        Fingerprinting = true;
+      };
+      DisablePocket = true;
+      DisplayBookmarksToolbar = "never";
+    };
     profiles."self" = {
       id = 0;
       isDefault = false;
