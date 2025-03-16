@@ -19,23 +19,19 @@
       }];
     };
     nixoswiki = {
-      "NixOS Wiki" = {
-        definedAliases = [ "@nw" ];
-        iconUpdateURL = "https://wiki.nixos.org/favicon.png";
-        updateInterval = 24 * 60 * 60 * 1000; # every day
-        urls = [{ template = "https://wiki.nixos.org/index.php?search={searchTerms}"; }];
-      };
+      definedAliases = [ "@nw" ];
+      iconUpdateURL = "https://wiki.nixos.org/favicon.png";
+      updateInterval = 24 * 60 * 60 * 1000; # every day
+      urls = [{ template = "https://wiki.nixos.org/index.php?search={searchTerms}"; }];
     };
     mynixos = {
-      "MyNixOS" = {
-        definedAliases = [ "@mn" ];
-        iconUpdateURL = "https://wiki.nixos.org/favicon.png";
-        updateInterval = 24 * 60 * 60 * 1000; # every day
-        urls = [{
-          template = "https://mynixos.com/search";
-          params = [{ name = "q"; value = "{searchTerms}"; }];
-        }];
-      };
+      definedAliases = [ "@mn" ];
+      iconUpdateURL = "https://mynixos.com/favicon-dark.svg";
+      updateInterval = 24 * 60 * 60 * 1000; # every day
+      urls = [{
+        template = "https://mynixos.com/search";
+        params = [{ name = "q"; value = "{searchTerms}"; }];
+      }];
     };
   in {
     enable = true;
