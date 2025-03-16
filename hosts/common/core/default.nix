@@ -1,21 +1,16 @@
 {
   imports = [
-    ./dm
-    ./de
-    ./xdg.nix
     ./avahi.nix
-    ./gvfs.nix
-    ./direnv.nix
-    ./libinput.nix
+    ./bluetooth.nix
     ./bootloader.nix
+    ./direnv.nix
+    ./gnome.nix
+    ./libinput.nix
     ./locale.nix
     ./location.nix
-    ./pipewire.nix
-    ./graphics.nix
-    ./nvidia.nix
-    ./xone.nix
-    ./alsa.nix
     ./network.nix
-    ./bluetooth.nix
+    ./pipewire.nix
+    ./xdg.nix
+    ./xserver.nix
   ];
 }

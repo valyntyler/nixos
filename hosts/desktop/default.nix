@@ -3,17 +3,10 @@
 {
   imports = [
     ./hardware-configuration.nix
-    ../common/core/bootloader.nix
-    ../common/core/locale.nix
-    ../common/core/location.nix
-    ../common/core/pipewire.nix
-    ../common/core/network.nix
-    ../common/core/xserver.nix
-    ../common/core/gnome.nix
-    ../common/core/xdg.nix
-    ../common/optional/steam.nix
-    ../common/optional/spotify.nix
-    ../common/optional/discord.nix
+    ../common/core
+    ../common/optional/programs/discord.nix
+    ../common/optional/programs/spotify.nix
+    ../common/optional/programs/steam.nix
   ];
 
   networking.hostName = "nixos"; # Define your hostname.
