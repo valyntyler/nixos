@@ -3,7 +3,6 @@
     ./avahi.nix
     ./bluetooth.nix
     ./bootloader.nix
-    ./direnv.nix
     ./gnome.nix
     ./libinput.nix
     ./locale.nix
