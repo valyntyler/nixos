@@ -6,7 +6,7 @@ let
       template =  "https://unduck.link";
       params = [{ name = "q"; value = "{searchTerms}"; }];
     }];
-    iconUpdateURL = "https://unduck.link/search.svg";
+    iconMapObj."16" = "https://unduck.link/search.svg";
     updateInterval = 24 * 60 * 60 * 1000; # every day
   };
   engines.nixpkg = {
@@ -17,7 +17,7 @@ let
         { name = "query"; value = "{searchTerms}"; }
       ];
     }];
-    icon = "''${pkgs.nixos-icons}/share/icons/hicolor/scalable/apps/nix-snowflake.svg";
+    iconMapObj."16" = "https://search.nixos.org/favicon.png";
     definedAliases = [ "@np" ];
   };
 in 
