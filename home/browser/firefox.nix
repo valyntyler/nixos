@@ -1,43 +1,29 @@
 { pkgs, inputs, ... }:
 
+let
+  engines.unduck = {
+    urls = [{
+      template =  "https://unduck.link";
+      params = [{ name = "q"; value = "{searchTerms}"; }];
+    }];
+    iconUpdateURL = "https://unduck.link/search.svg";
+    updateInterval = 24 * 60 * 60 * 1000; # every day
+  };
+  engines.nixpkg = {
+    urls = [{
+      template = "https://search.nixos.org/packages";
+      params = [
+        { name = "type"; value = "packages"; }
+        { name = "query"; value = "{searchTerms}"; }
+      ];
+    }];
+    icon = "''${pkgs.nixos-icons}/share/icons/hicolor/scalable/apps/nix-snowflake.svg";
+    definedAliases = [ "@np" ];
+  };
+in 
 {
   # browser
-  programs.firefox = let
-    unduck = {
-      iconUpdateURL = "https://unduck.link/search.svg";
-      updateInterval = 24 * 60 * 60 * 1000; # every day
-      urls = [{
-        template =  "https://unduck.link";
-        params = [{ name = "q"; value = "{searchTerms}"; }];
-      }];
-    };
-    nixpackages = {
-      definedAliases = [ "@np" ];
-      icon = "${pkgs.nixos-icons}/share/icons/hicolor/scalable/apps/nix-snowflake.svg";
-      urls = [{
-        template = "https://search.nixos.org/packages";
-        params = [
-          { name = "type"; value = "packages"; }
-          { name = "query"; value = "{searchTerms}"; }
-        ];
-      }];
-    };
-    nixoswiki = {
-      definedAliases = [ "@nw" ];
-      iconUpdateURL = "https://wiki.nixos.org/favicon.png";
-      updateInterval = 24 * 60 * 60 * 1000; # every day
-      urls = [{ template = "https://wiki.nixos.org/index.php?search={searchTerms}"; }];
-    };
-    mynixos = {
-      definedAliases = [ "@mn" ];
-      iconUpdateURL = "https://mynixos.com/favicon-dark.svg";
-      updateInterval = 24 * 60 * 60 * 1000; # every day
-      urls = [{
-        template = "https://mynixos.com/search";
-        params = [{ name = "q"; value = "{searchTerms}"; }];
-      }];
-    };
-  in {
+  programs.firefox = {
     enable = true;
     package = inputs.firefox.packages.${pkgs.system}.firefox-nightly-bin;
     profiles."self" = {
@@ -47,8 +33,9 @@
         default = "Unduck";
         force = true;
         engines = {
-          # client-side duckduckgo !bangs
-          "Unduck" = unduck;
+          # custom search engines
+          "Unduck" = engines.unduck;
+          "Nix Packages" = engines.nixpkg;
 
           # disable defaults
           "Bing".metaData.hidden = true;
@@ -64,18 +51,13 @@
         default = "Unduck";
         force = true;
         engines = {
-          # client-side duckduckgo !bangs
-          "Unduck" = unduck;
-
-          # nixos options
-          "Nix Packages" = nixpackages;
-          "NixOS Wiki" = nixoswiki;
-          "My NixOS" = mynixos;
+          # custom search engines
+          "Unduck" = engines.unduck;
+          "Nix Packages" = engines.nixpkg;
 
           # disable defaults
           "Bing".metaData.hidden = true;
           "Google".metaData.hidden = true;
-          "Wikipedia".metaData.hidden = true;
         };
       };
     };
