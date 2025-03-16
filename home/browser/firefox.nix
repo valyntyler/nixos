@@ -9,7 +9,7 @@ let
     iconMapObj."16" = "https://unduck.link/search.svg";
     updateInterval = 24 * 60 * 60 * 1000; # every day
   };
-  engines.nixpkg = {
+  engines.nix-packages = {
     urls = [{
       template = "https://search.nixos.org/packages";
       params = [
@@ -19,6 +19,14 @@ let
     }];
     iconMapObj."16" = "https://search.nixos.org/favicon.png";
     definedAliases = [ "@np" ];
+  };
+  engines.mynixos = {
+    urls = [{
+      template = "https://mynixos.com/search";
+      params = [{ name = "q"; value = "{searchTerms}"; }];
+    }];
+    iconMapObj."16" = "https://mynixos.com/favicon-dark.svg";
+    definedAliases = [ "@mn" ];
   };
 in 
 {
@@ -46,7 +54,8 @@ in
         engines = {
           # custom search engines
           "Unduck" = engines.unduck;
-          "Nix Packages" = engines.nixpkg;
+          "Nix Packages" = engines.nix-packages;
+          "MyNixOS" = engines.mynixos;
 
           # disable defaults
           "Bing".metaData.hidden = true;
@@ -66,7 +75,8 @@ in
         engines = {
           # custom search engines
           "Unduck" = engines.unduck;
-          "Nix Packages" = engines.nixpkg;
+          "Nix Packages" = engines.nix-packages;
+          "MyNixOS" = engines.mynixos;
 
           # disable defaults
           "Bing".metaData.hidden = true;
