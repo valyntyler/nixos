@@ -25,7 +25,6 @@ in
   # browser
   programs.firefox = {
     enable = true;
-    package = inputs.firefox.packages.${pkgs.system}.firefox-nightly-bin;
     profiles."self" = {
       id = 0;
       isDefault = false;
