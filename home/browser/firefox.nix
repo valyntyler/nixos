@@ -3,10 +3,14 @@
 {
   # browser
   programs.firefox = let
-    unduck.urls = [{
-      template =  "https://unduck.link";
-      params = [{ name = "q"; value = "{searchTerms}"; }];
-    }];
+    unduck = {
+      iconUpdateURL = "https://unduck.link/search.svg";
+      updateInterval = 24 * 60 * 60 * 1000; # every day
+      urls = [{
+        template =  "https://unduck.link";
+        params = [{ name = "q"; value = "{searchTerms}"; }];
+      }];
+    };
     nixpackages = {
       definedAliases = [ "@np" ];
       icon = "${pkgs.nixos-icons}/share/icons/hicolor/scalable/apps/nix-snowflake.svg";
