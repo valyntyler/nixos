@@ -50,11 +50,6 @@
           # client-side duckduckgo !bangs
           "Unduck" = unduck;
 
-          # nixos options
-          "Nix Packages" = nixpackages;
-          "NixOS Wiki" = nixoswiki;
-          "My NixOS" = mynixos;
-
           # disable defaults
           "Bing".metaData.hidden = true;
           "Google".metaData.hidden = true;
@@ -71,6 +66,11 @@
         engines = {
           # client-side duckduckgo !bangs
           "Unduck" = unduck;
+
+          # nixos options
+          "Nix Packages" = nixpackages;
+          "NixOS Wiki" = nixoswiki;
+          "My NixOS" = mynixos;
 
           # disable defaults
           "Bing".metaData.hidden = true;
