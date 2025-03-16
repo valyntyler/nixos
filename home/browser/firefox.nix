@@ -31,7 +31,7 @@ in
       search = {
         default = "Unduck";
         force = true;
-        order = [ "DuckDuckGo" "Unduck" "Nix Packages" ];
+        order = [ "Unduck" "Nix Packages" ];
         engines = {
           # custom search engines
           "Unduck" = engines.unduck;
@@ -40,7 +40,8 @@ in
           # disable defaults
           "Bing".metaData.hidden = true;
           "Google".metaData.hidden = true;
-          "Wikipedia".metaData.hidden = true;
+          "DuckDuckGo".metaData.hidden = true;
+          "Wikipedia (en)".metaData.hidden = true;
         };
       };
     };
@@ -50,7 +51,7 @@ in
       search = {
         default = "Unduck";
         force = true;
-        order = [ "DuckDuckGo" "Unduck" "Nix Packages" ];
+        order = [ "Unduck" "Nix Packages" ];
         engines = {
           # custom search engines
           "Unduck" = engines.unduck;
@@ -59,6 +60,8 @@ in
           # disable defaults
           "Bing".metaData.hidden = true;
           "Google".metaData.hidden = true;
+          "DuckDuckGo".metaData.hidden = true;
+          "Wikipedia (en)".metaData.hidden = true;
         };
       };
     };
