@@ -31,6 +31,7 @@ in
       search = {
         default = "Unduck";
         force = true;
+        order = [ "DuckDuckGo" "Unduck" "Nix Packages" ];
         engines = {
           # custom search engines
           "Unduck" = engines.unduck;
@@ -49,6 +50,7 @@ in
       search = {
         default = "Unduck";
         force = true;
+        order = [ "DuckDuckGo" "Unduck" "Nix Packages" ];
         engines = {
           # custom search engines
           "Unduck" = engines.unduck;
