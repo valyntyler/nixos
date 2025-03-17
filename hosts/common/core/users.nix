@@ -6,6 +6,6 @@
     isNormalUser = true;
     description = "Valyn";
     extraGroups = [ "networkmanager" "wheel" ];
-    shell = pkgs.bash;
+    shell = pkgs.nushell;
   };
 }
