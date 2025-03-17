@@ -10,6 +10,7 @@
     ./network.nix
     ./pipewire.nix
     ./plymouth.nix
+    ./users.nix
     ./xdg.nix
     ./xserver.nix
   ];
