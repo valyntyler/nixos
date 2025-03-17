@@ -2,8 +2,8 @@
 
 {
   imports = [
-    ./browser
-    ./email
+    ./software/browser
+    ./software/email
     ./terminal/emulator
     ./terminal/programs
     ./terminal/prompt
