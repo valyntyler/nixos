@@ -11,6 +11,7 @@
     ./pipewire.nix
     ./plymouth.nix
     ./users.nix
+    ./wayland.nix
     ./xdg.nix
     ./xserver.nix
   ];
