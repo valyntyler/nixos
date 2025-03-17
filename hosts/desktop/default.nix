@@ -9,7 +9,7 @@
     ../common/optional/programs/steam.nix
   ];
 
-  networking.hostName = "nixos"; # Define your hostname.
+  networking.hostName = "nixos-desktop"; # Define your hostname.
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.valyn = {
