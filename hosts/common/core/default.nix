@@ -4,6 +4,7 @@
     ./bluetooth.nix
     ./bootloader.nix
     ./gnome.nix
+    ./hyprland.nix
     ./libinput.nix
     ./locale.nix
     ./location.nix
