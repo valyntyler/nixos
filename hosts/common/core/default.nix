@@ -9,6 +9,7 @@
     ./location.nix
     ./network.nix
     ./pipewire.nix
+    ./plymouth.nix
     ./xdg.nix
     ./xserver.nix
   ];
