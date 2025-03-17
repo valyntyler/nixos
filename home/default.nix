@@ -4,21 +4,11 @@
   imports = [
     ./browser
     ./email
-    ./terminal
-    ./shell
-    ./bat.nix
-    ./eza.nix
-    ./fzf.nix
-    ./git.nix
-    ./direnv.nix
-    ./zoxide.nix
-    ./nixvim.nix
-    ./yazi.nix
-    ./lazygit.nix
-    ./btop.nix
-    ./cava.nix
+    ./terminal/emulator
+    ./terminal/programs
+    ./terminal/prompt
+    ./terminal/shell
     ./fonts.nix
-    ./starship.nix
     ./xdg.nix
   ];
 
