@@ -59,15 +59,5 @@
         inputs.home-manager.nixosModules.home-manager
       ];
     };
-
-    # iso image
-    nixosConfigurations.nixos-iso = nixpkgs.lib.nixosSystem {
-      specialArgs = { inherit inputs; };
-      modules = [
-        ./hosts/isoimage
-        home-manager-config
-        inputs.home-manager.nixosModules.home-manager
-      ];
-    };
   };
 }
