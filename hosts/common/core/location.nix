@@ -5,7 +5,7 @@
   # provide location
   services.geoclue2 = {
     enable = true;
-    geoProviderUrl = "https://reallyfreegeoip.org/json/";
+    geoProviderUrl = "https://beacondb.net/v1/geolocate";
     submissionUrl = "https://beacondb.net/v2/geosubmit";
     submissionNick = "geoclue";
 
@@ -13,7 +13,7 @@
       isAllowed = true;
       isSystem = false;
     };
-
+    
     appConfig.gammastep = {
       isAllowed = true;
       isSystem = false;
