@@ -45,4 +45,17 @@
       end
     end
   '';
+
+  programs.nushell.extraConfig = ''
+    def --env lg [...args] {
+      let lazygit_new_dir_file = $"($env.HOME)/.lazygit/newdir"
+      $env.LAZYGIT_NEW_DIR_FILE = $lazygit_new_dir_file
+      lazygit ...$args
+
+      if ($lazygit_new_dir_file | path exists) {
+        cd (open $lazygit_new_dir_file | str trim)
+        rm -f $lazygit_new_dir_file
+      }
+    }
+  '';
 }
