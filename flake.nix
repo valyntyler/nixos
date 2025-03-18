@@ -24,6 +24,9 @@
     # import zen brower flake
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     zen-browser.inputs.nixpkgs.follows = "nixpkgs";
+
+    # import hyprswitch flake
+    hyprswitch.url = "github:h3rmt/hyprswitch/release";
   };
 
   outputs = { self, nixpkgs, ... } @ inputs:
