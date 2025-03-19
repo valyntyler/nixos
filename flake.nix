@@ -21,10 +21,6 @@
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     zen-browser.inputs.nixpkgs.follows = "nixpkgs";
 
-    # import anyrun flake
-    anyrun.url = "github:anyrun-org/anyrun";
-    anyrun.inputs.nixpkgs.follows = "nixpkgs";
-
     # import hyprswitch flake
     hyprswitch.url = "github:h3rmt/hyprswitch/release";
   };

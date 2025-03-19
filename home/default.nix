@@ -8,7 +8,6 @@
     ./terminal/programs
     ./terminal/prompt
     ./terminal/shell
-    ./anyrun.nix
     ./fonts.nix
     ./xdg.nix
   ];
