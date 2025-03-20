@@ -1,5 +1,14 @@
 {
   dconf.settings = {
+    "org/gnome/desktop/interface" = {
+      # dark mode
+      color-scheme = "prefer-dark";
+
+      # configure clock
+      clock-show-seconds = false;
+      clock-show-weekday = false;
+    };
+
    "org/gnome/desktop/wm/keybindings" = {
       # switch workspaces
       switch-to-workspace-1 = [ "<Super>1" ];
@@ -24,6 +33,17 @@
       move-to-workspace-8 = [ "<Shift><Super>8" ];
       move-to-workspace-9 = [ "<Shift><Super>9" ];
       move-to-workspace-10 = [ "<Shift><Super>0" ];
+
+      # show desktop
+      show-desktop=["<Super>d"];
+
+      # switch between all windows
+      switch-windows=["<Alt>Tab"];
+      switch-windows-backward=["<Shift><Alt>Tab"];
+  
+      # disable default behaviour
+      switch-applications= [];
+      switch-applications-backward= [];
     };
 
     "org/gnome/shell/keybindings" = {
@@ -38,6 +58,23 @@
       switch-to-application-8 = [];
       switch-to-application-9 = [];
       switch-to-application-10 = [];
+    };
+
+    "org/gnome/settings-daemon/plugins/media-keys" = {
+      # open home folder in nautilus
+      home=["<Super>e"];
+
+      # specify custom binds
+      custom-keybindings = [
+        "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/"
+      ];
+    };
+
+    # launch terminal
+    "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0" = {
+      binding = "<Super>Return";
+      command = "ghostty";
+      name = "terminal";
     };
   };
 }
