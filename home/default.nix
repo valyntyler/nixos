@@ -8,6 +8,7 @@
     ./terminal/programs
     ./terminal/prompt
     ./terminal/shell
+    ./dconf.nix
     ./fonts.nix
     ./xdg.nix
   ];
