@@ -3,6 +3,7 @@
 {
   imports = [
     ./software/browser
+    ./software/editor
     ./software/email
     ./terminal/emulator
     ./terminal/programs
