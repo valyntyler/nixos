@@ -5,14 +5,14 @@
     profiles."self" = {
       isDefault = false;
       search = {
-        default = "DuckDuckGo";
+        default = "ddg";
         force = true;
       };
     };
     profiles."work" = {
       isDefault = true;
       search = {
-        default = "DuckDuckGo";
+        default = "ddg";
         force = true;
       };
     };
