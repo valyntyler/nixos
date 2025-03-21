@@ -1,5 +1,3 @@
-{ pkgs, inputs, ... }:
-
 let
   engines.unduck = {
     urls = [{
@@ -9,6 +7,7 @@ let
     iconMapObj."16" = "https://unduck.link/search.svg";
     updateInterval = 24 * 60 * 60 * 1000; # every day
   };
+
   engines.nix-packages = {
     urls = [{
       template = "https://search.nixos.org/packages";
@@ -20,6 +19,7 @@ let
     iconMapObj."16" = "https://search.nixos.org/favicon.png";
     definedAliases = [ "@np" ];
   };
+
   engines.mynixos = {
     urls = [{
       template = "https://mynixos.com/search";
@@ -28,9 +28,8 @@ let
     iconMapObj."16" = "https://mynixos.com/favicon-dark.svg";
     definedAliases = [ "@mn" ];
   };
-in 
+in
 {
-  # browser
   programs.firefox = {
     enable = true;
     policies = {
@@ -44,6 +43,7 @@ in
       DisablePocket = true;
       DisplayBookmarksToolbar = "never";
     };
+
     profiles."self" = {
       id = 0;
       isDefault = false;
@@ -58,13 +58,14 @@ in
           "MyNixOS" = engines.mynixos;
 
           # disable defaults
-          "Bing".metaData.hidden = true;
-          "Google".metaData.hidden = true;
-          "DuckDuckGo".metaData.hidden = true;
-          "Wikipedia (en)".metaData.hidden = true;
+          bing.metaData.hidden = true;
+          google.metaData.hidden = true;
+          ddg.metaData.hidden = true;
+          wikipedia.metaData.hidden = true;
         };
       };
     };
+
     profiles."work" = {
       id = 1;
       isDefault = true;
@@ -79,10 +80,10 @@ in
           "MyNixOS" = engines.mynixos;
 
           # disable defaults
-          "Bing".metaData.hidden = true;
-          "Google".metaData.hidden = true;
-          "DuckDuckGo".metaData.hidden = true;
-          "Wikipedia (en)".metaData.hidden = true;
+          bing.metaData.hidden = true;
+          google.metaData.hidden = true;
+          ddg.metaData.hidden = true;
+          wikipedia.metaData.hidden = true;
         };
       };
     };
