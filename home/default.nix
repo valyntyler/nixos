@@ -11,6 +11,7 @@
     ./dconf.nix
     ./fonts.nix
     ./xdg.nix
+    ./gtk.nix
   ];
 
   programs.nix-index.enable = true;
