@@ -20,7 +20,7 @@
     ];
   };
 
-  programs.bash.enable = true;
+  # shell integrations
   programs.bash.initExtra = ''
     lg() {
       export LAZYGIT_NEW_DIR_FILE=~/.lazygit/newdir
@@ -34,7 +34,6 @@
     }
   '';
 
-  programs.zsh.enable = true;
   programs.zsh.initExtra = ''
     lg() {
       export LAZYGIT_NEW_DIR_FILE=~/.lazygit/newdir
@@ -48,7 +47,6 @@
     }
   '';
 
-  programs.fish.enable = true;
   programs.fish.shellInit = ''
     function lg
       set -x LAZYGIT_NEW_DIR_FILE ~/.lazygit/newdir
@@ -62,7 +60,6 @@
     end
   '';
 
-  programs.nushell.enable = true;
   programs.nushell.extraConfig = ''
     def --env lg [...args] {
       let lazygit_new_dir_file = $"($env.HOME)/.lazygit/newdir"
