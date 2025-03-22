@@ -5,6 +5,7 @@
     ./software/browser
     ./software/editor
     ./software/email
+    ./software/creation.nix
     ./terminal/emulator
     ./terminal/programs
     ./terminal/prompt
