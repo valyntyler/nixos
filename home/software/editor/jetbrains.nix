@@ -2,6 +2,6 @@
 
 {
   home.packages = with pkgs; [
-    android-studio-for-platform
+    android-studio
   ];
 }
