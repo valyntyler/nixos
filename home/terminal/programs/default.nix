@@ -8,7 +8,7 @@
     ./fzf.nix
     ./git.nix
     ./lazygit.nix
-    ./nixvim.nix
+    ./nvim.nix
     ./yazi.nix
     ./zoxide.nix
   ];
