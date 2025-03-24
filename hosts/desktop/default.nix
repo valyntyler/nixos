@@ -10,12 +10,6 @@
   # Set hostname
   networking.hostName = "nixos-desktop";
 
-  # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
-
-  # Enable flakes and nix command
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
-
   # Initial NixOS version
   system.stateVersion = "24.11";
 }

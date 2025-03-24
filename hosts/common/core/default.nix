@@ -9,6 +9,8 @@
     ./locale.nix
     ./location.nix
     ./network.nix
+    ./nix.nix
+    ./nixpkgs.nix
     ./pipewire.nix
     ./plymouth.nix
     ./users.nix
