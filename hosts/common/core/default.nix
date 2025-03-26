@@ -15,6 +15,7 @@
     ./plymouth.nix
     ./users.nix
     ./wayland.nix
+    ./weylus.nix
     ./xdg.nix
     ./xserver.nix
   ];
