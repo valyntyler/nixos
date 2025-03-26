@@ -1,6 +1,6 @@
 {
   imports = [
-    ./jetbrains.nix
+    ./packages.nix
     ./vscodium.nix
   ];
 }
