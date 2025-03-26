@@ -5,5 +5,6 @@
     freecad
     gimp
     inkscape
+    krita
   ];
 }
