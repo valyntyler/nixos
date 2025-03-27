@@ -2,14 +2,9 @@
   programs.starship.enable = true;
   programs.starship.enableTransience = true;
   programs.starship.settings = {
-    format = "$directory$character";
-    right_format = "$all";
-
-    # disable newline before prompt
-    add_newline = false;
+    format = "$all";
   
     # disable modules
-    line_break.disabled = true;
     package.disabled = true;
     battery.disabled = true;
 
