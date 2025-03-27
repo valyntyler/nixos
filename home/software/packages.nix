@@ -2,7 +2,7 @@
 
 {
   home.packages = with pkgs; [
-    qbittorrent
     galaxy-buds-client
+    transmission_4-gtk
   ];
 }
