@@ -1,5 +1,6 @@
 {
   programs.starship.enable = true;
+  programs.starship.enableTransience = true;
   programs.starship.settings = {
     format = "$directory$character";
     right_format = "$all";
