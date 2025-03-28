@@ -67,6 +67,7 @@
       # specify custom binds
       custom-keybindings = [
         "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/"
+        "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/"
       ];
     };
 
@@ -75,6 +76,13 @@
       binding = "<Super>Return";
       command = "ghostty";
       name = "terminal";
+    };
+
+    # open browser
+    "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1" = {
+      binding = "<Super>B";
+      command = "wozilla";
+      name = "browser";
     };
   };
 }

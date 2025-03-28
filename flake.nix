@@ -20,6 +20,10 @@
     # import zen brower flake
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     zen-browser.inputs.nixpkgs.follows = "nixpkgs";
+
+    # import firefox runner
+    runzilla.url = "github:valyntyler/runzilla";
+    runzilla.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = { self, nixpkgs, ... } @ inputs:

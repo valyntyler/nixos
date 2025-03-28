@@ -7,6 +7,7 @@
     ./software/email
     ./software/creation.nix
     ./software/packages.nix
+    ./software/wofi.nix
     ./terminal/emulator
     ./terminal/programs
     ./terminal/prompt
