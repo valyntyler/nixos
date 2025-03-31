@@ -1,6 +1,11 @@
 { pkgs, ... }:
 
 {
-  programs.nushell.enable = true;
-  programs.nushell.plugins = [ pkgs.nushellPlugins.formats ];
+  programs.nushell = {
+    enable = true;
+    plugins = [ pkgs.nushellPlugins.formats ];
+    settings = {
+      show_banner = false;
+    };
+  };
 }
