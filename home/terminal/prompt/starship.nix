@@ -3,6 +3,9 @@
   programs.starship.enableTransience = true;
   programs.starship.settings = {
     format = "$all";
+
+    # disable newline before prompt
+    add_newline = false;
   
     # disable modules
     package.disabled = true;
