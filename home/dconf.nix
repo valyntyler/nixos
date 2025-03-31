@@ -87,7 +87,7 @@
 
     # specify app folders
     "org/gnome/desktop/app-folders" = {
-      folder-children = [ "Utilities" "Programming" "Creation" ];
+      folder-children = [ "Utilities" "Programming" "Creation" "Games" ];
     };
 
     "org/gnome/desktop/app-folders/folders/Utilities" = {
@@ -128,6 +128,15 @@
         "gimp.desktop"
         "org.inkscape.Inkscape.desktop"
         "org.kde.krita.desktop"
+      ];
+    };
+
+    "org/gnome/desktop/app-folders/folders/Games" = {
+      name = "Games";
+      categories = [ "Game" ];
+      excluded-apps = [
+        "steam.desktop"
+        "page.kramo.Cartridges.desktop"
       ];
     };
   };
