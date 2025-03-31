@@ -87,7 +87,7 @@
 
     # specify app folders
     "org/gnome/desktop/app-folders" = {
-      folder-children = [ "Utilities" "Programming" "Creation" "Games" ];
+      folder-children = [ "Utilities" "Programming" "Creation" ];
     };
 
     "org/gnome/desktop/app-folders/folders/Utilities" = {
@@ -129,11 +129,6 @@
         "org.inkscape.Inkscape.desktop"
         "org.kde.krita.desktop"
       ];
-    };
-
-    "org/gnome/desktop/app-folders/folders/Games" = {
-      name = "Games";
-      categories = [ "Game" ];
     };
   };
 }
