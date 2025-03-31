@@ -84,5 +84,56 @@
       command = "wozilla";
       name = "browser";
     };
+
+    # specify app folders
+    "org/gnome/desktop/app-folders" = {
+      folder-children = [ "Utilities" "Programming" "Creation" "Games" ];
+    };
+
+    "org/gnome/desktop/app-folders/folders/Utilities" = {
+      name = "Utilities";
+      categories = [ "X-GNOME-Utilities" ];
+      apps = [
+        "org.freedesktop.GnomeAbrt.desktop"
+        "nm-connection-editor.desktop"
+        "org.gnome.baobab.desktop"
+        "org.gnome.Connections.desktop"
+        "org.gnome.DejaDup.desktop"
+        "org.gnome.DiskUtility.desktop"
+        "org.gnome.Evince.desktop"
+        "org.gnome.FileRoller.desktop"
+        "org.gnome.font-viewer.desktop"
+        "org.gnome.Loupe.desktop"
+        "org.gnome.seahorse.Application.desktop"
+        "org.gnome.tweaks.desktop"
+        "org.gnome.Usage.desktop"
+      ];
+    };
+
+    "org/gnome/desktop/app-folders/folders/Programming" = {
+      name = "Programming";
+      apps = [
+        "android-studio.desktop"
+        "org.godotengine.Godot4.desktop"
+        "codium.desktop"
+        "unityhub.desktop"
+      ];
+    };
+
+    "org/gnome/desktop/app-folders/folders/Creation" = {
+      name = "Creation";
+      apps = [
+        "blender.desktop"
+        "org.freecad.FreeCAD.desktop"
+        "gimp.desktop"
+        "org.inkscape.Inkscape.desktop"
+        "org.kde.krita.desktop"
+      ];
+    };
+
+    "org/gnome/desktop/app-folders/folders/Games" = {
+      name = "Games";
+      categories = [ "Game" ];
+    };
   };
 }
