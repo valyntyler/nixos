@@ -21,19 +21,10 @@
     authenticator
     blanket
     cartridges
-    decoder
     drum-machine
-    emblem
     errands
     fragments
     fretboard
-    gaphor
-    graphs
     impression
-    junction
-    letterpress
-    mousai
-    switcheroo
-    video-trimmer
   ];
 }
