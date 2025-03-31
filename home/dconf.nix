@@ -87,7 +87,7 @@
 
     # specify app folders
     "org/gnome/desktop/app-folders" = {
-      folder-children = [ "Utilities" "Programming" "Creation" "Games" ];
+      folder-children = [ "Utilities" "Circle" "Programming" "Creation" "Games" ];
     };
 
     "org/gnome/desktop/app-folders/folders/Utilities" = {
@@ -107,6 +107,20 @@
         "org.gnome.seahorse.Application.desktop"
         "org.gnome.tweaks.desktop"
         "org.gnome.Usage.desktop"
+      ];
+    };
+
+    "org/gnome/desktop/app-folders/folders/Circle" = {
+      name = "Circle";
+      apps = [
+        "org.gnome.gitlab.somas.Apostrophe.desktop"
+        "com.belmoussaoui.Authenticator.desktop"
+        "com.rafaelmardojai.Blanket.desktop"
+        "page.kramo.Cartridges.desktop" "io.github.revisto.drum-machine.desktop"
+        "io.github.mrvladus.List.desktop"
+        "de.haeckerfelix.Fragments.desktop"
+        "dev.bragefuglseth.Fretboard.desktop"
+        "io.gitlab.adhami3310.Impression.desktop"
       ];
     };
 
