@@ -5,6 +5,12 @@
   services.xserver.displayManager.gdm.enable = true;
   services.xserver.desktopManager.gnome.enable = true;
 
+  # Disable some default apps
+  environment.gnome.excludePackages = with pkgs; [
+    yelp
+    gnome-tour
+  ];
+
   environment.systemPackages = with pkgs; [
     # gnome extensions
     gnomeExtensions.blur-my-shell
