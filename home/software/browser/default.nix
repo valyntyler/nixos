@@ -1,6 +1,3 @@
 {
-  imports = [
-    ./firefox.nix
-    ./zen.nix
-  ];
+  imports = [ ./firefox.nix ];
 }

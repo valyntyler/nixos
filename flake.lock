@@ -548,8 +548,7 @@
         "nixpkgs": "nixpkgs",
         "nixvim": "nixvim",
         "runzilla": "runzilla",
-        "spotx": "spotx",
-        "zen-browser": "zen-browser"
+        "spotx": "spotx"
       }
     },
     "runzilla": {
@@ -774,26 +773,6 @@
       "original": {
         "owner": "winapps-org",
         "repo": "winapps",
-        "type": "github"
-      }
-    },
-    "zen-browser": {
-      "inputs": {
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1743216975,
-        "narHash": "sha256-29xgm8F3DCcTNrQZ9V3Pwj6BkjalkKvGyjd+sF9/+3k=",
-        "owner": "0xc000022070",
-        "repo": "zen-browser-flake",
-        "rev": "165ee672e6b17a8bcc0a3fb51fab3f79715cc1f3",
-        "type": "github"
-      },
-      "original": {
-        "owner": "0xc000022070",
-        "repo": "zen-browser-flake",
         "type": "github"
       }
     }
