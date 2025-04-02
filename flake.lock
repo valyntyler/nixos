@@ -764,11 +764,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1743617073,
-        "narHash": "sha256-UqW7+olvt9li9W4LhNMXp7kPi+nmPmSfNSKJiSBxRpc=",
+        "lastModified": 1743618427,
+        "narHash": "sha256-IKlW9Nw0JccTPFegYLq80u1XoUqKhkMLH1Ww9vG6aFI=",
         "owner": "valyntyler",
         "repo": "wofizilla",
-        "rev": "5b2e13b237d8470f1fb52516a7ebe2fe18a98667",
+        "rev": "a6b2ba79bf03131a56302e759accc201d7a87a93",
         "type": "github"
       },
       "original": {
