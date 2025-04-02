@@ -58,16 +58,18 @@
       switch-to-application-8 = [];
       switch-to-application-9 = [];
       switch-to-application-10 = [];
+      toggle-message-tray = ["<Super>V"];
     };
 
     "org/gnome/settings-daemon/plugins/media-keys" = {
       # open home folder in nautilus
-      home=["<Super>e"];
+      home=["<Super>E"];
 
       # specify custom binds
       custom-keybindings = [
         "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/"
         "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/"
+        "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/"
       ];
     };
 
@@ -83,6 +85,13 @@
       binding = "<Super>B";
       command = "wofizilla";
       name = "browser";
+    };
+
+    # open email client
+    "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2" = {
+      binding = "<Super>M";
+      command = "wofizilla thunderbird";
+      name = "email client";
     };
 
     # specify app folders
