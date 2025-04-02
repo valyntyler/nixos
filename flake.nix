@@ -18,8 +18,8 @@
     spotx.inputs.nixpkgs.follows = "nixpkgs";
 
     # import firefox runner
-    runzilla.url = "github:valyntyler/runzilla";
-    runzilla.inputs.nixpkgs.follows = "nixpkgs";
+    wofizilla.url = "github:valyntyler/wofizilla";
+    wofizilla.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = { self, nixpkgs, ... } @ inputs:

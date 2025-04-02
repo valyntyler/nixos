@@ -81,7 +81,7 @@
     # open browser
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1" = {
       binding = "<Super>B";
-      command = "wozilla";
+      command = "wofizilla";
       name = "browser";
     };
 
