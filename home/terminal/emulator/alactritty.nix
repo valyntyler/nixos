@@ -44,8 +44,6 @@
     window = {
       padding.x = 10;
       padding.y = 10;
-      opacity = 0.9;
-      blur = true;
     };
 
     # mouse

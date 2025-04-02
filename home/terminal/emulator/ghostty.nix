@@ -14,10 +14,6 @@
       font-size = 14;
       font-family = "JetBrainsMono NF";
 
-      # background
-      background-opacity = 0.9;
-      background-blur = true;
-
       # window
       window-padding-x = 10;
       window-padding-y = 10;
