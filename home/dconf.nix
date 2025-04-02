@@ -11,6 +11,11 @@
       clock-show-weekday = false;
     };
 
+    "org/gnome/desktop/wm/preferences" = {
+      # top-bar buttons
+      button-layout = ":minimize,maximize,close";
+    };
+
     "org/gnome/gnome-session" = {
       # disable shutdown warning
       logout-prompt = false;
