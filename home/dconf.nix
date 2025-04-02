@@ -1,5 +1,7 @@
+{ lib, ... }:
+
 {
-  dconf.settings = {
+  dconf.settings = with lib.hm.gvariant; {
     "org/gnome/desktop/interface" = {
       # dark mode
       color-scheme = "prefer-dark";
@@ -7,6 +9,24 @@
       # configure clock
       clock-show-seconds = false;
       clock-show-weekday = false;
+    };
+
+    "org/gnome/gnome-session" = {
+      # disable shutdown warning
+      logout-prompt = false;
+    };
+
+    "org/gnome/settings-daemon/plugins/power" = {
+      # disable auto suspend
+      sleep-inactive-ac-type = "nothing";
+
+      # power button shutdown
+      power-button-action = "interactive";
+    };
+
+    "org/gnome/desktop/session" = {
+      # disable screen blank
+      idle-delay = mkUint32 0;
     };
 
    "org/gnome/desktop/wm/keybindings" = {
@@ -58,6 +78,8 @@
       switch-to-application-8 = [];
       switch-to-application-9 = [];
       switch-to-application-10 = [];
+
+      # unbind Super+M for custom binds
       toggle-message-tray = ["<Super>V"];
     };
 
