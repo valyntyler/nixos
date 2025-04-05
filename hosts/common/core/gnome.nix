@@ -19,6 +19,7 @@
     # gnome extensions
     gnomeExtensions.blur-my-shell
     gnomeExtensions.appindicator
+    gnomeExtensions.spotify-tray
 
     # gnome circle
     apostrophe
