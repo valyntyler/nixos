@@ -39,25 +39,31 @@
       format = "via [$symbol]($style)";
       symbol = " ";
       style = "bold bright-blue";
-    }; 
+    };
+
+    python = {
+      format = "via [$symbol]($style)";
+      symbol = " ";
+      style = "bold yellow";
+    };
 
     bun = {
       format = "via [$symbol]($style)";
       symbol = " ";
       style = "bold bright-white";
-    }; 
+    };
 
     nodejs = {
       format = "via [$symbol]($style)";
       symbol = "󰎙 ";
       style = "bold green";
-    }; 
+    };
 
     nix_shell = {
       format = "via [$symbol]($style)";
       symbol = "󱄅 ";
       style = "bold bright-blue";
-    }; 
+    };
   };
 
   # enable nushell transience
