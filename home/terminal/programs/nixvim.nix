@@ -1,4 +1,4 @@
 {
-  programs.nixvim.enable = true;
+  programs.nixvim.enable = false;
   programs.nixvim.defaultEditor = true;
 }
