@@ -12,6 +12,7 @@
     ./neovim.nix
     ./nixvim.nix
     ./yazi.nix
+    ./zellij.nix
     ./zoxide.nix
   ];
 }
