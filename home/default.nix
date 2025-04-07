@@ -18,6 +18,7 @@
     ./gtk.nix
 
     # modules
+    ../modules/home-manager/lazygit.nix
     ../modules/home-manager/nixvim.nix
   ];
 
