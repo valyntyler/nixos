@@ -6,6 +6,9 @@
     enableZshIntegration = true;
     enableFishIntegration = true;
 
+    # disable default binds
+    clearDefaultKeybinds = true;
+
     settings = {
       # theme
       theme = "GruvboxDark";
