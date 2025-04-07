@@ -1,10 +1,25 @@
-{ inputs, pkgs, ... }:
+{ inputs, pkgs, lib, config, ... }:
 
 {
-  # enable nixvim
-  home.packages = [ inputs.nixvim.packages.${pkgs.system}.default ];
+  options.programs.nixvim = with lib; {
+    enable = mkEnableOption true;
+    defaultEditor = mkOption {
+      type = types.bool;
+      default = false;
+      example = true;
+      description = "Set NixVim as your default editor.";
+    };
+  };
 
-  # set as default editor
-  programs.nushell.environmentVariables.EDITOR = "nvim";
-  programs.nushell.environmentVariables.VISUAL = "nvim";
+  config = with lib; mkMerge [
+    (mkIf config.programs.nixvim.enable {
+      # enable nixvim
+      home.packages = [ inputs.nixvim.packages.${pkgs.system}.default ];
+    })
+    (mkIf config.programs.nixvim.defaultEditor {
+      # set as default editor
+      programs.nushell.environmentVariables.EDITOR = "nvim";
+      programs.nushell.environmentVariables.VISUAL = "nvim";
+    })
+  ];
 }
