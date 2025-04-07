@@ -1,6 +1,9 @@
 { inputs, pkgs, lib, config, ... }:
 
 {
+  programs.nixvim.enable = true;
+  programs.nixvim.defaultEditor = true;
+
   options.programs.nixvim = with lib; {
     enable = mkEnableOption true;
     defaultEditor = mkOption {
