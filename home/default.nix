@@ -16,6 +16,9 @@
     ./fonts.nix
     ./xdg.nix
     ./gtk.nix
+
+    # modules
+    ../modules/home-manager/nixvim.nix
   ];
 
   programs.nix-index.enable = true;
