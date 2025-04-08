@@ -11,6 +11,7 @@
     ./lazygit.nix
     ./neovim.nix
     ./nixvim.nix
+    ./tmux.nix
     ./yazi.nix
     ./zellij.nix
     ./zoxide.nix
