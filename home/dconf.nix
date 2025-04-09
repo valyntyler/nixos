@@ -164,6 +164,7 @@
       name = "Programming";
       apps = [
         "android-studio.desktop"
+        "arduino-ide.desktop"
         "org.godotengine.Godot4.desktop"
         "codium.desktop"
         "unityhub.desktop"
