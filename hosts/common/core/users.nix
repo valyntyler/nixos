@@ -5,7 +5,7 @@
   users.users.valyn = {
     isNormalUser = true;
     description = "Valyn";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "dialout" "uucp" ];
     shell = pkgs.nushell;
   };
 }
