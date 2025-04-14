@@ -6,5 +6,9 @@
   programs.neovim.plugins = with pkgs.vimPlugins; [
     gruvbox
     vim-nix
+    vim-commentary
+    vim-fugitive
+    vim-surround
+    vim-vinegar
   ];
 }
