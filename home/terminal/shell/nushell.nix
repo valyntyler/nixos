@@ -12,6 +12,13 @@
         max_results = 200;
       };
     };
+    shellAliases = {
+      e = "nvim";
+      l = "ls";
+      o = "xdg-open";
+      la = "ls -a";
+      ll = "ls -l";
+    };
     extraConfig = "${pkgs.nitch}/bin/nitch";
   };
 }
