@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ lib, pkgs, ... }:
 
 {
   programs.nushell = {
@@ -11,6 +11,10 @@
         enable = true;
         max_results = 200;
       };
+    };
+    environmentVariables = {
+      PROMPT_INDICATOR_VI_NORMAL = lib.hm.nushell.mkNushellInline ''$"(ansi white_dimmed)n (ansi reset)"'';
+      PROMPT_INDICATOR_VI_INSERT = lib.hm.nushell.mkNushellInline ''$"(ansi white_dimmed)i (ansi reset)"'';
     };
     shellAliases = {
       e = "nvim";
