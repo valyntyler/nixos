@@ -14,5 +14,6 @@
     telescope-nvim
     nvim-treesitter
     nvim-treesitter.withAllGrammars
+    nvim-lspconfig
   ];
 }
