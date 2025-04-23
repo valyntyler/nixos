@@ -16,4 +16,12 @@
     nvim-treesitter.withAllGrammars
     nvim-lspconfig
   ];
+
+  # lsp
+  home.packages = with pkgs; [
+    nil
+    lua-language-server
+    pyright
+    rust-analyzer
+  ];
 }
