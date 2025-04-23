@@ -10,5 +10,7 @@
     vim-fugitive
     vim-surround
     vim-vinegar
+    plenary-nvim
+    telescope-nvim
   ];
 }
