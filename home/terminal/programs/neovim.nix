@@ -12,5 +12,7 @@
     vim-vinegar
     plenary-nvim
     telescope-nvim
+    nvim-treesitter
+    nvim-treesitter.withAllGrammars
   ];
 }
