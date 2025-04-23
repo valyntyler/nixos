@@ -15,6 +15,8 @@
     nvim-treesitter
     nvim-treesitter.withAllGrammars
     nvim-lspconfig
+    nvim-cmp
+    cmp-nvim-lsp
   ];
 
   # lsp
