@@ -4,7 +4,7 @@
   programs.neovim.enable = true;
   programs.neovim.defaultEditor = true;
   programs.neovim.plugins = with pkgs.vimPlugins; [
-    gruvbox
+    gruvbox-nvim
     vim-nix
     vim-commentary
     vim-fugitive
