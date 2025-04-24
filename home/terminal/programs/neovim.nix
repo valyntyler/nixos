@@ -20,11 +20,14 @@
     luasnip
   ];
 
-  # lsp
   home.packages = with pkgs; [
+    # lsp
     nil
     lua-language-server
     pyright
     rust-analyzer
+
+    # fmt
+    black
   ];
 }
