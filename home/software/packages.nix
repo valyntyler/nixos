@@ -5,5 +5,6 @@
     appimage-run
     galaxy-buds-client
     prismlauncher
+    vlc
   ];
 }
