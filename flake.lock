@@ -231,11 +231,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1745494811,
-        "narHash": "sha256-YZCh2o9Ua1n9uCvrvi5pRxtuVNml8X2a03qIFfRKpFs=",
+        "lastModified": 1745593878,
+        "narHash": "sha256-Rq5qNnUWuhQTqzXDcminu7Z1FPSB1wUaKIEfPTyZkAs=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "abfad3d2958c9e6300a883bd443512c55dfeb1be",
+        "rev": "542078066b1a99cdc5d5fce1365f98b847ca0b5a",
         "type": "github"
       },
       "original": {
@@ -661,11 +661,11 @@
         "nvf": "nvf_2"
       },
       "locked": {
-        "lastModified": 1745540169,
-        "narHash": "sha256-U/YrMvOooTLfsj7wLQXIq7DPFyU70TE8Ryd7DwvNmTw=",
+        "lastModified": 1745602043,
+        "narHash": "sha256-SmVmVb+hr+vsBf9jObZ6awP8lu38/fafA0FY8TXYIew=",
         "owner": "valyntyler",
         "repo": "nvf",
-        "rev": "6e9c8d73c1f13116e0ba93c301347d89854a8d95",
+        "rev": "1b69d2c1eda019a52a52d90c4a2052813be88b78",
         "type": "github"
       },
       "original": {
@@ -972,11 +972,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1745448752,
-        "narHash": "sha256-gzrRZ9rZbLwf0O17Y/KA98QRcbrjCd7YJ0HGff3vKDM=",
+        "lastModified": 1745548861,
+        "narHash": "sha256-1XHRnj5yHgHfBqWYz/fZBYVFzsyWyCxzuHnPAt7Pk1U=",
         "owner": "valyntyler",
         "repo": "wofizilla",
-        "rev": "bd7569c1646ea436dc5490ceca983f0f31363131",
+        "rev": "afd05baec76be4d022a917066de44244cf4c0b92",
         "type": "github"
       },
       "original": {
