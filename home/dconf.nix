@@ -110,7 +110,7 @@
     # open browser
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1" = {
       binding = "<Super>W";
-      command = "wofizilla";
+      command = "wofizilla firefox";
       name = "browser";
     };
 
