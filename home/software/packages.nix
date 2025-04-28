@@ -6,6 +6,7 @@
     galaxy-buds-client
     libreoffice
     prismlauncher
+    tigervnc
     vlc
   ];
 }
