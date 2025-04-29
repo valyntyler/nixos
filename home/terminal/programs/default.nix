@@ -10,8 +10,6 @@
     ./fzf.nix
     ./git.nix
     ./lazygit.nix
-    ./neovim.nix
-    ./nixvim.nix
     ./nvf.nix
     ./ripgrep.nix
     ./tmux.nix
