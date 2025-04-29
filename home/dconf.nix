@@ -123,7 +123,7 @@
 
     # specify app folders
     "org/gnome/desktop/app-folders" = {
-      folder-children = [ "Utilities" "Circle" "Programming" "Creation" "Games" ];
+      folder-children = [ "Utilities" "Circle" "Programming" "Creation" "Office" "Games" ];
     };
 
     "org/gnome/desktop/app-folders/folders/Utilities" = {
@@ -179,6 +179,19 @@
         "gimp.desktop"
         "org.inkscape.Inkscape.desktop"
         "org.kde.krita.desktop"
+      ];
+    };
+
+    "org/gnome/desktop/app-folders/folders/Office" = {
+      name = "Office";
+      apps = [
+        "startcenter.desktop"
+        "writer.desktop"
+        "impress.desktop"
+        "calc.desktop"
+        "base.desktop"
+        "math.desktop"
+        "draw.desktop"
       ];
     };
 
