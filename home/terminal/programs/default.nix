@@ -11,6 +11,7 @@
     ./git.nix
     ./lazygit.nix
     ./nvf.nix
+    ./packages.nix
     ./ripgrep.nix
     ./tmux.nix
     ./yazi.nix
