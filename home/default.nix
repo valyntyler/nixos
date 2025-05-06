@@ -20,6 +20,7 @@
 
     # modules
     ../modules/home-manager/lazygit.nix
+    ../modules/home-manager/nvf.nix
   ];
 
   programs.nix-index.enable = true;

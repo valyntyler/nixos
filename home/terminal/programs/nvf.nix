@@ -1,5 +1,4 @@
-{ inputs, ... }:
-
 {
-  home.packages = [ inputs.nvf.packages.x86_64-linux.default ];
+  programs.nvf.enable = true;
+  programs.nvf.defaultEditor = true;
 }
