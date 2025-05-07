@@ -22,6 +22,8 @@
       o = "xdg-open";
       la = "ls -a";
       ll = "ls -l";
+      ze = "zoxide edit";
+      nr = "nix run";
     };
     extraConfig = "${pkgs.nitch}/bin/nitch";
   };
