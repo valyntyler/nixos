@@ -13,6 +13,7 @@
     ./nixpkgs.nix
     ./pipewire.nix
     ./plymouth.nix
+    ./preload.nix
     ./sudo.nix
     ./users.nix
     ./wayland.nix
