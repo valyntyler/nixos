@@ -7,7 +7,7 @@
     hunspell
     hunspellDicts.en_US
     hunspellDicts.ro_RO
-    libreoffice
+    libreoffice-fresh
     prismlauncher
     tigervnc
     vlc
