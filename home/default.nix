@@ -21,8 +21,7 @@
     ./gtk.nix
 
     # modules
-    ../modules/home-manager/lazygit.nix
-    ../modules/home-manager/nvf.nix
+    ../modules/home-manager
   ];
 
   programs.nix-index.enable = true;
