@@ -33,25 +33,16 @@
   outputs = {
     self,
     nixpkgs,
+    home-manager,
     ...
-  } @ inputs: let
-    home-manager-config.home-manager = {
-      users."valyn" = import ./home/valyn;
-      extraSpecialArgs = {inherit inputs;};
-
-      useGlobalPkgs = true;
-      useUserPackages = true;
-      backupFileExtension = "bak";
-    };
-  in {
+  } @ inputs: {
     # desktop
     nixosConfigurations.nixos-desktop = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       specialArgs = {inherit inputs;};
       modules = [
         ./host/desktop
-        home-manager-config
-        inputs.home-manager.nixosModules.home-manager
+        home-manager.nixosModules.home-manager
       ];
     };
 
@@ -61,8 +52,7 @@
       specialArgs = {inherit inputs;};
       modules = [
         ./host/laptop
-        home-manager-config
-        inputs.home-manager.nixosModules.home-manager
+        home-manager.nixosModules.home-manager
       ];
     };
   };
