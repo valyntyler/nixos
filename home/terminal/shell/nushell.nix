@@ -1,9 +1,11 @@
-{ lib, pkgs, ... }:
-
 {
+  lib,
+  pkgs,
+  ...
+}: {
   programs.nushell = {
     enable = true;
-    plugins = [ pkgs.nushellPlugins.formats ];
+    plugins = [pkgs.nushellPlugins.formats];
     settings = {
       edit_mode = "vi";
       show_banner = false;

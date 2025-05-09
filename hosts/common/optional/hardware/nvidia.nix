@@ -1,6 +1,6 @@
 {
   # Enable GPU drivers
-  services.xserver.videoDrivers = [ "nvidia" ];
+  services.xserver.videoDrivers = ["nvidia"];
   hardware.nvidia = {
     open = false; # open source drivers
     modesetting.enable = true;

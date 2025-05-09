@@ -1,6 +1,4 @@
-{ pkgs, ... }:
-
-{
+{pkgs, ...}: {
   programs.bat = {
     enable = true;
     config = {
@@ -11,8 +9,8 @@
       ];
     };
     extraPackages = with pkgs.bat-extras; [
-      batgrep 
-      batman 
+      batgrep
+      batman
       batpipe
       batwatch
       batdiff

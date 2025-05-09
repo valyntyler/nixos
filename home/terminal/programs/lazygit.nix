@@ -8,7 +8,8 @@
 
     # spinner
     spinner.rate = 60;
-    spinner.frames = [ # (find more at https://www.npmjs.com/package/cli-spinners)
+    spinner.frames = [
+      # (find more at https://www.npmjs.com/package/cli-spinners)
       "←"
       "↖"
       "↑"

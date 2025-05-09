@@ -1,41 +1,62 @@
 let
   engines.unduck = {
-    urls = [{
-      template =  "https://unduck.link";
-      params = [{ name = "q"; value = "{searchTerms}"; }];
-    }];
+    urls = [
+      {
+        template = "https://unduck.link";
+        params = [
+          {
+            name = "q";
+            value = "{searchTerms}";
+          }
+        ];
+      }
+    ];
     iconMapObj."16" = "https://unduck.link/search.svg";
     updateInterval = 24 * 60 * 60 * 1000; # every day
   };
 
   engines.nix-packages = {
-    urls = [{
-      template = "https://search.nixos.org/packages";
-      params = [
-        { name = "type"; value = "packages"; }
-        { name = "query"; value = "{searchTerms}"; }
-      ];
-    }];
+    urls = [
+      {
+        template = "https://search.nixos.org/packages";
+        params = [
+          {
+            name = "type";
+            value = "packages";
+          }
+          {
+            name = "query";
+            value = "{searchTerms}";
+          }
+        ];
+      }
+    ];
     iconMapObj."16" = "https://search.nixos.org/favicon.png";
-    definedAliases = [ "@np" ];
+    definedAliases = ["@np"];
   };
 
   engines.mynixos = {
-    urls = [{
-      template = "https://mynixos.com/search";
-      params = [{ name = "q"; value = "{searchTerms}"; }];
-    }];
+    urls = [
+      {
+        template = "https://mynixos.com/search";
+        params = [
+          {
+            name = "q";
+            value = "{searchTerms}";
+          }
+        ];
+      }
+    ];
     iconMapObj."16" = "https://mynixos.com/favicon-dark.svg";
-    definedAliases = [ "@mn" ];
+    definedAliases = ["@mn"];
   };
-in
-{
+in {
   programs.firefox = {
     enable = true;
     policies = {
       DisableTelemetry = true;
       EnableTrackingProtection = {
-        Value= true;
+        Value = true;
         Locked = true;
         Cryptomining = true;
         Fingerprinting = true;
@@ -50,7 +71,7 @@ in
       search = {
         default = "Unduck";
         force = true;
-        order = [ "Unduck" "Nix Packages" ];
+        order = ["Unduck" "Nix Packages"];
         engines = {
           # custom search engines
           "Unduck" = engines.unduck;
@@ -72,7 +93,7 @@ in
       search = {
         default = "Unduck";
         force = true;
-        order = [ "Unduck" "Nix Packages" ];
+        order = ["Unduck" "Nix Packages"];
         engines = {
           # custom search engines
           "Unduck" = engines.unduck;

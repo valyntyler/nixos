@@ -1,6 +1,9 @@
-{ inputs, lib, config, ... }:
-
 {
+  inputs,
+  lib,
+  config,
+  ...
+}: {
   options.programs.nvf = with lib; {
     enable = mkEnableOption true;
     defaultEditor = mkOption {
@@ -11,15 +14,16 @@
     };
   };
 
-  config = with lib; mkMerge [
-    (mkIf config.programs.nvf.enable {
-      # enable nvf
-      home.packages = [ inputs.nvf.packages.x86_64-linux.default ];
-    })
-    (mkIf config.programs.nvf.defaultEditor {
-      # set as default editor
-      programs.nushell.environmentVariables.EDITOR = "nvim";
-      programs.nushell.environmentVariables.VISUAL = "nvim";
-    })
-  ];
+  config = with lib;
+    mkMerge [
+      (mkIf config.programs.nvf.enable {
+        # enable nvf
+        home.packages = [inputs.nvf.packages.x86_64-linux.default];
+      })
+      (mkIf config.programs.nvf.defaultEditor {
+        # set as default editor
+        programs.nushell.environmentVariables.EDITOR = "nvim";
+        programs.nushell.environmentVariables.VISUAL = "nvim";
+      })
+    ];
 }

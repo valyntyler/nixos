@@ -5,8 +5,7 @@ let
   blue = "'#83a598'";
   purple = "'#d3869b'";
   aqua = "'#8ec07c'";
-in 
-{
+in {
   programs.cava.enable = true;
   programs.cava.settings = {
     smoothing.noise_reduction = 15;

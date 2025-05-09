@@ -13,7 +13,7 @@
       isAllowed = true;
       isSystem = false;
     };
-    
+
     appConfig.gammastep = {
       isAllowed = true;
       isSystem = false;

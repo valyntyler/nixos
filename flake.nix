@@ -30,22 +30,24 @@
     wofizilla.inputs.nixpkgs.follows = "nixpkgs";
   };
 
-  outputs = { self, nixpkgs, ... } @ inputs:
-  let
+  outputs = {
+    self,
+    nixpkgs,
+    ...
+  } @ inputs: let
     home-manager-config.home-manager = {
       users."valyn" = import ./home;
-      extraSpecialArgs = { inherit inputs; };
+      extraSpecialArgs = {inherit inputs;};
 
       useGlobalPkgs = true;
       useUserPackages = true;
       backupFileExtension = "bak";
     };
-  in
-  {
+  in {
     # desktop
     nixosConfigurations.nixos-desktop = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
-      specialArgs = { inherit inputs; };
+      specialArgs = {inherit inputs;};
       modules = [
         ./hosts/desktop
         home-manager-config
@@ -56,7 +58,7 @@
     # laptop
     nixosConfigurations.nixos-laptop = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
-      specialArgs = { inherit inputs; };
+      specialArgs = {inherit inputs;};
       modules = [
         ./hosts/laptop
         home-manager-config
