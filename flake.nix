@@ -49,7 +49,7 @@
       system = "x86_64-linux";
       specialArgs = {inherit inputs;};
       modules = [
-        ./hosts/desktop
+        ./host/desktop
         home-manager-config
         inputs.home-manager.nixosModules.home-manager
       ];
@@ -60,7 +60,7 @@
       system = "x86_64-linux";
       specialArgs = {inherit inputs;};
       modules = [
-        ./hosts/laptop
+        ./host/laptop
         home-manager-config
         inputs.home-manager.nixosModules.home-manager
       ];
