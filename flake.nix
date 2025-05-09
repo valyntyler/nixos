@@ -36,7 +36,7 @@
     ...
   } @ inputs: let
     home-manager-config.home-manager = {
-      users."valyn" = import ./home;
+      users."valyn" = import ./home/valyn;
       extraSpecialArgs = {inherit inputs;};
 
       useGlobalPkgs = true;
