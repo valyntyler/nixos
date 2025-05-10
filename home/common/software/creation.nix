@@ -5,5 +5,9 @@
     gimp3
     inkscape
     krita
+
+    # unfree
+    davinci-resolve
+    reaper
   ];
 }
