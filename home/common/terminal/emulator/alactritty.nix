@@ -46,6 +46,8 @@
       padding.y = 10;
     };
 
+    env.term = "xterm-256color";
+
     # mouse
     mouse.hide_when_typing = true;
   };
