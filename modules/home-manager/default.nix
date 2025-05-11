@@ -1,6 +1,6 @@
 {
   imports = [
-    ./lazygit.nix
-    ./nvf.nix
+    ./lazygit
+    ./nvf
   ];
 }
