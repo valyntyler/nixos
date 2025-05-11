@@ -121,7 +121,7 @@
 
     # specify app folders
     "org/gnome/desktop/app-folders" = {
-      folder-children = ["Utilities" "Circle" "Programming" "Creation" "Office" "Games"];
+      folder-children = ["Utilities" "Circle" "Programming" "Creation" "Office" "Sound & Video" "Games"];
     };
 
     "org/gnome/desktop/app-folders/folders/Utilities" = {
@@ -178,6 +178,14 @@
         "gimp.desktop"
         "org.inkscape.Inkscape.desktop"
         "org.kde.krita.desktop"
+      ];
+    };
+
+    "org/gnome/desktop/app-folders/folders/Sound & Video" = {
+      name = "Sound & Video";
+      apps = [
+        "cockos-reaper.desktop"
+        "davinci-resolve.desktop"
       ];
     };
 
