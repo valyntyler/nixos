@@ -65,59 +65,14 @@ in {
       DisplayBookmarksToolbar = "never";
     };
 
-    profiles."work" = {
-      id = 0;
-      isDefault = true;
-      search = {
-        default = "Unduck";
-        force = true;
-        order = ["Unduck" "Nix Packages"];
-        engines = {
-          # custom search engines
-          "Unduck" = engines.unduck;
-          "Nix Packages" = engines.nix-packages;
-          "MyNixOS" = engines.mynixos;
-
-          # disable defaults
-          bing.metaData.hidden = true;
-          google.metaData.hidden = true;
-          ddg.metaData.hidden = true;
-          wikipedia.metaData.hidden = true;
-        };
-      };
-    };
-
-    profiles."self" = {
-      id = 1;
-      isDefault = false;
-      search = {
-        default = "Unduck";
-        force = true;
-        order = ["Unduck" "Nix Packages"];
-        engines = {
-          # custom search engines
-          "Unduck" = engines.unduck;
-          "Nix Packages" = engines.nix-packages;
-          "MyNixOS" = engines.mynixos;
-
-          # disable defaults
-          bing.metaData.hidden = true;
-          google.metaData.hidden = true;
-          ddg.metaData.hidden = true;
-          wikipedia.metaData.hidden = true;
-        };
-      };
-    };
-
-    profiles."music" = {
-      id = 2;
+    profiles = let
       isDefault = false;
       search = {
         default = "Unduck";
         force = true;
         order = ["Unduck"];
         engines = {
-          # custom search engine
+          # custom search engines
           "Unduck" = engines.unduck;
 
           # disable defaults
@@ -126,6 +81,30 @@ in {
           ddg.metaData.hidden = true;
           wikipedia.metaData.hidden = true;
         };
+      };
+    in {
+      "work" = {
+        id = 0;
+        isDefault = true;
+        search =
+          search
+          // {
+            order = ["Nix Packages" "MyNixOS"];
+            engines = {
+              "Nix Packages" = engines.nix-packages;
+              "MyNixOS" = engines.mynixos;
+            };
+          };
+      };
+
+      "self" = {
+        inherit isDefault search;
+        id = 1;
+      };
+
+      "music" = {
+        inherit isDefault search;
+        id = 2;
       };
     };
   };
