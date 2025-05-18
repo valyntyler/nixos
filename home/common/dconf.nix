@@ -210,5 +210,45 @@
         "page.kramo.Cartridges.desktop"
       ];
     };
+
+    # transparency and blur
+    "org/gnome/shell" = {
+      enabled-extensions = ["blur-my-shell@aunetx"];
+    };
+
+    "org/gnome/shell/extensions/blur-my-shell/panel" = {
+      brightness = 0.59999999999999998;
+      override-background-dynamically = true;
+      pipeline = "pipeline_default";
+      sigma = 30;
+    };
+
+    "org/gnome/shell/extensions/blur-my-shell/applications" = {
+      blur = true;
+      dynamic-opacity = false;
+      whitelist = [
+        "GalaxyBudsClient"
+        "better_control.py"
+        "com.mitchellh.ghostty"
+        "com.rafaelmardojai.Blanket"
+        "de.haeckerfelix.Fragments"
+        "dev.bragefuglseth.Fretboard"
+        "org.gnome.Calculator"
+        "org.gnome.Characters"
+        "org.gnome.Contacts"
+        "org.gnome.Extensions"
+        "org.gnome.FileRoller"
+        "org.gnome.Nautilus"
+        "org.gnome.Settings"
+        "org.gnome.Shell.Extensions"
+        "org.gnome.SystemMonitor"
+        "org.gnome.TextEditor"
+        "org.gnome.Weather"
+        "org.gnome.baobab"
+        "org.gnome.clocks"
+        "org.gnome.gitlab.somas.Apostrophe"
+        "page.kramo.Cartridges"
+      ];
+    };
   };
 }
