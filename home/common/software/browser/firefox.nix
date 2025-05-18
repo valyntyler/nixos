@@ -65,8 +65,30 @@ in {
       DisplayBookmarksToolbar = "never";
     };
 
-    profiles."self" = {
+    profiles."work" = {
       id = 0;
+      isDefault = true;
+      search = {
+        default = "Unduck";
+        force = true;
+        order = ["Unduck" "Nix Packages"];
+        engines = {
+          # custom search engines
+          "Unduck" = engines.unduck;
+          "Nix Packages" = engines.nix-packages;
+          "MyNixOS" = engines.mynixos;
+
+          # disable defaults
+          bing.metaData.hidden = true;
+          google.metaData.hidden = true;
+          ddg.metaData.hidden = true;
+          wikipedia.metaData.hidden = true;
+        };
+      };
+    };
+
+    profiles."self" = {
+      id = 1;
       isDefault = false;
       search = {
         default = "Unduck";
@@ -87,18 +109,16 @@ in {
       };
     };
 
-    profiles."work" = {
-      id = 1;
-      isDefault = true;
+    profiles."music" = {
+      id = 2;
+      isDefault = false;
       search = {
         default = "Unduck";
         force = true;
-        order = ["Unduck" "Nix Packages"];
+        order = ["Unduck"];
         engines = {
-          # custom search engines
+          # custom search engine
           "Unduck" = engines.unduck;
-          "Nix Packages" = engines.nix-packages;
-          "MyNixOS" = engines.mynixos;
 
           # disable defaults
           bing.metaData.hidden = true;
