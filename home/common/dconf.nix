@@ -164,7 +164,7 @@
       apps = [
         "android-studio.desktop"
         "arduino-ide.desktop"
-        "org.godotengine.Godot4.desktop"
+        "org.godotengine.Godot4.4.desktop"
         "codium.desktop"
         "unityhub.desktop"
       ];
