@@ -10,6 +10,5 @@
     prismlauncher
     tigervnc
     vlc
-    whatsapp-for-linux
   ];
 }
