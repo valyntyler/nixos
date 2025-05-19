@@ -1,52 +1,18 @@
 let
   engines.unduck = {
-    urls = [
-      {
-        template = "https://unduck.link";
-        params = [
-          {
-            name = "q";
-            value = "{searchTerms}";
-          }
-        ];
-      }
-    ];
+    urls = [{template = "https://unduck.link?q={searchTerms}";}];
     iconMapObj."16" = "https://unduck.link/search.svg";
-    updateInterval = 24 * 60 * 60 * 1000; # every day
+    updateInterval = 24 * 60 * 60 * 1000;
   };
 
   engines.nix-packages = {
-    urls = [
-      {
-        template = "https://search.nixos.org/packages";
-        params = [
-          {
-            name = "type";
-            value = "packages";
-          }
-          {
-            name = "query";
-            value = "{searchTerms}";
-          }
-        ];
-      }
-    ];
+    urls = [{template = "https://search.nixos.org/packages?type=packages&query={searchTerms}";}];
     iconMapObj."16" = "https://search.nixos.org/favicon.png";
     definedAliases = ["@np"];
   };
 
   engines.mynixos = {
-    urls = [
-      {
-        template = "https://mynixos.com/search";
-        params = [
-          {
-            name = "q";
-            value = "{searchTerms}";
-          }
-        ];
-      }
-    ];
+    urls = [{template = "https://mynixos.com/search?q={searchTerms}";}];
     iconMapObj."16" = "https://mynixos.com/favicon-dark.svg";
     definedAliases = ["@mn"];
   };
