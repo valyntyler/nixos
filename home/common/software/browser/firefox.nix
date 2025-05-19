@@ -89,8 +89,9 @@ in {
         search =
           search
           // {
-            order = ["Nix Packages" "MyNixOS"];
+            order = ["Unduck" "Nix Packages" "MyNixOS"];
             engines = {
+              "Unduck" = engines.unduck;
               "Nix Packages" = engines.nix-packages;
               "MyNixOS" = engines.mynixos;
             };
