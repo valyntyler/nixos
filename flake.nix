@@ -9,6 +9,9 @@
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
+    # import stylix flake
+    stylix.url = "github:nix-community/stylix";
+
     # import custom nixvim flake
     nixvim.url = "github:valyntyler/nixvim";
     nixvim.inputs.nixpkgs.follows = "nixpkgs";
@@ -38,6 +41,7 @@
     self,
     nixpkgs,
     home-manager,
+    stylix,
     ...
   } @ inputs: {
     # desktop
@@ -47,6 +51,7 @@
       modules = [
         ./host/desktop
         home-manager.nixosModules.home-manager
+        stylix.nixosModules.stylix
       ];
     };
 
@@ -57,6 +62,7 @@
       modules = [
         ./host/laptop
         home-manager.nixosModules.home-manager
+        stylix.nixosModules.stylix
       ];
     };
   };
