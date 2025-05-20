@@ -4,18 +4,6 @@ let
     iconMapObj."16" = "https://unduck.link/search.svg";
     updateInterval = 24 * 60 * 60 * 1000;
   };
-
-  engines.nix-packages = {
-    urls = [{template = "https://search.nixos.org/packages?type=packages&query={searchTerms}";}];
-    iconMapObj."16" = "https://search.nixos.org/favicon.png";
-    definedAliases = ["@np"];
-  };
-
-  engines.mynixos = {
-    urls = [{template = "https://mynixos.com/search?q={searchTerms}";}];
-    iconMapObj."16" = "https://mynixos.com/favicon-dark.svg";
-    definedAliases = ["@mn"];
-  };
 in {
   programs.firefox = {
     enable = true;
@@ -58,8 +46,18 @@ in {
             order = ["Unduck" "Nix Packages" "MyNixOS"];
             engines = {
               "Unduck" = engines.unduck;
-              "Nix Packages" = engines.nix-packages;
-              "MyNixOS" = engines.mynixos;
+
+              "Nix Packages" = {
+                urls = [{template = "https://search.nixos.org/packages?type=packages&query={searchTerms}";}];
+                iconMapObj."16" = "https://search.nixos.org/favicon.png";
+                definedAliases = ["@np"];
+              };
+
+              "MyNixOS" = {
+                urls = [{template = "https://mynixos.com/search?q={searchTerms}";}];
+                iconMapObj."16" = "https://mynixos.com/favicon-dark.svg";
+                definedAliases = ["@mn"];
+              };
             };
           };
       };
