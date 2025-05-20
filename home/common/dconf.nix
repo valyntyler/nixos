@@ -211,11 +211,12 @@
       ];
     };
 
-    # transparency and blur
     "org/gnome/shell" = {
       enabled-extensions = ["blur-my-shell@aunetx"];
+      favorite-apps = [];
     };
 
+    # transparency and blur
     "org/gnome/shell/extensions/blur-my-shell/panel" = {
       brightness = 0.59999999999999998;
       override-background-dynamically = true;
