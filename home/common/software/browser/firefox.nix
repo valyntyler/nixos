@@ -1,9 +1,4 @@
 let
-  engines.unduck = {
-    urls = [{template = "https://unduck.link?q={searchTerms}";}];
-    iconMapObj."16" = "https://unduck.link/search.svg";
-    updateInterval = 24 * 60 * 60 * 1000;
-  };
 in {
   programs.firefox = {
     enable = true;
@@ -27,7 +22,11 @@ in {
         order = ["Unduck"];
         engines = {
           # custom search engines
-          "Unduck" = engines.unduck;
+          "Unduck" = {
+            urls = [{template = "https://unduck.link?q={searchTerms}";}];
+            iconMapObj."16" = "https://unduck.link/search.svg";
+            updateInterval = 24 * 60 * 60 * 1000;
+          };
 
           # disable defaults
           bing.metaData.hidden = true;
@@ -45,7 +44,7 @@ in {
           // {
             order = ["Unduck" "Nix Packages" "MyNixOS"];
             engines = {
-              "Unduck" = engines.unduck;
+              "Unduck" = search.engines."Unduck";
 
               "Nix Packages" = {
                 urls = [{template = "https://search.nixos.org/packages?type=packages&query={searchTerms}";}];
