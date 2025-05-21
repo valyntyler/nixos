@@ -12,6 +12,7 @@
     hunspellDicts.ro_RO
     libreoffice-fresh
     obsidian
+    openscad
     prismlauncher
     tigervnc
     vlc
