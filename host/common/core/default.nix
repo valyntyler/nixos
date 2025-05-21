@@ -2,7 +2,7 @@
   imports = [
     ./avahi.nix
     ./bluetooth.nix
-    ./bootloader.nix
+    ./boot.nix
     ./gnome.nix
     ./home-manager.nix
     ./hyprland.nix
