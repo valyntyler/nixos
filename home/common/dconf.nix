@@ -234,6 +234,7 @@
         "com.rafaelmardojai.Blanket"
         "de.haeckerfelix.Fragments"
         "dev.bragefuglseth.Fretboard"
+        "io.gitlab.adhami3310.Impression"
         "org.gnome.Calculator"
         "org.gnome.Characters"
         "org.gnome.Contacts"
