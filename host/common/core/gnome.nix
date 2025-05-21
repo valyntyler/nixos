@@ -29,5 +29,8 @@
     fragments
     fretboard
     impression
+
+    # gnome apps
+    gnome-boxes
   ];
 }
