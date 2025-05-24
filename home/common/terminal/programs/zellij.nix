@@ -2,7 +2,7 @@
   programs.zellij = {
     enable = true;
     enableNushellIntegration = true;
-    attachExistingSession = true;
+    attachExistingSession = false;
     exitShellOnExit = true;
   };
 }
