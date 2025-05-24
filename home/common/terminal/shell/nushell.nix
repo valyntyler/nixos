@@ -15,6 +15,8 @@
       o = "xdg-open";
       la = "ls -a";
       ll = "ls -l";
+      za = "zellij attach -c";
+      zj = "zellij";
       ze = "zoxide edit";
       nr = "nix run";
     };
