@@ -8,8 +8,8 @@
       (mkIf config.programs.zellij.enableNushellIntegration {
         programs.nushell = {
           environmentVariables = {
-            ZELLIJ_AUTO_ATTACH = true;
-            ZELLIJ_AUTO_EXIT = true;
+            ZELLIJ_AUTO_ATTACH = config.programs.zellij.attachExistingSession;
+            ZELLIJ_AUTO_EXIT = config.programs.zellij.exitShellOnExit;
           };
           extraConfig = ''
             if "ZELLIJ" not-in $env {
