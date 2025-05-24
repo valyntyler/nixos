@@ -33,7 +33,7 @@
           end
         '';
       })
-      (mkIf config.programs.lazygit.enableZshIntegration {
+      (mkIf config.programs.lazygit.enableNushellIntegration {
         programs.nushell.extraConfig = ''
           def --env lg [...args] {
             let lazygit_new_dir_file = $"($env.HOME)/.lazygit/newdir"
