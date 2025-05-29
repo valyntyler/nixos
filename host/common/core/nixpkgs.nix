@@ -1,4 +1,6 @@
 {
-  # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
+  nixpkgs = {
+    config.allowUnfree = true;
+    overlays = [(import ../../../overlay/spotx.nix)];
+  };
 }
