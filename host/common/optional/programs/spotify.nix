@@ -1,8 +1,3 @@
-{
-  inputs,
-  pkgs,
-  ...
-}: {
-  nixpkgs.overlays = [inputs.spotx.overlays.spotx];
+{pkgs, ...}: {
   environment.systemPackages = with pkgs; [spotify];
 }
