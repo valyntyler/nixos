@@ -4,5 +4,5 @@
   ...
 }: {
   nixpkgs.overlays = [inputs.spotx.overlays.spotx];
-  environment.systemPackages = with pkgs; [spotify spotify-tray spicetify-cli];
+  environment.systemPackages = with pkgs; [spotify];
 }
