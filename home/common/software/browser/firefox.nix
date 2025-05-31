@@ -57,6 +57,12 @@ in {
                 iconMapObj."16" = "https://mynixos.com/favicon-dark.svg";
                 definedAliases = ["@mn"];
               };
+
+              # disable defaults
+              bing.metaData.hidden = true;
+              google.metaData.hidden = true;
+              ddg.metaData.hidden = true;
+              wikipedia.metaData.hidden = true;
             };
           };
       };
