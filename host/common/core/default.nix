@@ -20,6 +20,5 @@
     ./wayland.nix
     ./weylus.nix
     ./xdg.nix
-    ./xserver.nix
   ];
 }
