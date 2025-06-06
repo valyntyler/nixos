@@ -7,6 +7,7 @@
     ../common/optional/programs/steam.nix
     ../common/optional/hardware/graphics.nix
     ../common/optional/hardware/nvidia.nix
+    ../common/optional/hardware/razer.nix
     ../common/optional/hardware/xbox.nix
   ];
 
