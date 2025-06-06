@@ -1,7 +1,7 @@
 {pkgs, ...}: {
-  hardware.openrazer.enable = true;
-  environment.systemPackages = with pkgs; [
-    openrazer-daemon
-  ];
-  users.users."valyn" = {extraGroups = ["openrazer"];};
+  hardware.openrazer = {
+    enable = true;
+    users = ["valyn"];
+  };
+  environment.systemPackages = with pkgs; [openrazer-daemon];
 }
