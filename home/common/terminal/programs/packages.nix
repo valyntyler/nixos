@@ -4,6 +4,7 @@
     aichat
 
     # utils
+    cyme
     glow
     stow
 
