@@ -1,7 +1,7 @@
 {pkgs, ...}: {
   programs.nushell = {
     enable = true;
-    plugins = with pkgs.nushellPlugins; [formats net];
+    plugins = with pkgs.nushellPlugins; [formats net highlight];
     settings = {
       show_banner = false;
       completions.external = {
