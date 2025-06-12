@@ -8,7 +8,7 @@
     ../common/optional/hardware/graphics.nix
     ../common/optional/hardware/nvidia.nix
     ../common/optional/hardware/open-rgb.nix
-    ../common/optional/hardware/razer.nix
+    ../common/optional/hardware/openrazer.nix
     ../common/optional/hardware/xone.nix
   ];
 
