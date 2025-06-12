@@ -6,7 +6,6 @@
     gimp3
     inkscape
     krita
-    muse-sounds-manager
     musescore
 
     # unfree
