@@ -9,7 +9,7 @@
     ../common/optional/hardware/nvidia.nix
     ../common/optional/hardware/open-rgb.nix
     ../common/optional/hardware/razer.nix
-    ../common/optional/hardware/xbox.nix
+    ../common/optional/hardware/xone.nix
   ];
 
   # Set hostname
