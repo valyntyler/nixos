@@ -12,6 +12,7 @@
     ./network.nix
     ./nix.nix
     ./nixpkgs.nix
+    ./openssh.nix
     ./pipewire.nix
     ./plymouth.nix
     ./preload.nix
