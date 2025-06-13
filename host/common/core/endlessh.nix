@@ -1,6 +1,6 @@
 {
   services.endlessh = {
-    enable = true;
+    enable = false;
     port = 22;
     openFirewall = true;
   };
