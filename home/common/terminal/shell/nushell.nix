@@ -19,7 +19,7 @@
       zj = "zellij";
       ze = "zoxide edit";
       nr = "nix run";
-      usbtop = "cyme -l";
+      lsusb = "cyme -l";
     };
     extraConfig = "${pkgs.nitch}/bin/nitch";
   };
