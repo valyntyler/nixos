@@ -21,5 +21,9 @@
       name = "";
       noDisplay = true;
     };
+    nvtop = {
+      name = "";
+      noDisplay = true;
+    };
   };
 }
