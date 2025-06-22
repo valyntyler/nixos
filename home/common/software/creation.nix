@@ -1,12 +1,15 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
-    aseprite
-    audacity
     blender
     freecad
     gimp3
     inkscape
     krita
+
+    # less-than-libre
+    ardour
+    aseprite
+    audacity
     musescore
 
     # unfree
