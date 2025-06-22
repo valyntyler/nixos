@@ -27,10 +27,6 @@
     # import firefox runner
     wofizilla.url = "github:valyntyler/wofizilla";
     wofizilla.inputs.nixpkgs.follows = "nixpkgs";
-
-    # import better-control flake
-    better-control.url = "github:Rishabh5321/better-control-flake";
-    better-control.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = {

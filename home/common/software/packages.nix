@@ -4,7 +4,6 @@
   ...
 }: {
   home.packages = with pkgs; [
-    inputs.better-control.packages.x86_64-linux.better-control
     alda
     appimage-run
     galaxy-buds-client
