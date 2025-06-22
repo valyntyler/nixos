@@ -19,6 +19,7 @@
     ./plymouth.nix
     ./preload.nix
     ./sudo.nix
+    ./systemd.nix
     ./users.nix
     ./wayland.nix
     ./weylus.nix
