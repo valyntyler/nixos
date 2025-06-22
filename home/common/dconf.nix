@@ -184,8 +184,11 @@
     "org/gnome/desktop/app-folders/folders/Sound & Video" = {
       name = "Sound & Video";
       apps = [
+        "ardour8.desktop"
+        "audacity.desktop"
         "cockos-reaper.desktop"
         "davinci-resolve.desktop"
+        "org.musescore.MuseScore.desktop"
       ];
     };
 
