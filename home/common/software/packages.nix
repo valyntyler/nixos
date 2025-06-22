@@ -12,6 +12,7 @@
     hunspellDicts.en_US
     hunspellDicts.ro_RO
     libreoffice-fresh
+    nvtopPackages.nvidia
     obsidian
     openscad
     prismlauncher
