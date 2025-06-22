@@ -3,6 +3,5 @@
     android-studio
     arduino-ide
     godot
-    unityhub
   ];
 }
