@@ -128,19 +128,26 @@
       name = "Utilities";
       categories = ["X-GNOME-Utilities"];
       apps = [
-        "org.freedesktop.GnomeAbrt.desktop"
         "nm-connection-editor.desktop"
-        "org.gnome.baobab.desktop"
+        "org.freedesktop.GnomeAbrt.desktop"
+        "org.gnome.Boxes.desktop"
+        "org.gnome.Calculator.desktop"
+        "org.gnome.Characters.desktop"
         "org.gnome.Connections.desktop"
+        "org.gnome.Console.desktop"
         "org.gnome.DejaDup.desktop"
         "org.gnome.DiskUtility.desktop"
         "org.gnome.Evince.desktop"
         "org.gnome.FileRoller.desktop"
+        "org.gnome.SystemMonitor.desktop"
+        "org.gnome.TextEditor.desktop"
+        "org.gnome.Usage.desktop"
+        "org.gnome.baobab.desktop"
         "org.gnome.font-viewer.desktop"
-        "org.gnome.Loupe.desktop"
         "org.gnome.seahorse.Application.desktop"
         "org.gnome.tweaks.desktop"
-        "org.gnome.Usage.desktop"
+        "nvidia-settings.desktop"
+        "vncviewer.desktop"
       ];
     };
 
