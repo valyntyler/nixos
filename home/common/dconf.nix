@@ -119,6 +119,11 @@
       name = "email client";
     };
 
+    # set background image
+    "org/gnome/desktop/background" = {
+      picture-uri = "file://" + toString ../../assets/rocca-pietore.jpg;
+    };
+
     # specify app folders
     "org/gnome/desktop/app-folders" = {
       folder-children = ["Utilities" "Circle" "Programming" "Creation" "Office" "Sound & Video" "Games"];
