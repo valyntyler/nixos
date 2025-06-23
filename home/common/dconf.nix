@@ -69,6 +69,12 @@
       switch-applications-backward = [];
     };
 
+    "org/gnome/desktop/peripherals/keyboard" = {
+      # faster scrolling in neovim
+      delay = mkUint32 300;
+      repeat-interval = mkUint32 15;
+    };
+
     "org/gnome/shell/keybindings" = {
       # unbind launch shortcuts
       switch-to-application-1 = [];
