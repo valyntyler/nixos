@@ -226,6 +226,51 @@
     "org/gnome/shell" = {
       enabled-extensions = ["blur-my-shell@aunetx"];
       favorite-apps = [];
+      app-picker-layout = map (lib.imap0 (position: (name: (mkDictionaryEntry [name (mkVariant [(mkDictionaryEntry ["position" (mkVariant position)])])])))) [
+        [
+          # row 1
+          "org.gnome.Nautilus.desktop"
+          "org.gnome.Epiphany.desktop"
+          "org.gnome.Geary.desktop"
+          "org.gnome.Calendar.desktop"
+          "org.gnome.Contacts.desktop"
+          "org.gnome.clocks.desktop"
+          "org.gnome.Weather.desktop"
+          "org.gnome.Maps.desktop"
+          # row 2
+          "org.gnome.Snapshot.desktop"
+          "org.gnome.SoundRecorder.desktop"
+          "org.gnome.Loupe.desktop"
+          "org.gnome.Totem.desktop"
+          "org.gnome.Decibels.desktop"
+          "org.gnome.Music.desktop"
+          "org.gnome.Extensions.desktop"
+          "org.gnome.Settings.desktop"
+          # row 3
+          "Utilities"
+          "Circle"
+        ]
+        [
+          # row 1
+          "nixos-manual.desktop"
+          "Alacritty.desktop"
+          "com.mitchellh.ghostty.desktop"
+          "firefox.desktop"
+          "thunderbird.desktop"
+          "discord.desktop"
+          "spotify.desktop"
+          "steam.desktop"
+          # row 2
+          "vlc.desktop"
+          "obsidian.desktop"
+          "GalaxyBudsClient.desktop"
+          "Programming"
+          "Office"
+          "Creation"
+          "Sound & Video"
+          "Games"
+        ]
+      ];
     };
 
     # transparency and blur
