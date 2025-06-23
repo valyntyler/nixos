@@ -120,8 +120,11 @@
     };
 
     # set background image
-    "org/gnome/desktop/background" = {
-      picture-uri = "file://" + toString ../../assets/rocca-pietore.jpg;
+    "org/gnome/desktop/background" = let
+      imagePath = ../../assets/vernazza.jpg;
+    in {
+      picture-uri = "file://" + toString imagePath;
+      picture-uri-dark = "file://" + toString imagePath;
     };
 
     # specify app folders
