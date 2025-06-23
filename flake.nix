@@ -20,10 +20,6 @@
     nvf.url = "github:valyntyler/nvf";
     nvf.inputs.nixpkgs.follows = "nixpkgs";
 
-    # import anyrun flake
-    anyrun.url = "github:anyrun-org/anyrun";
-    anyrun.inputs.nixpkgs.follows = "nixpkgs";
-
     # import firefox runner
     wofizilla.url = "github:valyntyler/wofizilla";
     wofizilla.inputs.nixpkgs.follows = "nixpkgs";

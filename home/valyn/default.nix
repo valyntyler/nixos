@@ -5,7 +5,6 @@
     ../common/software/email
     ../common/software/creation.nix
     ../common/software/packages.nix
-    ../common/software/anyrun.nix
     ../common/software/wofi.nix
     ../common/terminal/emulator
     ../common/terminal/programs
