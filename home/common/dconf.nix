@@ -164,8 +164,9 @@
       apps = [
         "android-studio.desktop"
         "arduino-ide.desktop"
-        "org.godotengine.Godot4.4.desktop"
         "codium.desktop"
+        "org.godotengine.Godot4.4.desktop"
+        "openscad.desktop"
         "unityhub.desktop"
       ];
     };
@@ -173,9 +174,10 @@
     "org/gnome/desktop/app-folders/folders/Creation" = {
       name = "Creation";
       apps = [
+        "aseprite.desktop"
         "blender.desktop"
-        "org.freecad.FreeCAD.desktop"
         "gimp.desktop"
+        "org.freecad.FreeCAD.desktop"
         "org.inkscape.Inkscape.desktop"
         "org.kde.krita.desktop"
       ];
