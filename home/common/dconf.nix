@@ -135,7 +135,7 @@
 
     # specify app folders
     "org/gnome/desktop/app-folders" = {
-      folder-children = ["Utilities" "Circle" "Programming" "Creation" "Office" "Sound & Video" "Games"];
+      folder-children = ["Utilities" "Circle" "Programming" "Creation" "Office" "Sound & Video" "Games" "Settings"];
     };
 
     "org/gnome/desktop/app-folders/folders/Utilities" = {
@@ -160,9 +160,6 @@
         "org.gnome.font-viewer.desktop"
         "org.gnome.seahorse.Application.desktop"
         "org.gnome.tweaks.desktop"
-        "nvidia-settings.desktop"
-        "vncviewer.desktop"
-        "OpenRGB.desktop"
       ];
     };
 
@@ -238,6 +235,16 @@
       ];
     };
 
+    "org/gnome/desktop/app-folders/folders/Settings" = {
+      name = "Settings";
+      apps = [
+        "GalaxyBudsClient.desktop"
+        "OpenRGB.desktop"
+        "nvidia-settings.desktop"
+        "vncviewer.desktop"
+      ];
+    };
+
     "org/gnome/shell" = {
       enabled-extensions = ["blur-my-shell@aunetx"];
       favorite-apps = [];
@@ -278,12 +285,12 @@
           # row 2
           "vlc.desktop"
           "obsidian.desktop"
-          "GalaxyBudsClient.desktop"
           "Programming"
           "Office"
           "Creation"
           "Sound & Video"
           "Games"
+          "Settings"
         ]
       ];
     };
