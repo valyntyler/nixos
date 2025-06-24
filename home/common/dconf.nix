@@ -162,6 +162,7 @@
         "org.gnome.tweaks.desktop"
         "nvidia-settings.desktop"
         "vncviewer.desktop"
+        "OpenRGB.desktop"
       ];
     };
 
