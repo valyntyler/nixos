@@ -1,4 +1,9 @@
 {
+  xdg.enable = true;
+
+  # enable autostart
+  xdg.autostart.enable = true;
+
   # hide some desktop entries
   xdg.desktopEntries = {
     btop = {
