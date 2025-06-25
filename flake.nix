@@ -12,10 +12,6 @@
     # import stylix flake
     stylix.url = "github:nix-community/stylix";
 
-    # import custom nixvim flake
-    nixvim.url = "github:valyntyler/nixvim";
-    nixvim.inputs.nixpkgs.follows = "nixpkgs";
-
     # import custom nvf flake
     nvf.url = "github:valyntyler/nvf";
     nvf.inputs.nixpkgs.follows = "nixpkgs";
