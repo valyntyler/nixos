@@ -8,6 +8,7 @@
     ./eza.nix
     ./fd.nix
     ./fzf.nix
+    ./gh.nix
     ./git.nix
     ./lazygit.nix
     ./nvf.nix
