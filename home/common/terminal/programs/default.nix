@@ -10,6 +10,7 @@
     ./fzf.nix
     ./gh.nix
     ./git.nix
+    ./gitui.nix
     ./lazygit.nix
     ./nvf.nix
     ./packages.nix
