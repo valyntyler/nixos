@@ -1,11 +1,13 @@
 {
   imports = [
-    ./avahi.nix
+    ./services/avahi.nix
+    ./services/endlessh.nix
+    ./services/fail2ban.nix
+    ./services/libinput.nix
+    ./services/openssh.nix
+    ./services/preload.nix
     ./boot.nix
-    ./endlessh.nix
-    ./fail2ban.nix
     ./home-manager.nix
-    ./libinput.nix
     ./locale.nix
     ./location.nix
     ./network.nix
