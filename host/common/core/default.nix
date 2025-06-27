@@ -5,7 +5,6 @@
     ./endlessh.nix
     ./fail2ban.nix
     ./home-manager.nix
-    ./hyprland.nix
     ./libinput.nix
     ./locale.nix
     ./location.nix
