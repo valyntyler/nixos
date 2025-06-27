@@ -14,8 +14,7 @@
     ./openssh.nix
     ./pipewire.nix
     ./plymouth.nix
-    ./preload.nix
-    ./sudo.nix
+    ./security.nix
     ./systemd.nix
     ./users.nix
     ./weylus.nix
