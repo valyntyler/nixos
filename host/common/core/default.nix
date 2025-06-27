@@ -1,7 +1,6 @@
 {
   imports = [
     ./avahi.nix
-    ./bluetooth.nix
     ./boot.nix
     ./endlessh.nix
     ./fail2ban.nix
