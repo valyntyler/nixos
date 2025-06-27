@@ -17,6 +17,5 @@
     ./security.nix
     ./systemd.nix
     ./users.nix
-    ./xdg.nix
   ];
 }
