@@ -17,5 +17,6 @@
     prismlauncher
     tigervnc
     vlc
+    wl-clipboard
   ];
 }

@@ -18,7 +18,6 @@
     ./sudo.nix
     ./systemd.nix
     ./users.nix
-    ./wayland.nix
     ./weylus.nix
     ./xdg.nix
   ];
