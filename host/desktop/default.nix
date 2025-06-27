@@ -14,6 +14,9 @@
     ../common/optional/hardware/xone.nix
   ];
 
+  # Import Home Manager config
+  home-manager.users.valyn = import ../../home/valyn;
+
   # Set hostname
   networking.hostName = "nixos-desktop";
 

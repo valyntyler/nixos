@@ -12,6 +12,9 @@
     ../common/optional/hardware/nvidia.nix
   ];
 
+  # Import Home Manager config
+  home-manager.users.valyn = import ../../home/valyn;
+
   # Set hostname
   networking.hostName = "nixos-laptop";
 
