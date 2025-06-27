@@ -14,7 +14,6 @@
 
     # import custom nvf flake
     nvf.url = "github:valyntyler/nvf";
-    nvf.inputs.nixpkgs.follows = "nixpkgs";
 
     # import firefox runner
     wofizilla.url = "github:valyntyler/wofizilla";
