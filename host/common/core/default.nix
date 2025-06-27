@@ -4,7 +4,6 @@
     ./boot.nix
     ./endlessh.nix
     ./fail2ban.nix
-    ./gnome.nix
     ./home-manager.nix
     ./hyprland.nix
     ./libinput.nix
