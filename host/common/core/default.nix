@@ -11,8 +11,6 @@
     ./network.nix
     ./nix.nix
     ./nixpkgs.nix
-    ./openssh.nix
-    ./pipewire.nix
     ./plymouth.nix
     ./security.nix
     ./systemd.nix
