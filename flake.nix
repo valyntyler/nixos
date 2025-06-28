@@ -58,5 +58,15 @@
         home-manager.nixosModules.home-manager
       ];
     };
+
+    # centre1
+    nixosConfigurations.centre1 = nixpkgs.lib.nixosSystem {
+      system = "x86_64-linux";
+      specialArgs = {inherit inputs;};
+      modules = [
+        ./host/centre1
+        home-manager.nixosModules.home-manager
+      ];
+    };
   };
 }
