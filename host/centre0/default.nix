@@ -2,6 +2,7 @@
   imports = [
     ./hardware-configuration.nix
     ../common/core
+    ../common/optional/services/deluge.nix
     ../common/optional/services/jellyfin.nix
   ];
 
