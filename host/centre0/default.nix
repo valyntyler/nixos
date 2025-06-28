@@ -2,6 +2,7 @@
   imports = [
     ./hardware-configuration.nix
     ../common/core
+    ../common/optional/services/jellyfin.nix
   ];
 
   # Bootloader
