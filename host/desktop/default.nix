@@ -14,6 +14,11 @@
     ../common/optional/hardware/xone.nix
   ];
 
+  # Bootloader
+  boot.loader.efi.canTouchEfiVariables = true;
+  boot.loader.systemd-boot.enable = true;
+  boot.loader.systemd-boot.configurationLimit = 12;
+
   # Import Home Manager config
   home-manager.users.valyn = import ../../home/valyn;
 

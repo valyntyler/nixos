@@ -6,7 +6,6 @@
     ./services/libinput.nix
     ./services/openssh.nix
     ./services/preload.nix
-    ./boot.nix
     ./home-manager.nix
     ./locale.nix
     ./location.nix
