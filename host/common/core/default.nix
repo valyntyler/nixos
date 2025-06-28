@@ -15,5 +15,6 @@
     ./plymouth.nix
     ./security.nix
     ./systemd.nix
+    ./user.nix
   ];
 }
