@@ -1,4 +1,4 @@
-{
+{pkgs, ...}: {
   imports = [
     ./hardware-configuration.nix
     ../common/core
@@ -11,6 +11,14 @@
     ../common/optional/hardware/graphics.nix
     ../common/optional/hardware/nvidia.nix
   ];
+
+  # Add a user
+  users.users.valyn = {
+    isNormalUser = true;
+    description = "Valyn";
+    extraGroups = ["networkmanager" "wheel" "dialout" "uucp"];
+    shell = pkgs.nushell;
+  };
 
   # Bootloader
   boot.loader.efi.canTouchEfiVariables = true;

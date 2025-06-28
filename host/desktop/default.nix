@@ -1,4 +1,4 @@
-{
+{pkgs, ...}: {
   imports = [
     ./hardware-configuration.nix
     ../common/core
@@ -18,6 +18,14 @@
   boot.loader.efi.canTouchEfiVariables = true;
   boot.loader.systemd-boot.enable = true;
   boot.loader.systemd-boot.configurationLimit = 12;
+
+  # Add a user
+  users.users.valyn = {
+    isNormalUser = true;
+    description = "Valyn";
+    extraGroups = ["networkmanager" "wheel" "dialout" "uucp"];
+    shell = pkgs.nushell;
+  };
 
   # Import Home Manager config
   home-manager.users.valyn = import ../../home/valyn;
