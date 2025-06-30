@@ -25,7 +25,6 @@
     blanket
     cartridges
     drum-machine
-    errands
     fragments
     fretboard
     impression
