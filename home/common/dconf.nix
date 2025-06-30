@@ -175,6 +175,7 @@
         "de.haeckerfelix.Fragments.desktop"
         "dev.bragefuglseth.Fretboard.desktop"
         "io.gitlab.adhami3310.Impression.desktop"
+        "net.nokyan.Resources.desktop"
       ];
     };
 
