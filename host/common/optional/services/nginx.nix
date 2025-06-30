@@ -13,4 +13,5 @@
       "danban.ro".email = "certify@danban.ro";
     };
   };
+  networking.firewall.allowedTCPPorts = [80 443];
 }
