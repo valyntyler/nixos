@@ -2,6 +2,7 @@
   imports = [
     ./hardware-configuration.nix
     ../common/optional/services/sws.nix
+    ../common/optional/services/nginx.nix
     ../common/core
   ];
 
