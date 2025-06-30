@@ -7,7 +7,10 @@
       root = "/var/www/danban.ro";
     };
   };
-  security.acme.certs = {
-    "danban.ro".email = "certify@danban.ro";
+  security.acme = {
+    acceptTerms = true;
+    certs = {
+      "danban.ro".email = "certify@danban.ro";
+    };
   };
 }
