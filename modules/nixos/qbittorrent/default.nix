@@ -1,6 +1,6 @@
 {
   imports = [
     ./config.nix
-    ./qbittorrent.nix
+    ./options.nix
   ];
 }

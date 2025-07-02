@@ -1,6 +1,6 @@
 {
   imports = [
     ./config.nix
-    ./zellij.nix
+    ./options.nix
   ];
 }
