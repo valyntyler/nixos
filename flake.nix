@@ -36,6 +36,7 @@
         host = "nixos-desktop";
       };
       modules = [
+        ./modules/nixos
         ./host/desktop
         home-manager.nixosModules.home-manager
         stylix.nixosModules.stylix
@@ -51,6 +52,7 @@
         host = "nixos-laptop";
       };
       modules = [
+        ./modules/nixos
         ./host/laptop
         home-manager.nixosModules.home-manager
         stylix.nixosModules.stylix
@@ -66,6 +68,7 @@
         host = "centre0";
       };
       modules = [
+        ./modules/nixos
         ./host/centre0
         home-manager.nixosModules.home-manager
       ];
@@ -80,6 +83,7 @@
         host = "centre1";
       };
       modules = [
+        ./modules/nixos
         ./host/centre1
         home-manager.nixosModules.home-manager
       ];
