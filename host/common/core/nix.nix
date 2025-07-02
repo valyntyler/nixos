@@ -6,5 +6,8 @@
     # Add binary cache
     trusted-substituters = ["https://nix-community.cachix.org"];
     trusted-public-keys = ["nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="];
+
+    # Increase download size
+    download-buffer-size = 524288000;
   };
 }
