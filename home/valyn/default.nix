@@ -14,7 +14,6 @@
     ../common/fonts.nix
     ../common/xdg.nix
     ../common/gtk.nix
-    ../common/stylix.nix
 
     # modules
     ../../modules/home-manager
