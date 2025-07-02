@@ -1,3 +1,6 @@
 {
-  services.qbittorrent.enable = true;
+  services.qbittorrent = {
+    enable = true;
+    openFirewall = true;
+  };
 }
