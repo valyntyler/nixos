@@ -1,3 +1,3 @@
-{pkgs, ...}: {
-  environment.systemPackages = with pkgs; [qbittorrent-nox];
+{
+  services.qbittorrent.enable = true;
 }
