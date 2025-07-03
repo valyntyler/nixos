@@ -13,6 +13,14 @@
         inherit enableACME forceSSL;
         root = "/var/www/valyntyler.com";
       };
+      "www.valyntyler.com" = {
+        inherit enableACME forceSSL;
+        root = "/var/www/valyntyler.com";
+      };
+      "dev.valyntyler.com" = {
+        inherit enableACME forceSSL;
+        root = "/var/www/valyntyler.com";
+      };
     };
   };
   security.acme = {
