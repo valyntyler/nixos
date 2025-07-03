@@ -8,18 +8,18 @@
       "danban.ro" = {
         inherit enableACME forceSSL;
         root = "/var/www/danban.ro";
+        serverAliases = [
+          "www.danban.ro"
+          "media.danban.ro"
+        ];
       };
       "valyntyler.com" = {
         inherit enableACME forceSSL;
         root = "/var/www/valyntyler.com";
-      };
-      "www.valyntyler.com" = {
-        inherit enableACME forceSSL;
-        root = "/var/www/valyntyler.com";
-      };
-      "dev.valyntyler.com" = {
-        inherit enableACME forceSSL;
-        root = "/var/www/valyntyler.com";
+        serverAliases = [
+          "www.valyntyler.com"
+          "dev.valyntyler.com"
+        ];
       };
     };
   };
