@@ -8,11 +8,6 @@
     fluent-gtk-theme
     orchis-theme
 
-    # icons
-    tela-circle-icon-theme
-    papirus-icon-theme
-    gruvbox-plus-icons
-
     # cursors
     bibata-cursors
     capitaine-cursors-themed
