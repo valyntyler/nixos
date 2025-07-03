@@ -1,15 +1,18 @@
 {
   services.nginx = {
     enable = true;
-    virtualHosts."danban.ro" = {
+    virtualHosts = let
       enableACME = true;
       forceSSL = true;
-      root = "/var/www/danban.ro";
-    };
-    virtualHosts."valyntyler.com" = {
-      enableACME = true;
-      forceSSL = true;
-      root = "/var/www/valyntyler.com";
+    in {
+      "danban.ro" = {
+        inherit enableACME forceSSL;
+        root = "/var/www/danban.ro";
+      };
+      "valyntyler.com" = {
+        inherit enableACME forceSSL;
+        root = "/var/www/valyntyler.com";
+      };
     };
   };
   security.acme = {
