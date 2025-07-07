@@ -242,6 +242,7 @@
         "GalaxyBudsClient.desktop"
         "OpenRGB.desktop"
         "nvidia-settings.desktop"
+        "protonup-qt.desktop"
         "vncviewer.desktop"
       ];
     };
