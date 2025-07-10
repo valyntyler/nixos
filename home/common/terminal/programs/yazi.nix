@@ -5,6 +5,18 @@
 
     initLua = ''require("starship"):setup()'';
     theme.flavor.dark = "gruvbox-dark";
+    keymap.mgr.prepend_keymap = [
+      {
+        on = "k";
+        run = "arrow -1";
+        desc = "Move cursor up";
+      }
+      {
+        on = "j";
+        run = "arrow 1";
+        desc = "Move cursor down";
+      }
+    ];
 
     plugins.starship = pkgs.yaziPlugins.starship;
     flavors.gruvbox-dark = pkgs.yaziFlavors.gruvbox-dark;
