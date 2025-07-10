@@ -13,25 +13,27 @@
     simple-scan
   ];
 
-  environment.systemPackages = with pkgs; [
-    # gnome extensions
-    gnomeExtensions.blur-my-shell
-    gnomeExtensions.appindicator
-    gnomeExtensions.spotify-tray
+  environment.systemPackages = with pkgs;
+    [
+      # gnome circle
+      apostrophe
+      authenticator
+      blanket
+      cartridges
+      drum-machine
+      fragments
+      fretboard
+      impression
+      resources
 
-    # gnome circle
-    apostrophe
-    authenticator
-    blanket
-    cartridges
-    drum-machine
-    fragments
-    fretboard
-    impression
-    resources
-
-    # gnome apps
-    gnome-boxes
-    gnome-sound-recorder
-  ];
+      # gnome apps
+      gnome-boxes
+      gnome-sound-recorder
+    ]
+    ++ (with pkgs.gnomeExtensions; [
+      # gnome extensions
+      appindicator
+      blur-my-shell
+      spotify-tray
+    ]);
 }
