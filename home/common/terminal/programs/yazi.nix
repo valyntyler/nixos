@@ -18,8 +18,8 @@
       }
     ];
 
-    plugins.starship = pkgs.yaziPlugins.starship;
-    flavors.gruvbox-dark = pkgs.yaziFlavors.gruvbox-dark;
+    flavors = with pkgs.yaziFlavors; {inherit gruvbox-dark;};
+    plugins = with pkgs.yaziPlugins; {inherit starship;};
 
     settings.mgr = {
       scrolloff = 200;
