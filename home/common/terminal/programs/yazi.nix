@@ -26,6 +26,7 @@
       inherit
         chmod
         git
+        mount
         starship
         ;
     };
@@ -33,11 +34,19 @@
       mgr = {
         scrolloff = 200;
         show_symlink = true;
-        prepend_keymap = {
-          on = ["c" "m"];
-          run = "plugin chmod";
-          desc = "Chmod on selected files";
-        };
+        prepend_keymap = [
+          {
+            # chmod
+            on = ["c" "m"];
+            run = "plugin chmod";
+            desc = "Chmod on selected files";
+          }
+          {
+            # mount
+            on = "M";
+            run = "plugin mount";
+          }
+        ];
       };
       plugin.prepend_fetchers = [
         {
