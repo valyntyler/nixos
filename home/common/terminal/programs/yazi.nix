@@ -19,6 +19,17 @@
         run = "arrow 1";
         desc = "Move cursor down";
       }
+      {
+        # chmod
+        on = ["c" "m"];
+        run = "plugin chmod";
+        desc = "Chmod on selected files";
+      }
+      {
+        # mount
+        on = "M";
+        run = "plugin mount";
+      }
     ];
 
     flavors = with pkgs.yaziFlavors; {inherit gruvbox-dark;};
@@ -34,19 +45,6 @@
       mgr = {
         scrolloff = 200;
         show_symlink = true;
-        prepend_keymap = [
-          {
-            # chmod
-            on = ["c" "m"];
-            run = "plugin chmod";
-            desc = "Chmod on selected files";
-          }
-          {
-            # mount
-            on = "M";
-            run = "plugin mount";
-          }
-        ];
       };
       plugin.prepend_fetchers = [
         {
