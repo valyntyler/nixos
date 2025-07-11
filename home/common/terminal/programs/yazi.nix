@@ -24,6 +24,7 @@
     flavors = with pkgs.yaziFlavors; {inherit gruvbox-dark;};
     plugins = with pkgs.yaziPlugins; {
       inherit
+        chmod
         git
         starship
         ;
@@ -32,6 +33,11 @@
       mgr = {
         scrolloff = 200;
         show_symlink = true;
+        prepend_keymap = {
+          on = ["c" "m"];
+          run = "plugin chmod";
+          desc = "Chmod on selected files";
+        };
       };
       plugin.prepend_fetchers = [
         {
