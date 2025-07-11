@@ -3,8 +3,11 @@
     enable = true;
     enableNushellIntegration = true;
 
-    initLua = ''require("starship"):setup()'';
     theme.flavor.dark = "gruvbox-dark";
+    initLua = ''
+      require("git"):setup()
+      require("starship"):setup()
+    '';
     keymap.mgr.prepend_keymap = [
       {
         on = "k";
@@ -19,11 +22,29 @@
     ];
 
     flavors = with pkgs.yaziFlavors; {inherit gruvbox-dark;};
-    plugins = with pkgs.yaziPlugins; {inherit starship;};
-
-    settings.mgr = {
-      scrolloff = 200;
-      show_symlink = true;
+    plugins = with pkgs.yaziPlugins; {
+      inherit
+        git
+        starship
+        ;
+    };
+    settings = {
+      mgr = {
+        scrolloff = 200;
+        show_symlink = true;
+      };
+      plugin.prepend_fetchers = [
+        {
+          id = "git";
+          name = "*";
+          run = "git";
+        }
+        {
+          id = "git";
+          name = "*/";
+          run = "git";
+        }
+      ];
     };
   };
 }
