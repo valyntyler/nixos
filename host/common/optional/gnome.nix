@@ -25,6 +25,7 @@
       fretboard
       impression
       resources
+      tangram
 
       # gnome apps
       gnome-boxes
