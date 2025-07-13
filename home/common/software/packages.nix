@@ -11,6 +11,7 @@
     obsidian
     openscad
     prismlauncher
+    pwvucontrol
     tigervnc
     vlc
     wl-clipboard
