@@ -17,6 +17,9 @@
     ../common/optional/hardware/xone.nix
   ];
 
+  # for wireless headphones
+  boot.kernelParams = ["usbcore.autosuspend=-1"];
+
   # Bootloader
   boot.loader.efi.canTouchEfiVariables = true;
   boot.loader.systemd-boot.enable = true;
