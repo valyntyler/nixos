@@ -26,6 +26,7 @@
       impression
       resources
       tangram
+      video-trimmer
 
       # gnome apps
       gnome-boxes
