@@ -8,6 +8,7 @@
     ../common/optional/programs/steam.nix
     ../common/optional/services/jellyfin.nix
     ../common/optional/services/nginx.nix
+    ../common/optional/services/pipewire.nix
     ../common/optional/services/qbittorrent.nix
     ../common/optional/hardware/bluetooth.nix
     ../common/optional/hardware/graphics.nix
