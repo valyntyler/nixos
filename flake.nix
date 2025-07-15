@@ -12,6 +12,9 @@
     # import custom nvf flake
     nvf.url = "github:valyntyler/nvf";
 
+    # import sherlock flake
+    sherlock.url = "github:Skxxtz/sherlock";
+
     # import firefox runner
     wofizilla.url = "github:valyntyler/wofizilla";
     wofizilla.inputs.nixpkgs.follows = "nixpkgs";
