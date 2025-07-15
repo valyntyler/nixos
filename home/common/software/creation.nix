@@ -6,6 +6,10 @@
     inkscape
     krita
 
+    # music
+    guitarix
+    qjackctl
+
     # less-than-libre
     ardour
     aseprite
