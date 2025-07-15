@@ -15,6 +15,7 @@
     aseprite
     audacity
     musescore
+    zrythm
 
     # unfree
     davinci-resolve
