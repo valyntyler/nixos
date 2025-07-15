@@ -1,5 +1,6 @@
 {
   imports = [
+    ./programs/nix-ld.nix
     ./services/avahi.nix
     ./services/endlessh.nix
     ./services/fail2ban.nix
