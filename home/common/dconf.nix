@@ -19,6 +19,11 @@
       logout-prompt = false;
     };
 
+    "org/gnome/desktop/input-sources" = {
+      # set keyboard language
+      sources = [(mkTuple ["xkb" "ro"])];
+    };
+
     "org/gnome/settings-daemon/plugins/power" = {
       # disable auto suspend
       sleep-inactive-ac-type = "nothing";
