@@ -127,7 +127,7 @@
 
     # set background image
     "org/gnome/desktop/background" = let
-      imagePath = ../../assets/vernazza.jpg;
+      imagePath = ../../assets/emerald-bay.jpg;
     in {
       picture-uri = "file://" + toString imagePath;
       picture-uri-dark = "file://" + toString imagePath;
