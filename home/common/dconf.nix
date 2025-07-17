@@ -181,6 +181,8 @@
         "dev.bragefuglseth.Fretboard.desktop"
         "io.gitlab.adhami3310.Impression.desktop"
         "net.nokyan.Resources.desktop"
+        "re.sonny.Tangram.desktop"
+        "org.gnome.gitlab.YaLTeR.VideoTrimmer.desktop"
       ];
     };
 
@@ -215,7 +217,10 @@
         "audacity.desktop"
         "cockos-reaper.desktop"
         "davinci-resolve.desktop"
+        "guitarix.desktop"
         "org.musescore.MuseScore.desktop"
+        "org.rncbc.qjackctl.desktop"
+        "org.zrythm.Zrythm.desktop"
       ];
     };
 
@@ -246,6 +251,7 @@
       apps = [
         "GalaxyBudsClient.desktop"
         "OpenRGB.desktop"
+        "com.saivert.pwvucontrol.desktop"
         "nvidia-settings.desktop"
         "protonup-qt.desktop"
         "vncviewer.desktop"
