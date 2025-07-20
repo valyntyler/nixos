@@ -1,5 +1,8 @@
 {
   imports = [
+    ./boot/binfmt.nix
+    ./boot/loader.nix
+    ./boot/plymouth.nix
     ./programs/nix-ld.nix
     ./services/avahi.nix
     ./services/endlessh.nix
@@ -13,7 +16,6 @@
     ./network.nix
     ./nix.nix
     ./nixpkgs.nix
-    ./plymouth.nix
     ./security.nix
     ./systemd.nix
     ./user.nix
