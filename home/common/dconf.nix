@@ -62,6 +62,9 @@
       move-to-workspace-9 = ["<Shift><Super>9"];
       move-to-workspace-10 = ["<Shift><Super>0"];
 
+      # enter fullscreen
+      toggle-fullscreen = ["<Super>f"];
+
       # show desktop
       show-desktop = ["<Super>d"];
 
@@ -253,6 +256,7 @@
         "OpenRGB.desktop"
         "com.saivert.pwvucontrol.desktop"
         "nvidia-settings.desktop"
+        "org.pipewire.Helvum.desktop"
         "protonup-qt.desktop"
         "vncviewer.desktop"
       ];
