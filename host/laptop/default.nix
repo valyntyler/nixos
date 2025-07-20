@@ -7,6 +7,7 @@
     ../common/optional/programs/spotify.nix
     ../common/optional/programs/steam.nix
     ../common/optional/services/kanata.nix
+    ../common/optional/services/mullvad.nix
     ../common/optional/hardware/bluetooth.nix
     ../common/optional/hardware/graphics.nix
     ../common/optional/hardware/nvidia.nix
