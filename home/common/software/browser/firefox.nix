@@ -1,6 +1,7 @@
-{
+{pkgs, ...}: {
   programs.firefox = {
     enable = true;
+    nativeMessagingHosts = [pkgs.firefoxpwa];
     policies = {
       DisableTelemetry = true;
       EnableTrackingProtection = {
