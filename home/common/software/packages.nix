@@ -8,6 +8,7 @@
     hunspellDicts.en_US
     hunspellDicts.ro_RO
     libreoffice-fresh
+    mullvad-vpn
     nvtopPackages.nvidia
     obsidian
     openscad
