@@ -24,6 +24,7 @@
       fragments
       fretboard
       impression
+      packet # deserves to be a circle app
       resources
       tangram
       video-trimmer
