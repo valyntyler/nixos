@@ -14,7 +14,6 @@
     openscad
     prismlauncher
     pwvucontrol
-    rquickshare
     tigervnc
     vlc
     wl-clipboard
