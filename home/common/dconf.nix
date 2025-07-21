@@ -244,8 +244,10 @@
       name = "Games";
       categories = ["Game"];
       excluded-apps = [
-        "steam.desktop"
+        "com.usebottles.bottles.desktop"
         "page.kramo.Cartridges.desktop"
+        "protonup-qt.desktop"
+        "steam.desktop"
       ];
     };
 
