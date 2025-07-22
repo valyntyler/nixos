@@ -11,7 +11,7 @@
 
     "org/gnome/desktop/wm/preferences" = {
       # top-bar buttons
-      button-layout = "maximize,minimize,close:";
+      button-layout = ":maximize,minimize,close";
     };
 
     "org/gnome/gnome-session" = {
