@@ -2,6 +2,7 @@
   home.packages = with pkgs; [
     alda
     appimage-run
+    bitwarden-desktop
     galaxy-buds-client
     helvum
     hunspell
