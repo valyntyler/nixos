@@ -30,6 +30,7 @@
 
       # these deserve to be a circle apps
       bottles
+      helvum
       packet
 
       # gnome apps

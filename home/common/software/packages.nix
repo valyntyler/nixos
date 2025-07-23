@@ -4,7 +4,6 @@
     appimage-run
     bitwarden-desktop
     galaxy-buds-client
-    helvum
     hunspell
     hunspellDicts.en_US
     hunspellDicts.ro_RO
