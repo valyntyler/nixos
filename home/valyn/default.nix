@@ -13,8 +13,8 @@
     ../common/terminal/shell
     ../common/dconf.nix
     ../common/fonts.nix
-    ../common/xdg.nix
     ../common/gtk.nix
+    ../common/xdg.nix
 
     # modules
     inputs.sherlock.homeManagerModules.default
