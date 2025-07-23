@@ -1,6 +1,7 @@
 {
   imports = [
-    ./packages.nix
+    ./android.nix
+    ./arduino.nix
     ./godot.nix
     ./vscodium.nix
   ];
