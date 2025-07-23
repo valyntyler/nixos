@@ -4,6 +4,10 @@
       # dark mode
       color-scheme = "prefer-dark";
 
+      # mouse cursor
+      cursor-theme = "Bibata-Modern-Classic";
+      cursor-size = 24;
+
       # configure clock
       clock-show-seconds = false;
       clock-show-weekday = false;
