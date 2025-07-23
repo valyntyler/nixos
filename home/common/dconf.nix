@@ -257,12 +257,13 @@
     "org/gnome/desktop/app-folders/folders/Settings" = {
       name = "Settings";
       apps = [
+        "bitwarden.desktop"
         "GalaxyBudsClient.desktop"
         "OpenRGB.desktop"
-        "com.saivert.pwvucontrol.desktop"
         "mullvad-vpn.desktop"
         "nvidia-settings.desktop"
         "protonup-qt.desktop"
+        "com.saivert.pwvucontrol.desktop"
         "vncviewer.desktop"
       ];
     };
