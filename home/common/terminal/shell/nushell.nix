@@ -29,6 +29,7 @@
       e = "nvim";
       l = "ls";
       o = "xdg-open";
+      cd = "z";
       la = "ls -a";
       ll = "ls -l";
       za = "zellij attach -c";
