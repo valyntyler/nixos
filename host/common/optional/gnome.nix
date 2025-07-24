@@ -6,6 +6,12 @@
     autoSuspend = false;
   };
 
+  # have nautilus open ghostty
+  programs.nautilus-open-any-terminal = {
+    enable = true;
+    terminal = "ghostty";
+  };
+
   # Disable some default apps
   environment.gnome.excludePackages = with pkgs; [
     yelp
