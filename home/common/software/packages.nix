@@ -11,7 +11,6 @@
     mullvad-vpn
     nvtopPackages.nvidia
     obsidian
-    openscad
     prismlauncher
     pwvucontrol
     tigervnc
