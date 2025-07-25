@@ -11,6 +11,7 @@
     ../common/terminal/programs
     ../common/terminal/prompt
     ../common/terminal/shell
+    ../common/terminal/packages.nix
     ../common/dconf.nix
     ../common/fonts.nix
     ../common/gtk.nix
