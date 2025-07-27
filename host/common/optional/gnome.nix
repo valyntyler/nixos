@@ -38,6 +38,7 @@
       bottles
       helvum
       packet
+      pods
 
       # gnome apps
       gnome-boxes
