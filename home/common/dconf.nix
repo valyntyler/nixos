@@ -190,6 +190,7 @@
         "dev.bragefuglseth.Fretboard.desktop"
         "io.gitlab.adhami3310.Impression.desktop"
         "io.github.nozwock.Packet.desktop"
+        "com.github.marhkb.Pods.desktop"
         "net.nokyan.Resources.desktop"
         "re.sonny.Tangram.desktop"
         "org.gnome.gitlab.YaLTeR.VideoTrimmer.desktop"
