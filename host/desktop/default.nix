@@ -7,7 +7,6 @@
     ../common/optional/programs/discord.nix
     ../common/optional/programs/spotify.nix
     ../common/optional/programs/steam.nix
-    ../common/optional/programs/weylus.nix
     ../common/optional/services/jellyfin.nix
     ../common/optional/services/nginx.nix
     ../common/optional/services/pipewire.nix
