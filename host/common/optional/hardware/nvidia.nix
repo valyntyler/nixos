@@ -1,4 +1,7 @@
-{
+{pkgs, ...}: {
+  environment.systemPackages = with pkgs; [
+    nvtopPackages.nvidia
+  ];
   services.xserver.videoDrivers = [
     "modesetting"
     "nvidia"

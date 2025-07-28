@@ -1,6 +1,5 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
-    alda
     appimage-run
     bitwarden-desktop
     galaxy-buds-client
@@ -9,7 +8,6 @@
     hunspellDicts.ro_RO
     libreoffice-fresh
     mullvad-vpn
-    nvtopPackages.nvidia
     obsidian
     prismlauncher
     pwvucontrol
