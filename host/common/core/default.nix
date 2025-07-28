@@ -3,6 +3,7 @@
     ./boot/binfmt.nix
     ./boot/loader.nix
     ./boot/plymouth.nix
+    ./network/firewall.nix
     ./programs/nix-ld.nix
     ./services/avahi.nix
     ./services/endlessh.nix
