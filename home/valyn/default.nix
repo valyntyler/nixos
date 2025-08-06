@@ -1,4 +1,4 @@
-{inputs, ...}: {
+{
   imports = [
     ../common/software/browser
     ../common/software/editor
@@ -18,7 +18,6 @@
     ../common/xdg.nix
 
     # modules
-    inputs.sherlock.homeManagerModules.default
     ../../modules/home-manager
   ];
 
