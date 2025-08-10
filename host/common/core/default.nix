@@ -5,6 +5,7 @@
     ./boot/plymouth.nix
     ./network/firewall.nix
     ./network/hostname.nix
+    ./network/networkmanager.nix
     ./programs/nix-ld.nix
     ./services/avahi.nix
     ./services/endlessh.nix
