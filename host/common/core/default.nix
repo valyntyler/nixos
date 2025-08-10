@@ -17,7 +17,6 @@
     ./home-manager.nix
     ./locale.nix
     ./location.nix
-    ./network.nix
     ./nix.nix
     ./nixpkgs.nix
     ./security.nix
