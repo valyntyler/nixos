@@ -13,6 +13,7 @@
     ./gitui.nix
     ./lazygit.nix
     ./nvf.nix
+    ./opencode.nix
     ./ripgrep.nix
     ./tmux.nix
     ./yazi.nix
