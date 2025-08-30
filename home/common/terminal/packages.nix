@@ -4,6 +4,7 @@
     alda
     cyme
     glow
+    lsof
     stow
 
     # screensavers
