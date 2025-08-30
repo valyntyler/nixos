@@ -13,5 +13,8 @@
     cbonsai
     cmatrix
     sl
+
+    # speedtest
+    speedtest-go
   ];
 }
