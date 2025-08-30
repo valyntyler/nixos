@@ -1,9 +1,5 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
-    # llms
-    aichat
-    opencode
-
     # utils
     alda
     cyme
