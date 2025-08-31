@@ -1,0 +1,3 @@
+{
+  programs.aichat.enable = true;
+}
