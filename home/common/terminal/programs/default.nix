@@ -12,6 +12,7 @@
     ./gh.nix
     ./git.nix
     ./gitui.nix
+    ./glab.nix
     ./lazygit.nix
     ./nvf.nix
     ./opencode.nix
