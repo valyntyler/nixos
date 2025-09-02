@@ -357,6 +357,7 @@
         "org.gnome.clocks"
         "org.gnome.gitlab.somas.Apostrophe"
         "page.kramo.Cartridges"
+        "io.github.fizzyizzy05.binary.desktop"
       ];
     };
   };
