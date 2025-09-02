@@ -7,6 +7,7 @@
     ../common/optional/programs/discord.nix
     ../common/optional/programs/spotify.nix
     ../common/optional/programs/steam.nix
+    ../common/optional/services/clight.nix
     ../common/optional/services/kanata.nix
     ../common/optional/services/mullvad.nix
     ../common/optional/hardware/bluetooth.nix

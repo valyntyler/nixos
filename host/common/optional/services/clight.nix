@@ -1,0 +1,3 @@
+{
+  services.clight.enable = true;
+}
