@@ -180,6 +180,7 @@
       apps = [
         "org.gnome.gitlab.somas.Apostrophe.desktop"
         "com.belmoussaoui.Authenticator.desktop"
+        "io.github.fizzyizzy05.binary.desktop"
         "com.rafaelmardojai.Blanket.desktop"
         "com.usebottles.bottles.desktop"
         "page.kramo.Cartridges.desktop"
