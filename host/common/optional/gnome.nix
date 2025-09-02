@@ -24,6 +24,7 @@
       # gnome circle
       apostrophe
       authenticator
+      binary
       blanket
       cartridges
       drum-machine
