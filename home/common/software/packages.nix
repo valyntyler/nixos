@@ -10,6 +10,7 @@
     mullvad-vpn
     obsidian
     prismlauncher
+    putty
     pwvucontrol
     tigervnc
     vlc
