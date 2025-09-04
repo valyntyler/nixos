@@ -14,6 +14,7 @@
     pwvucontrol
     tigervnc
     vlc
+    vmpk
     wl-clipboard
   ];
 }
