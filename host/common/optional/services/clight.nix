@@ -1,3 +1,3 @@
 {
-  services.clight.enable = true;
+  services.clight.enable = false;
 }
