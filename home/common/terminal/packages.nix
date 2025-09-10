@@ -5,6 +5,7 @@
     cyme
     glow
     lsof
+    ouch
     stow
 
     # screensavers
