@@ -164,11 +164,11 @@
         "nvf": "nvf_2"
       },
       "locked": {
-        "lastModified": 1757600594,
-        "narHash": "sha256-1cVXO4e1hgJ0YzWM4W/sB76U8e118L30e+bRqRSnUWo=",
+        "lastModified": 1757624512,
+        "narHash": "sha256-r9ynpNH+33xTm8B3aiij3re2vdy2kYbg6YSpijy65CA=",
         "owner": "valyntyler",
         "repo": "nvf",
-        "rev": "494191cc913ed401c3aa4ded211fffc9fff1fdf6",
+        "rev": "ee0f2a3abd5e4ef40220db352c334442f1718cb3",
         "type": "github"
       },
       "original": {
