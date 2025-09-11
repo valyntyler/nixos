@@ -7,10 +7,8 @@
     };
   in {
     enable = true;
-    profiles."self" = {
-      isDefault = false;
-      inherit search;
-    };
+    profiles."school" = {inherit search;};
+    profiles."self" = {inherit search;};
     profiles."work" = {
       isDefault = true;
       inherit search;
