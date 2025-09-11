@@ -1,20 +1,19 @@
 {
   # email client
-  programs.thunderbird = {
+  programs.thunderbird = let
+    search = {
+      default = "ddg";
+      force = true;
+    };
+  in {
     enable = true;
     profiles."self" = {
       isDefault = false;
-      search = {
-        default = "ddg";
-        force = true;
-      };
+      inherit search;
     };
     profiles."work" = {
       isDefault = true;
-      search = {
-        default = "ddg";
-        force = true;
-      };
+      inherit search;
     };
   };
 }
