@@ -1,4 +1,4 @@
-{
+{inputs, ...}: {
   imports = [
     ../common/software/browser
     ../common/software/editor
@@ -19,6 +19,7 @@
 
     # modules
     ../../modules/home-manager
+    inputs.zen-browser.homeModules.beta
   ];
 
   home.username = "valyn";

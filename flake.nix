@@ -12,6 +12,10 @@
     # import custom nvf flake
     nvf.url = "github:valyntyler/nvf";
 
+    # import zen browser flake
+    zen-browser.url = "github:0xc000022070/zen-browser-flake";
+    zen-browser.inputs.nixpkgs.follows = "nixpkgs";
+
     # import firefox runner
     wofizilla.url = "github:valyntyler/wofizilla";
     wofizilla.inputs.nixpkgs.follows = "nixpkgs";
