@@ -165,6 +165,7 @@
         "org.gnome.DiskUtility.desktop"
         "org.gnome.Evince.desktop"
         "org.gnome.FileRoller.desktop"
+        "org.gnome.Papers.desktop"
         "org.gnome.SystemMonitor.desktop"
         "org.gnome.TextEditor.desktop"
         "org.gnome.Usage.desktop"
@@ -205,6 +206,7 @@
         "arduino-ide.desktop"
         "codium.desktop"
         "org.godotengine.Godot4.4.desktop"
+        "neovide.desktop"
         "openscad.desktop"
         "unityhub.desktop"
       ];
@@ -219,6 +221,7 @@
         "org.freecad.FreeCAD.desktop"
         "org.inkscape.Inkscape.desktop"
         "org.kde.krita.desktop"
+        "com.obsproject.Studio.desktop"
       ];
     };
 
