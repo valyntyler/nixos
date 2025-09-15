@@ -1,6 +1,6 @@
 {
   programs.neovide = {
-    enable = false;
+    enable = true;
     settings.font = {
       normal = ["JetBrainsMono NF"];
       size = 14;
