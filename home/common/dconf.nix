@@ -233,6 +233,7 @@
         "org.musescore.MuseScore.desktop"
         "org.rncbc.qjackctl.desktop"
         "org.zrythm.Zrythm.desktop"
+        "net.sourceforge.VMPK.desktop"
       ];
     };
 
