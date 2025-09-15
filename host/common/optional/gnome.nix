@@ -17,6 +17,7 @@
     yelp
     gnome-tour
     simple-scan
+    evince
   ];
 
   environment.systemPackages = with pkgs;
@@ -44,6 +45,7 @@
       # gnome apps
       gnome-boxes
       gnome-sound-recorder
+      papers
     ]
     ++ (with pkgs.gnomeExtensions; [
       # gnome extensions
