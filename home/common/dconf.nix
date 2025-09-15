@@ -359,6 +359,11 @@
         "org.gnome.gitlab.somas.Apostrophe"
         "page.kramo.Cartridges"
         "io.github.fizzyizzy05.binary"
+        "org.gnome.Calendar.desktop"
+        "org.gnome.Decibels"
+        "org.gnome.SoundRecorder"
+        "org.gnome.Music"
+        "org.gnome.Papers"
       ];
     };
   };
