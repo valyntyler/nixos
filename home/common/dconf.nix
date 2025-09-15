@@ -368,6 +368,7 @@
         "org.gnome.SoundRecorder"
         "org.gnome.Music"
         "org.gnome.Papers"
+        "com.saivert.pwvucontrol"
       ];
     };
   };
