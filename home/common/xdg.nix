@@ -6,31 +6,18 @@
     autostart.enable = true;
 
     # hide some desktop entries
-    desktopEntries = {
-      btop = {
+    desktopEntries = let
+      hide = {
         name = "";
         noDisplay = true;
       };
-      fish = {
-        name = "";
-        noDisplay = true;
-      };
-      nvim = {
-        name = "";
-        noDisplay = true;
-      };
-      yazi = {
-        name = "";
-        noDisplay = true;
-      };
-      spotify-tray = {
-        name = "";
-        noDisplay = true;
-      };
-      nvtop = {
-        name = "";
-        noDisplay = true;
-      };
+    in {
+      btop = hide;
+      fish = hide;
+      nvim = hide;
+      yazi = hide;
+      spotify-tray = hide;
+      nvtop = hide;
     };
 
     # set default apps
