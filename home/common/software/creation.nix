@@ -5,6 +5,7 @@
     gimp3
     inkscape
     krita
+    obs-studio
 
     # music
     guitarix
