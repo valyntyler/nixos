@@ -14,6 +14,7 @@
     tigervnc
     vlc
     vmpk
+    wireshark
     wl-clipboard
   ];
 }
