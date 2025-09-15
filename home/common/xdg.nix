@@ -24,6 +24,7 @@
     mimeApps = {
       enable = true;
       defaultApplications = {
+        "text/plain" = ["org.gnome.TextEditor.desktop"];
         "text/*" = ["org.gnome.TextEditor.desktop"];
         "image/*" = ["org.gnome.Loupe.desktop"];
         "application/pdf" = ["org.gnome.Papers.desktop"];
