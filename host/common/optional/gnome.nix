@@ -36,6 +36,7 @@
       resources
       tangram
       video-trimmer
+      warp
 
       # these deserve to be a circle apps
       bottles
