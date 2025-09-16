@@ -296,7 +296,7 @@
           "org.gnome.Snapshot.desktop"
           "org.gnome.SoundRecorder.desktop"
           "org.gnome.Loupe.desktop"
-          "org.gnome.Totem.desktop"
+          "org.gnome.Showtime.desktop"
           "org.gnome.Decibels.desktop"
           "org.gnome.Music.desktop"
           "org.gnome.Extensions.desktop"
