@@ -29,6 +29,7 @@
       binary
       blanket
       cartridges
+      gnome-decoder
       drum-machine
       fragments
       fretboard
