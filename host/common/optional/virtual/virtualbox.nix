@@ -1,4 +1,4 @@
-{
+{user, ...}: {
   virtualisation.virtualbox.host.enable = true;
-  users.extraGroups.vboxusers.members = ["valyn"];
+  users.extraGroups.vboxusers.members = [user];
 }
