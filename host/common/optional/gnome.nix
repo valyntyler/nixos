@@ -33,6 +33,7 @@
       drum-machine
       fragments
       fretboard
+      forge-sparks
       impression
       resources
       tangram
