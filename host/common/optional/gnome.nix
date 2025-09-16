@@ -18,6 +18,7 @@
     gnome-tour
     simple-scan
     evince
+    totem
   ];
 
   environment.systemPackages = with pkgs;
@@ -46,6 +47,7 @@
       gnome-boxes
       gnome-sound-recorder
       papers
+      showtime
     ]
     ++ (with pkgs.gnomeExtensions; [
       # gnome extensions
