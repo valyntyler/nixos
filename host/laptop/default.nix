@@ -14,6 +14,7 @@
     ../common/optional/hardware/bluetooth.nix
     ../common/optional/hardware/graphics.nix
     ../common/optional/hardware/nvidia.nix
+    ../common/optional/virtual/virtualbox.nix
   ];
 
   # Initial NixOS version
