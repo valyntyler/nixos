@@ -8,6 +8,9 @@
     fluent-gtk-theme
     orchis-theme
 
+    # icons
+    morewaita-icon-theme
+
     # cursors
     bibata-cursors
     capitaine-cursors-themed
