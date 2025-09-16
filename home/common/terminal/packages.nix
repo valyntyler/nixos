@@ -3,6 +3,7 @@
     # utils
     alda
     cyme
+    duf
     glow
     lsof
     ouch
