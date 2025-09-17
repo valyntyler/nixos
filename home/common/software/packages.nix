@@ -12,6 +12,7 @@
     prismlauncher
     protonmail-desktop
     pwvucontrol
+    signal-desktop
     tigervnc
     vlc
     vmpk
