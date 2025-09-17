@@ -10,6 +10,7 @@
     mullvad-vpn
     obsidian
     prismlauncher
+    protonmail-desktop
     pwvucontrol
     tigervnc
     vlc
