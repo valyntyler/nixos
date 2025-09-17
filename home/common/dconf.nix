@@ -369,6 +369,7 @@
         "org.gnome.Music"
         "org.gnome.Papers"
         "com.saivert.pwvucontrol"
+        "com.belmoussaoui.Authenticator"
       ];
     };
   };
