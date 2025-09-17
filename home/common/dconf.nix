@@ -185,7 +185,10 @@
         "com.rafaelmardojai.Blanket.desktop"
         "com.usebottles.bottles.desktop"
         "page.kramo.Cartridges.desktop"
+        "io.gitlab.adhami3310.Converter.desktop"
+        "com.belmoussaoui.Decoder.desktop"
         "io.github.revisto.drum-machine.desktop"
+        "com.mardojai.ForgeSparks.desktop"
         "org.pipewire.Helvum.desktop"
         "io.github.mrvladus.List.desktop"
         "de.haeckerfelix.Fragments.desktop"
@@ -196,6 +199,7 @@
         "net.nokyan.Resources.desktop"
         "re.sonny.Tangram.desktop"
         "org.gnome.gitlab.YaLTeR.VideoTrimmer.desktop"
+        "app.drey.Warp.desktop"
       ];
     };
 
