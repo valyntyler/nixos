@@ -316,18 +316,21 @@
           "com.mitchellh.ghostty.desktop"
           "firefox.desktop"
           "thunderbird.desktop"
+          "proton-mail.desktop"
+          "signal.desktop"
           "discord.desktop"
+          # row 2
           "spotify.desktop"
           "steam.desktop"
-          # row 2
           "vlc.desktop"
           "obsidian.desktop"
           "Programming"
           "Office"
           "Creation"
           "Sound & Video"
-          "Games"
+          # row 3
           "Settings"
+          "Games"
         ]
       ];
     };
