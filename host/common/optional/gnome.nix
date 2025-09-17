@@ -36,6 +36,7 @@
       forge-sparks
       impression
       resources
+      switcheroo
       tangram
       video-trimmer
       warp
