@@ -139,7 +139,7 @@
 
     # set background image
     "org/gnome/desktop/background" = let
-      imagePath = ../../assets/emerald-bay.jpg;
+      imagePath = ../../assets/city-of-florence.jpg;
     in {
       picture-uri = "file://" + toString imagePath;
       picture-uri-dark = "file://" + toString imagePath;
