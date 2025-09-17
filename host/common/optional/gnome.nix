@@ -57,6 +57,8 @@
       # gnome extensions
       appindicator
       blur-my-shell
+      burn-my-windows
+      paperwm
       spotify-tray
     ]);
 }
