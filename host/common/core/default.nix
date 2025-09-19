@@ -1,9 +1,7 @@
 {
   imports = [
     ./boot
-    ./network/firewall.nix
-    ./network/hostname.nix
-    ./network/networkmanager.nix
+    ./network
     ./programs/nix-ld.nix
     ./services/avahi.nix
     ./services/endlessh.nix
