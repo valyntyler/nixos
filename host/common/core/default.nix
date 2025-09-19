@@ -1,9 +1,6 @@
 {
   imports = [
-    ./boot/binfmt.nix
-    ./boot/loader.nix
-    ./boot/plymouth.nix
-    ./boot/resumeDevice.nix
+    ./boot
     ./network/firewall.nix
     ./network/hostname.nix
     ./network/networkmanager.nix
