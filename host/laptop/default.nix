@@ -19,8 +19,13 @@
     ../common/optional/virtual/virtualbox.nix
   ];
 
-  # Enable deep sleep
+  # Enable deep sleep + hibernate backup
   boot.kernelParams = ["mem_sleep_default=deep"];
+  services.logind.settings.Login = {
+    HandleSuspendKey = "hybrid-sleep";
+    HandleLidSwitch = "hybrid-sleep";
+    HandleLidSwitchDocked = "ignore";
+  };
 
   # Initial NixOS version
   system.stateVersion = "24.05";
