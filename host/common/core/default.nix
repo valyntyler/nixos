@@ -3,6 +3,7 @@
     ./boot/binfmt.nix
     ./boot/loader.nix
     ./boot/plymouth.nix
+    ./boot/resumeDevice.nix
     ./network/firewall.nix
     ./network/hostname.nix
     ./network/networkmanager.nix
