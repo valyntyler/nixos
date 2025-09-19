@@ -19,6 +19,9 @@
     ../common/optional/virtual/virtualbox.nix
   ];
 
+  # Enable deep sleep
+  boot.kernelParams = ["mem_sleep_default=deep"];
+
   # Initial NixOS version
   system.stateVersion = "24.05";
 }
