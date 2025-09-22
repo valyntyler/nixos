@@ -20,7 +20,7 @@
 
     "org/gnome/gnome-session" = {
       # disable shutdown warning
-      logout-prompt = false;
+      # logout-prompt = false;
     };
 
     "org/gnome/desktop/input-sources" = {
@@ -30,15 +30,15 @@
 
     "org/gnome/settings-daemon/plugins/power" = {
       # disable auto suspend
-      sleep-inactive-ac-type = "nothing";
+      # sleep-inactive-ac-type = "nothing";
 
       # power button shutdown
-      power-button-action = "interactive";
+      # power-button-action = "interactive";
     };
 
     "org/gnome/desktop/session" = {
       # disable screen blank
-      idle-delay = mkUint32 0;
+      # idle-delay = mkUint32 0;
     };
 
     "org/gnome/desktop/wm/keybindings" = {
