@@ -275,7 +275,10 @@
         "nvidia-settings.desktop"
         "protonup-qt.desktop"
         "com.saivert.pwvucontrol.desktop"
+        "virt-manager.desktop"
+        "virtualbox.desktop"
         "vncviewer.desktop"
+        "org.wireshark.Wireshark.desktop"
       ];
     };
 
