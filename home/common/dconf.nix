@@ -209,7 +209,7 @@
         "android-studio.desktop"
         "arduino-ide.desktop"
         "codium.desktop"
-        "org.godotengine.Godot4.4.desktop"
+        "org.godotengine.Godot4.5.desktop"
         "neovide.desktop"
         "openscad.desktop"
         "unityhub.desktop"
