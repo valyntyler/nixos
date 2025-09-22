@@ -271,9 +271,7 @@
     "org/gnome/desktop/app-folders/folders/Settings" = {
       name = "Settings";
       apps = [
-        "GalaxyBudsClient.desktop"
         "OpenRGB.desktop"
-        "mullvad-vpn.desktop"
         "nvidia-settings.desktop"
         "protonup-qt.desktop"
         "com.saivert.pwvucontrol.desktop"
@@ -313,24 +311,27 @@
           "nixos-manual.desktop"
           "Alacritty.desktop"
           "com.mitchellh.ghostty.desktop"
+          "zen-beta.desktop"
           "firefox.desktop"
           "thunderbird.desktop"
           "proton-mail.desktop"
           "obsidian.desktop"
-          "bitwarden.desktop"
           # row 2
+          "mullvad-vpn.desktop"
+          "bitwarden.desktop"
+          "GalaxyBudsClient.desktop"
           "discord.desktop"
           "signal.desktop"
           "spotify.desktop"
           "steam.desktop"
           "vlc.desktop"
+          # row 3
           "Programming"
           "Office"
           "Creation"
           "Sound & Video"
-          # row 3
-          "Settings"
           "Games"
+          "Settings"
         ]
       ];
     };
