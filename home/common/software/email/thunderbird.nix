@@ -7,11 +7,13 @@
     };
   in {
     enable = true;
-    profiles."school" = {inherit search;};
-    profiles."self" = {inherit search;};
-    profiles."work" = {
-      isDefault = true;
-      inherit search;
+    profiles = {
+      "uni" = {inherit search;};
+      "self" = {inherit search;};
+      "work" = {
+        isDefault = true;
+        inherit search;
+      };
     };
   };
 }
