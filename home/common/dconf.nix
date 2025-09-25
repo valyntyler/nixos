@@ -381,6 +381,7 @@
         "org.gnome.Papers"
         "com.saivert.pwvucontrol"
         "com.belmoussaoui.Authenticator"
+        "com.mardojai.ForgeSparks"
       ];
     };
   };
