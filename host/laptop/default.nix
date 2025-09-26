@@ -20,7 +20,8 @@
   ];
 
   # Enable deep sleep + hibernate backup
-  boot.kernelParams = ["mem_sleep_default=deep"];
+  # boot.kernelParams = ["mem_sleep_default=deep"];
+  boot.kernelParams = ["mem_sleep_default=s2idle"];
   services.logind.settings.Login = {
     HandleSuspendKey = "suspend-then-hibernate";
     HandleLidSwitch = "suspend-then-hibernate";
