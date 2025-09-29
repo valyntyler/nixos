@@ -26,7 +26,6 @@
   services.logind.settings.Login = {
     HandleSuspendKey = "suspend-then-hibernate";
     HandleLidSwitch = "suspend-then-hibernate";
-    HandleLidSwitchDocked = "ignore";
   };
 
   # Initial NixOS version
