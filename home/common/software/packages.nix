@@ -11,6 +11,7 @@
     obsidian
     prismlauncher
     pwvucontrol
+    rpi-imager
     signal-desktop
     tigervnc
     vlc
