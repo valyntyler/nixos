@@ -1,4 +1,8 @@
-{pkgs, ...}: {
+{
+  pkgs,
+  inputs,
+  ...
+}: {
   home.packages = with pkgs; [
     appimage-run
     bitwarden-desktop
@@ -16,5 +20,6 @@
     vlc
     vmpk
     wl-clipboard
+    inputs.winboat.packages.x86_64-linux.winboat
   ];
 }
