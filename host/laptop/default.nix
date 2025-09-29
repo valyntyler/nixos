@@ -18,6 +18,7 @@
     ../common/optional/virtual/docker.nix
     ../common/optional/virtual/virt-manager.nix
     ../common/optional/virtual/virtualbox.nix
+    ../common/optional/virtual/winboat.nix
   ];
 
   # Enable deep sleep + hibernate backup
