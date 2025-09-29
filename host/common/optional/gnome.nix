@@ -29,12 +29,14 @@
       binary
       blanket
       cartridges
-      gnome-decoder
+      curtail
       drum-machine
+      forge-sparks
       fragments
       fretboard
-      forge-sparks
+      gnome-decoder
       impression
+      keypunch
       resources
       switcheroo
       tangram
