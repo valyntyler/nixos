@@ -277,9 +277,11 @@
         "nvidia-settings.desktop"
         "protonup-qt.desktop"
         "com.saivert.pwvucontrol.desktop"
+        "org.raspberrypi.rpi-imager.desktop"
         "virt-manager.desktop"
         "virtualbox.desktop"
         "vncviewer.desktop"
+        "winboat.desktop"
         "org.wireshark.Wireshark.desktop"
       ];
     };
