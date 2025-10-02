@@ -186,10 +186,12 @@
         "com.usebottles.bottles.desktop"
         "page.kramo.Cartridges.desktop"
         "io.gitlab.adhami3310.Converter.desktop"
+        "com.github.huluti.Curtail.desktop"
         "com.belmoussaoui.Decoder.desktop"
         "io.github.revisto.drum-machine.desktop"
         "com.mardojai.ForgeSparks.desktop"
         "org.pipewire.Helvum.desktop"
+        "dev.bragefuglseth.Keypunch.Devel.desktop"
         "io.github.mrvladus.List.desktop"
         "de.haeckerfelix.Fragments.desktop"
         "dev.bragefuglseth.Fretboard.desktop"
@@ -382,6 +384,8 @@
         "com.saivert.pwvucontrol"
         "com.belmoussaoui.Authenticator"
         "com.mardojai.ForgeSparks"
+        "com.github.huluti.Curtail"
+        "dev.bragefuglseth.Keypunch.Devel"
       ];
     };
   };
