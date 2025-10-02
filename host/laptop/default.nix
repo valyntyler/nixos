@@ -21,9 +21,10 @@
     ../common/optional/virtual/winboat.nix
   ];
 
-  # Enable deep sleep + hibernate backup
-  # boot.kernelParams = ["mem_sleep_default=deep"];
-  boot.kernelParams = ["mem_sleep_default=s2idle"];
+  boot.kernelParams = [
+    "mem_sleep_default=deep"
+    "i915.enable_psr=0"
+  ];
   systemd.sleep.extraConfig = "HibernateDelaySec=5m";
   services.logind.settings.Login = {
     HandleSuspendKey = "suspend-then-hibernate";
