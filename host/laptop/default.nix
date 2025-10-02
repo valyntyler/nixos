@@ -22,13 +22,23 @@
   ];
 
   boot.kernelParams = [
-    "mem_sleep_default=deep"
+    # "mem_sleep_default=deep"
+    "mem_sleep_default=s2idle"
     "i915.enable_psr=0"
   ];
-  systemd.sleep.extraConfig = "HibernateDelaySec=5m";
+
+  systemd.sleep.extraConfig = ''
+    HibernateDelaySec=5m
+    HibernateMode=platform shutdown
+  '';
+
   services.logind.settings.Login = {
     HandleSuspendKey = "suspend-then-hibernate";
     HandleLidSwitch = "suspend-then-hibernate";
+    HandleLidSwitchExternalPower = "suspend-then-hibernate";
+    HandleLidSwitchDocked = "ignore";
+    IdleAction = "suspend-then-hibernate";
+    IdleActionSec = "30m";
   };
 
   # Initial NixOS version
