@@ -13,6 +13,11 @@
       clock-show-weekday = false;
     };
 
+    # fix touchpad
+    "org/gnome/desktop/peripherals/touchpad" = {
+      disable-while-typing = false;
+    };
+
     "org/gnome/desktop/wm/preferences" = {
       # top-bar buttons
       button-layout = ":maximize,minimize,close";
