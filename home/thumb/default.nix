@@ -1,21 +1,17 @@
 {inputs, ...}: {
   imports = [
-    # ../common/software/browser
-    # ../common/software/editor
-    # ../common/software/email
-    # ../common/software/launcher
-    # ../common/software/creation.nix
-    # ../common/software/packages.nix
-    # ../common/terminal/emulator
-    # ../common/terminal/programs
-    # ../common/terminal/prompt
-    # ../common/terminal/services
-    # ../common/terminal/shell
-    # ../common/terminal/packages.nix
-    # ../common/dconf.nix
-    # ../common/fonts.nix
-    # ../common/gtk.nix
-    # ../common/xdg.nix
+    ../common/software/browser
+    ../common/software/editor
+    ../common/software/launcher
+    ../common/terminal/emulator
+    ../common/terminal/programs
+    ../common/terminal/prompt
+    ../common/terminal/shell
+    ../common/terminal/packages.nix
+    ../common/dconf.nix
+    ../common/fonts.nix
+    ../common/gtk.nix
+    ../common/xdg.nix
 
     # modules
     ../../modules/home-manager

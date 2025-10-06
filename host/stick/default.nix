@@ -1,8 +1,9 @@
 {modulesPath, ...}: {
   imports = [
     "${modulesPath}/installer/cd-dvd/installation-cd-minimal.nix"
-    # ../common/core
+    ../common/core
     ../common/optional/gnome.nix
+    ../common/optional/home-manager.nix
     ../common/optional/services/kanata.nix
   ];
 
