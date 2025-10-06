@@ -5,6 +5,7 @@
     ./network
     ./security
     ./services
+    ./time
     ./user
     ./nix.nix
     ./nixpkgs.nix
