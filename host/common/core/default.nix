@@ -3,14 +3,8 @@
     ./boot
     ./network
     ./security
+    ./services
     ./user
-    ./services/avahi.nix
-    ./services/endlessh.nix
-    ./services/fail2ban.nix
-    ./services/iperf.nix
-    ./services/libinput.nix
-    ./services/openssh.nix
-    ./services/preload.nix
     ./home-manager.nix
     ./locale.nix
     ./nix.nix
