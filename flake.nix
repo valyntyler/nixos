@@ -94,7 +94,7 @@
     nixosConfigurations.stick = nixpkgs.lib.nixosSystem {
       specialArgs = {
         inherit inputs;
-        user = "valyn";
+        user = "thumb";
         host = "stick";
       };
       modules = [
