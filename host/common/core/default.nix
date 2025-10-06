@@ -2,6 +2,7 @@
   imports = [
     ./boot
     ./network
+    ./security
     ./services/avahi.nix
     ./services/endlessh.nix
     ./services/fail2ban.nix
@@ -13,7 +14,5 @@
     ./locale.nix
     ./nix.nix
     ./nixpkgs.nix
-    ./security.nix
-    ./user.nix
   ];
 }
