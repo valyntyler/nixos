@@ -89,5 +89,19 @@
         home-manager.nixosModules.home-manager
       ];
     };
+
+    # stick
+    nixosConfigurations.stick = nixpkgs.lib.nixosSystem {
+      specialArgs = {
+        inherit inputs;
+        user = "valyn";
+        host = "stick";
+      };
+      modules = [
+        ./modules/nixos
+        ./host/stick
+        home-manager.nixosModules.home-manager
+      ];
+    };
   };
 }
