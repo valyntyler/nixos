@@ -11,7 +11,6 @@
     ./services/preload.nix
     ./home-manager.nix
     ./locale.nix
-    ./location.nix
     ./nix.nix
     ./nixpkgs.nix
     ./security.nix
