@@ -15,7 +15,6 @@
     ./nix.nix
     ./nixpkgs.nix
     ./security.nix
-    ./systemd.nix
     ./user.nix
   ];
 }
