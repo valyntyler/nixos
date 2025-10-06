@@ -9,7 +9,6 @@
     ../common/terminal/emulator
     ../common/terminal/programs
     ../common/terminal/prompt
-    ../common/terminal/services
     ../common/terminal/shell
     ../common/terminal/packages.nix
     ../common/dconf.nix

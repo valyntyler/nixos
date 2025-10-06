@@ -1,3 +1,0 @@
-{
-  services.pizauth.enable = true;
-}
