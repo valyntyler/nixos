@@ -3,6 +3,7 @@
     ./hardware-configuration.nix
     ../common/core
     ../common/optional/gnome.nix
+    ../common/optional/home-manager.nix
     ../common/optional/xdg.nix
     ../common/optional/programs/discord.nix
     ../common/optional/programs/spotify.nix

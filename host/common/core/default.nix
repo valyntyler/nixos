@@ -6,7 +6,6 @@
     ./security
     ./services
     ./user
-    ./home-manager.nix
     ./nix.nix
     ./nixpkgs.nix
   ];
