@@ -2,67 +2,67 @@
   programs.zellij = {
     enable = true;
     enableNushellIntegration = false;
-
-    layouts.default = ''
-      layout {
-        default_tab_template {
-          pane size=1 borderless=true {
-            plugin location="https://github.com/dj95/zjstatus/releases/latest/download/zjstatus.wasm" {
-              color_bg0 "#282828" //dark0
-              color_bg1 "#3c3836" //dark1
-              color_bg2 "#504945" //dark2
-              color_bg3 "#665c54" //dark3
-              color_bg4 "#7c6f64" //dark4
-              color_fg0 "#fbf1c7" //light0
-              color_fg1 "#ebdbb2" //light1
-              color_fg2 "#d5c4a1" //light2
-              color_fg3 "#bdae93" //light3
-              color_fg4 "#a89984" //light4
-
-              format_left   "{mode}"
-              format_center "{tabs}"
-              format_right  "{swap_layout} #[fg=$bg2]{session} 󰙀 "
-              format_space  ""
-
-              border_enabled  "false"
-              border_char     "─"
-              border_format   "#[fg=#6c7086]{char}"
-              border_position "top"
-
-              mode_normal        "#[fg=$bg4] NORMAL"
-              mode_locked        "#[fg=$bg4] LOCKED"
-              mode_resize        "#[fg=$bg4]󰆞 RESIZE"
-              mode_tmux          "#[fg=$bg4] TMUX"
-              mode_move          "#[fg=$bg4]󰆾 MOVE"
-              mode_pane          "#[fg=$bg4] PANE"
-              mode_tab           "#[fg=$bg4]󰓩 TAB"
-              mode_session       "#[fg=$bg4] SESSION"
-              mode_scroll        "#[fg=$bg4]󰩉 SCROLL"
-
-              mode_enter_search  "ent-search"
-              mode_search        "searcharch"
-              mode_rename_tab    "rename-tab"
-              mode_rename_pane   "rename-pane"
-              mode_prompt        "prompt"
-
-              tab_normal   "#[fg=$bg4]  "
-              tab_active   "#[fg=$fg4,bold]  "
-
-              command_git_branch_command     "git rev-parse --abbrev-ref head"
-              command_git_branch_format      "#[fg=blue] {stdout} "
-              command_git_branch_interval    "10"
-              command_git_branch_rendermode  "static"
-
-              datetime        "#[fg=$bg2,bold] {format} "
-              datetime_format "%a, %d %b %y %h:%m"
-              datetime_timezone "europe/bucharest"
-            }
-          }
-          children
-        }
-      }
-    '';
   };
+
+  xdg.configFile."zellij/layouts/default.kdl".text = ''
+    layout {
+        default_tab_template {
+            pane size=1 borderless=true {
+                plugin location="https://github.com/dj95/zjstatus/releases/latest/download/zjstatus.wasm" {
+                    color_bg0 "#282828" //dark0
+                    color_bg1 "#3c3836" //dark1
+                    color_bg2 "#504945" //dark2
+                    color_bg3 "#665c54" //dark3
+                    color_bg4 "#7c6f64" //dark4
+                    color_fg0 "#fbf1c7" //light0
+                    color_fg1 "#ebdbb2" //light1
+                    color_fg2 "#d5c4a1" //light2
+                    color_fg3 "#bdae93" //light3
+                    color_fg4 "#a89984" //light4
+
+                    format_left   "{mode}"
+                    format_center "{tabs}"
+                    format_right  "{swap_layout} #[fg=$bg2]{session} 󰙀 "
+                    format_space  ""
+
+                    border_enabled  "false"
+                    border_char     "─"
+                    border_format   "#[fg=#6c7086]{char}"
+                    border_position "top"
+
+                    mode_normal        "#[fg=$bg4] NORMAL"
+                    mode_locked        "#[fg=$bg4] LOCKED"
+                    mode_resize        "#[fg=$bg4]󰆞 RESIZE"
+                    mode_tmux          "#[fg=$bg4] TMUX"
+                    mode_move          "#[fg=$bg4]󰆾 MOVE"
+                    mode_pane          "#[fg=$bg4] PANE"
+                    mode_tab           "#[fg=$bg4]󰓩 TAB"
+                    mode_session       "#[fg=$bg4] SESSION"
+                    mode_scroll        "#[fg=$bg4]󰩉 SCROLL"
+
+                    mode_enter_search  "ent-search"
+                    mode_search        "searcharch"
+                    mode_rename_tab    "rename-tab"
+                    mode_rename_pane   "rename-pane"
+                    mode_prompt        "prompt"
+
+                    tab_normal   "#[fg=$bg4]  "
+                    tab_active   "#[fg=$fg4,bold]  "
+
+                    command_git_branch_command     "git rev-parse --abbrev-ref head"
+                    command_git_branch_format      "#[fg=blue] {stdout} "
+                    command_git_branch_interval    "10"
+                    command_git_branch_rendermode  "static"
+
+                    datetime        "#[fg=$bg2,bold] {format} "
+                    datetime_format "%a, %d %b %y %h:%m"
+                    datetime_timezone "europe/bucharest"
+                }
+            }
+            children
+        }
+    }
+  '';
 
   xdg.configFile."zellij/config.kdl".text = ''
     // Generated from https://zellij.dev/old-documentation/keybindings-examples
