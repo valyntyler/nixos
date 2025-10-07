@@ -13,6 +13,7 @@
     ../common/optional/hardware/bluetooth.nix
   ];
 
+  boot.initrd.kernelModules = ["pinctrl_tigerlake"];
 
   # Initial NixOS version
   system.stateVersion = "24.05";
