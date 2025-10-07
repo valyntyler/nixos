@@ -60,6 +60,21 @@
       ];
     };
 
+    # laptop
+    nixosConfigurations.frame12 = nixpkgs.lib.nixosSystem {
+      system = "x86_64-linux";
+      specialArgs = {
+        inherit inputs;
+        user = "valyn";
+        host = "frame12";
+      };
+      modules = [
+        ./modules/nixos
+        ./host/frame12
+        home-manager.nixosModules.home-manager
+      ];
+    };
+
     # stick
     nixosConfigurations.stick = nixpkgs.lib.nixosSystem {
       specialArgs = {
