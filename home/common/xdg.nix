@@ -25,8 +25,10 @@
       enable = true;
       defaultApplications = {
         "text/plain" = ["org.gnome.TextEditor.desktop"];
-        "text/*" = ["org.gnome.TextEditor.desktop"];
-        "image/*" = ["org.gnome.Loupe.desktop"];
+        "image/jpeg" = ["org.gnome.Loupe.desktop"];
+        "image/jpg" = ["org.gnome.Loupe.desktop"];
+        "image/png" = ["org.gnome.Loupe.desktop"];
+        "video/webm" = ["org.gnome.Showtime.desktop"];
         "application/pdf" = ["org.gnome.Papers.desktop"];
         "application/zip" = ["org.gnome.FileRoller.desktop"];
         "application/json" = ["org.gnome.TextEditor.desktop"];
