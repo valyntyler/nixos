@@ -15,6 +15,7 @@
     ../common/optional/hardware/sensors.nix
   ];
 
+  # Tablet Mode Drivers
   boot.initrd.kernelModules = ["pinctrl_tigerlake"];
 
   # Initial NixOS version
