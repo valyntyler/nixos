@@ -1,3 +1,0 @@
-{
-  services.jupyter.enable = true;
-}
