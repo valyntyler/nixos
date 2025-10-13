@@ -14,6 +14,7 @@
     ./gitui.nix
     ./glab.nix
     ./lazygit.nix
+    ./nh.nix
     ./nvf.nix
     ./opencode.nix
     ./ripgrep.nix
