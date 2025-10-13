@@ -12,6 +12,9 @@
     # import custom nvf flake
     nvf.url = "github:valyntyler/nvf";
 
+    # import hardware config
+    nixos-hardware.url = "github:NixOS/nixos-hardware/master";
+
     # import zen browser flake
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     zen-browser.inputs.nixpkgs.follows = "nixpkgs";
@@ -28,6 +31,7 @@
     self,
     nixpkgs,
     home-manager,
+    nixos-hardware,
     ...
   } @ inputs: {
     # desktop
@@ -72,6 +76,7 @@
         ./modules/nixos
         ./host/frame12
         home-manager.nixosModules.home-manager
+        nixos-hardware.nixosModules.framework-12-13th-gen-intel
       ];
     };
 
