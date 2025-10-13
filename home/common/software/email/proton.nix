@@ -1,3 +1,6 @@
 {pkgs, ...}: {
-  home.packages = with pkgs; [protonmail-desktop];
+  home.packages = with pkgs; [
+    protonmail-desktop
+    protonmail-bridge-gui
+  ];
 }
