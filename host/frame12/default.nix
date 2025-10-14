@@ -12,9 +12,6 @@
     ../common/optional/services/mullvad.nix
   ];
 
-  # Tablet Mode Drivers
-  boot.initrd.kernelModules = ["pinctrl_tigerlake"];
-
   # Initial NixOS version
-  system.stateVersion = "24.05";
+  system.stateVersion = "24.11";
 }
