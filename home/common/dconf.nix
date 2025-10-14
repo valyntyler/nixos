@@ -18,6 +18,11 @@
       disable-while-typing = false;
     };
 
+    # fix screen auto-rotate
+    "org/gnome/settings-daemon/peripherals/touchscreen" = {
+      orientation-lock = false;
+    };
+
     "org/gnome/desktop/wm/preferences" = {
       # top-bar buttons
       button-layout = ":maximize,minimize,close";
