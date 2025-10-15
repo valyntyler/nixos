@@ -37,19 +37,5 @@
         nixos-hardware.nixosModules.framework-12-13th-gen-intel
       ];
     };
-
-    # stick
-    nixosConfigurations.stick = nixpkgs.lib.nixosSystem {
-      specialArgs = {
-        inherit inputs;
-        user = "thumb";
-        host = "stick";
-      };
-      modules = [
-        ./modules/nixos
-        ./host/stick
-        home-manager.nixosModules.home-manager
-      ];
-    };
   };
 }
