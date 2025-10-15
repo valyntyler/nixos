@@ -45,22 +45,6 @@
       ];
     };
 
-    # laptop
-    nixosConfigurations.nixos-laptop = nixpkgs.lib.nixosSystem {
-      system = "x86_64-linux";
-      specialArgs = {
-        inherit inputs;
-        user = "valyn";
-        host = "nixos-laptop";
-      };
-      modules = [
-        ./modules/nixos
-        ./host/laptop
-        home-manager.nixosModules.home-manager
-      ];
-    };
-
-    # laptop
     nixosConfigurations.frame12 = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       specialArgs = {
