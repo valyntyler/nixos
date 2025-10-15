@@ -89,6 +89,9 @@
       # disable default behaviour
       switch-applications = [];
       switch-applications-backward = [];
+
+      # disable Mod+Space
+      switch-input-source = [];
     };
 
     "org/gnome/desktop/peripherals/keyboard" = {
@@ -123,6 +126,7 @@
         "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/"
         "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/"
         "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/"
+        "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/"
       ];
     };
 
@@ -145,6 +149,13 @@
       binding = "<Super>M";
       command = "wofizilla thunderbird";
       name = "email client";
+    };
+
+    # open launcher
+    "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3" = {
+      binding = "<Super>Space";
+      command = "sherlock";
+      name = "launcher";
     };
 
     # set background image
