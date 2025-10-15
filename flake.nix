@@ -30,21 +30,6 @@
     nixos-hardware,
     ...
   } @ inputs: {
-    # desktop
-    nixosConfigurations.nixos-desktop = nixpkgs.lib.nixosSystem {
-      system = "x86_64-linux";
-      specialArgs = {
-        inherit inputs;
-        user = "valyn";
-        host = "nixos-desktop";
-      };
-      modules = [
-        ./modules/nixos
-        ./host/desktop
-        home-manager.nixosModules.home-manager
-      ];
-    };
-
     nixosConfigurations.frame12 = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       specialArgs = {
