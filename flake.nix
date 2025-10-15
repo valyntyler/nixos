@@ -21,9 +21,6 @@
     # import firefox runner
     wofizilla.url = "github:valyntyler/wofizilla";
     wofizilla.inputs.nixpkgs.follows = "nixpkgs";
-
-    # import winboat flake
-    winboat.url = "github:TibixDev/winboat";
   };
 
   outputs = {

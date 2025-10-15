@@ -292,7 +292,6 @@
         "virt-manager.desktop"
         "virtualbox.desktop"
         "vncviewer.desktop"
-        "winboat.desktop"
       ];
     };
 
