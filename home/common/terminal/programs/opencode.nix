@@ -1,6 +1,6 @@
 {
   programs.opencode = {
-    enable = true;
+    enable = false;
     settings.theme = "gruvbox";
   };
 }
