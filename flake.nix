@@ -2,17 +2,11 @@
   description = "My custom NixOS flake";
 
   inputs = {
-    # import nixpkgs flake
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-
-    # import home manager flake
     home-manager.url = "github:nix-community/home-manager";
-
-    # import custom nvf flake
-    nvf.url = "github:valyntyler/nvf";
-
-    # import hardware config
     nixos-hardware.url = "github:NixOS/nixos-hardware/master";
+
+    nvf.url = "github:valyntyler/nvf";
 
     # import zen browser flake
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
@@ -24,7 +18,6 @@
   };
 
   outputs = {
-    self,
     nixpkgs,
     home-manager,
     nixos-hardware,
