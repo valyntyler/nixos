@@ -10,6 +10,7 @@
     ../common/optional/programs/steam.nix
     ../common/optional/services/kanata.nix
     ../common/optional/services/mullvad.nix
+    ../common/optional/hardware/graphics.nix
   ];
 
   # Initial NixOS version
