@@ -4,9 +4,11 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     home-manager.url = "github:nix-community/home-manager";
+    home-manager.inputs.nixpkgs.follows = "nixpkgs";
     nixos-hardware.url = "github:NixOS/nixos-hardware/master";
 
     nvf.url = "github:valyntyler/nvf";
+    nvf.inputs.pkgs.follows = "nixpkgs";
 
     # import zen browser flake
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
