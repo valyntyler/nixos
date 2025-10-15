@@ -61,6 +61,7 @@
       blur-my-shell
       burn-my-windows
       paperwm
+      search-light
       spotify-tray
     ]);
 }
