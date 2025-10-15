@@ -7,7 +7,6 @@
 
     # import home manager flake
     home-manager.url = "github:nix-community/home-manager";
-    home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
     # import custom nvf flake
     nvf.url = "github:valyntyler/nvf";
