@@ -158,9 +158,9 @@
       name = "launcher";
     };
 
-    # set background image
+    # set wallpaper image
     "org/gnome/desktop/background" = let
-      imagePath = ../../assets/city-of-florence.jpg;
+      imagePath = ../../assets/bled.jpg;
     in {
       picture-uri = "file://" + toString imagePath;
       picture-uri-dark = "file://" + toString imagePath;
