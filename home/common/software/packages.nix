@@ -4,7 +4,6 @@
     bitwarden-desktop
     galaxy-buds-client
     libreoffice-fresh
-    mullvad-vpn
     obsidian
     prismlauncher
     pwvucontrol
