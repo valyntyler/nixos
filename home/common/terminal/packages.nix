@@ -9,6 +9,9 @@
     ouch
     stow
 
+    # repo
+    license-generator
+
     # screensavers
     cbonsai
     cmatrix
