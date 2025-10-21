@@ -10,6 +10,7 @@
     stow
 
     # repo
+    gen-license
     license-generator
 
     # screensavers
