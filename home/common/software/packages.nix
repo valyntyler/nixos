@@ -7,7 +7,6 @@
     obsidian
     prismlauncher
     pwvucontrol
-    signal-desktop
     tigervnc
     vlc
     vmpk
