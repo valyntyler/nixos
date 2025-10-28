@@ -294,6 +294,7 @@
     "org/gnome/desktop/app-folders/folders/Settings" = {
       name = "Settings";
       apps = [
+        "GalaxyBudsClient.desktop"
         "OpenRGB.desktop"
         "com.saivert.pwvucontrol.desktop"
         "nvidia-settings.desktop"
@@ -346,12 +347,9 @@
           # row 2
           "mullvad-vpn.desktop"
           "bitwarden.desktop"
-          "GalaxyBudsClient.desktop"
-          "signal.desktop"
           "discord.desktop"
           "spotify.desktop"
           "steam.desktop"
-          "vlc.desktop"
           # row 3
           "Programming"
           "Office"
