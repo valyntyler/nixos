@@ -160,7 +160,7 @@
 
     # set wallpaper image
     "org/gnome/desktop/background" = let
-      imagePath = ../../assets/telegondola.jpg;
+      imagePath = ../../assets/nov-in-sierra.jpg;
     in {
       picture-uri = "file://" + toString imagePath;
       picture-uri-dark = "file://" + toString imagePath;
