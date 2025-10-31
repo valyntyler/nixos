@@ -28,7 +28,7 @@
     shellAliases = {
       e = "nvim";
       l = "ls";
-      o = "xdg-open";
+      o = "xdg-open .";
       la = "ls -a";
       ll = "ls -l";
       za = "zellij attach -c";
