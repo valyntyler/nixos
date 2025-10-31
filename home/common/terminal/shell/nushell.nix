@@ -37,6 +37,8 @@
       ze = "zoxide edit";
       nr = "nix run";
       lsusb = "cyme -l";
+      license = "license-generator";
+      speedtest = "speedtest-go";
     };
     extraConfig = "${pkgs.nitch}/bin/nitch";
   };
