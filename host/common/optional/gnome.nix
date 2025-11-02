@@ -54,6 +54,12 @@
       gnome-sound-recorder
       papers
       showtime
+
+      # drivers
+      gst_all_1.gst-plugins-bad
+      gst_all_1.gst-plugins-good
+      gst_all_1.gst-libav
+      zbar
     ]
     ++ (with pkgs.gnomeExtensions; [
       # gnome extensions
