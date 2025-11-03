@@ -20,5 +20,9 @@
 
     # speedtest
     speedtest-go
+
+    # typing test
+    toipe
+    ttyper
   ];
 }
