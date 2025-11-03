@@ -13,6 +13,10 @@
       clock-show-weekday = false;
     };
 
+    # fix timezone
+    "org/gnome/system/location".enabled = true;
+    "org/gnome/desktop/datetime".automatic-timezone = true;
+
     # fix touchpad
     "org/gnome/desktop/peripherals/touchpad" = {
       disable-while-typing = false;
