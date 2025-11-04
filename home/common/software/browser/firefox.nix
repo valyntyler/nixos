@@ -76,6 +76,16 @@
         inherit isDefault search;
         id = 2;
       };
+
+      "uni" = {
+        inherit isDefault search;
+        id = 3;
+      };
+
+      "ia" = {
+        inherit isDefault search;
+        id = 4;
+      };
     };
   };
 }
