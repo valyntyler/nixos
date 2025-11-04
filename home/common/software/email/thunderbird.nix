@@ -8,6 +8,7 @@
   in {
     enable = true;
     profiles = {
+      "ia" = {inherit search;};
       "uni" = {inherit search;};
       "self" = {inherit search;};
       "work" = {
