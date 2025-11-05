@@ -8,6 +8,7 @@
     ./direnv.nix
     ./eza.nix
     ./fd.nix
+    ./flint.nix
     ./fzf.nix
     ./gh.nix
     ./git.nix
