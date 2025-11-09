@@ -60,6 +60,10 @@
       gst_all_1.gst-plugins-good
       gst_all_1.gst-libav
       zbar
+
+      #games
+      gnome-2048
+      gnome-mines
     ]
     ++ (with pkgs.gnomeExtensions; [
       # gnome extensions
