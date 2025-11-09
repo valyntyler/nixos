@@ -11,7 +11,7 @@
     audacity
     musescore
 
-    davinci-resolve
+    # davinci-resolve
     reaper
   ];
 }
