@@ -42,6 +42,7 @@
       tangram
       video-trimmer
       warp
+      wordbook
 
       # these deserve to be a circle apps
       bottles
