@@ -9,19 +9,9 @@
         scrollOffMargin = 999;
         scrollOffBehaviour = "margin";
 
-        # spinner
+        # spinner (find more at https://www.npmjs.com/package/cli-spinners)
         spinner.rate = 60;
-        spinner.frames = [
-          # (find more at https://www.npmjs.com/package/cli-spinners)
-          "←"
-          "↖"
-          "↑"
-          "↗"
-          "→"
-          "↘"
-          "↓"
-          "↙"
-        ];
+        spinner.frames = ["" "" "" "" "" ""];
       };
     };
   };
