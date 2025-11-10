@@ -65,7 +65,11 @@
 
       #games
       gnome-2048
+      gnome-chess
       gnome-mines
+      gnome-sudoku
+      gnome-robots
+      gnome-nibbles
     ]
     ++ (with pkgs.gnomeExtensions; [
       # gnome extensions
