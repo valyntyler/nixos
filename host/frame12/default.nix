@@ -6,6 +6,7 @@
     ../common/optional/home-manager.nix
     ../common/optional/xdg.nix
     ../common/optional/programs/discord.nix
+    ../common/optional/programs/nix-ld.nix
     ../common/optional/programs/spotify.nix
     ../common/optional/programs/steam.nix
     ../common/optional/services/kanata.nix
