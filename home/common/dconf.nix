@@ -227,6 +227,7 @@
         "re.sonny.Tangram.desktop"
         "org.gnome.gitlab.YaLTeR.VideoTrimmer.desktop"
         "app.drey.Warp.desktop"
+        "dev.mufeed.Wordbook.desktop"
       ];
     };
 
@@ -240,6 +241,7 @@
         "neovide.desktop"
         "openscad.desktop"
         "unityhub.desktop"
+        "idea-community.desktop"
       ];
     };
 
