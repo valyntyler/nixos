@@ -2,7 +2,7 @@
   imports = [
     ./hardware-configuration.nix
     ../common/core
-    ../common/optional/gnome.nix
+    ../common/optional/de/gnome
     ../common/optional/home-manager.nix
     ../common/optional/xdg.nix
     ../common/optional/hardware/graphics.nix
