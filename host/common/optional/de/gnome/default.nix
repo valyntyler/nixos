@@ -4,5 +4,6 @@
     ./extensions.nix
     ./gdm.nix
     ./gnome.nix
+    ./nautilus.nix
   ];
 }
