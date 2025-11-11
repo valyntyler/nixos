@@ -1,5 +1,6 @@
 {
   imports = [
+    ./circle.nix
     ./exclude.nix
     ./extensions.nix
     ./games.nix
