@@ -73,6 +73,8 @@
     ]
     ++ (with pkgs.gnomeExtensions; [
       # gnome extensions
+      arc-menu
+      just-perfection
       appindicator
       blur-my-shell
       burn-my-windows
