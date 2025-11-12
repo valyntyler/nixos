@@ -28,6 +28,7 @@
         "image/jpeg" = ["org.gnome.Loupe.desktop"];
         "image/jpg" = ["org.gnome.Loupe.desktop"];
         "image/png" = ["org.gnome.Loupe.desktop"];
+        "image/svg+xml" = ["org.inkscape.Inkscape.desktop"];
         "video/webm" = ["org.gnome.Showtime.desktop"];
         "application/pdf" = ["org.gnome.Papers.desktop"];
         "application/zip" = ["org.gnome.FileRoller.desktop"];
