@@ -213,6 +213,7 @@
         "io.gitlab.adhami3310.Converter.desktop"
         "com.github.huluti.Curtail.desktop"
         "com.belmoussaoui.Decoder.desktop"
+        "de.schmidhuberj.DieBahn.desktop"
         "io.github.revisto.drum-machine.desktop"
         "com.mardojai.ForgeSparks.desktop"
         "org.pipewire.Helvum.desktop"
