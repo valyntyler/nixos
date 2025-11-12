@@ -413,7 +413,8 @@
         "com.mardojai.ForgeSparks"
         "com.github.huluti.Curtail"
         "dev.bragefuglseth.Keypunch.Devel"
-        "io.github.nozwock.Packet.desktop"
+        "io.github.nozwock.Packet"
+        "VSCodium"
       ];
     };
   };
