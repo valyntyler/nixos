@@ -12,6 +12,7 @@
     musescore
 
     # davinci-resolve
+    figma-linux
     reaper
   ];
 }
