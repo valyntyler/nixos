@@ -9,6 +9,7 @@
     ouch
     pass
     stow
+    toktop
 
     # repo
     gen-license
