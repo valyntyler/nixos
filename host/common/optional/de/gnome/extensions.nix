@@ -8,5 +8,7 @@
     paperwm
     search-light
     spotify-tray
+    totp
+    void
   ];
 }
