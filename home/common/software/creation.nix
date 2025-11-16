@@ -5,6 +5,7 @@
     gimp3
     inkscape
     krita
+    material-maker
     obs-studio
 
     aseprite
