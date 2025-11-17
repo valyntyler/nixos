@@ -12,6 +12,7 @@
     ../common/optional/programs/steam.nix
     ../common/optional/services/kanata.nix
     ../common/optional/services/mullvad.nix
+    ../common/optional/services/spotifyd.nix
   ];
 
   system.stateVersion = "25.11";
