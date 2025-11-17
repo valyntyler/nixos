@@ -172,7 +172,7 @@
 
     # specify app folders
     "org/gnome/desktop/app-folders" = {
-      folder-children = ["Utilities" "Circle" "Programming" "Creation" "Office" "Sound & Video" "Games" "Settings"];
+      folder-children = ["Utilities" "Circle" "Programming" "Creation" "Office" "Sound & Video" "Games" "Settings" "Web"];
     };
 
     "org/gnome/desktop/app-folders/folders/Utilities" = {
@@ -198,6 +198,7 @@
         "org.gnome.font-viewer.desktop"
         "org.gnome.seahorse.Application.desktop"
         "org.gnome.tweaks.desktop"
+        "org.gnome.Logs.desktop"
       ];
     };
 
@@ -287,6 +288,14 @@
       ];
     };
 
+    "org/gnome/desktop/app-folders/folders/Web" = {
+      name = "Web";
+      apps = [
+        "figma-linux.desktop"
+        "Penpot.desktop"
+      ];
+    };
+
     "org/gnome/desktop/app-folders/folders/Games" = {
       name = "Games";
       categories = ["Game"];
@@ -362,6 +371,7 @@
           "Office"
           "Creation"
           "Sound & Video"
+          "Web"
           "Games"
           "Settings"
         ]
