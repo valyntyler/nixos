@@ -3,7 +3,5 @@
     yelp
     gnome-tour
     simple-scan
-    evince
-    totem
   ];
 }
