@@ -2,13 +2,13 @@
   xdg = {
     enable = true;
     autostart.enable = true;
-    desktopEntries = builtins.listToAttrs (map (name: {
-        inherit name;
-        value = {
-          name = "";
-          noDisplay = true;
-        };
-      }) [
+    desktopEntries = let
+      value = {
+        name = "";
+        noDisplay = true;
+      };
+    in
+      builtins.listToAttrs (map (name: {inherit name value;}) [
         "btop"
         "fish"
         "nvim"
