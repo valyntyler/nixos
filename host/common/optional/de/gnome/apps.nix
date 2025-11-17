@@ -3,5 +3,6 @@
     # gnome apps
     gnome-boxes
     gnome-sound-recorder
+    gnome-usage
   ];
 }
