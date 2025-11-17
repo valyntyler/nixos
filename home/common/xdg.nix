@@ -1,26 +1,21 @@
 {
   xdg = {
     enable = true;
-
-    # enable autostart
     autostart.enable = true;
-
-    # hide some desktop entries
-    desktopEntries = let
-      hide = {
-        name = "";
-        noDisplay = true;
-      };
-    in {
-      btop = hide;
-      fish = hide;
-      nvim = hide;
-      yazi = hide;
-      spotify-tray = hide;
-      nvtop = hide;
-    };
-
-    # set default apps
+    desktopEntries = builtins.listToAttrs (map (name: {
+        inherit name;
+        value = {
+          name = "";
+          noDisplay = true;
+        };
+      }) [
+        "btop"
+        "fish"
+        "nvim"
+        "yazi"
+        "spotify-tray"
+        "nvtop"
+      ]);
     mimeApps = {
       enable = true;
       defaultApplications = {
