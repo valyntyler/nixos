@@ -6,6 +6,7 @@
     ../common/software/launcher
     ../common/software/creation.nix
     ../common/software/packages.nix
+    ../common/software/spotifyd.nix
     ../common/terminal/emulator
     ../common/terminal/programs
     ../common/terminal/prompt
