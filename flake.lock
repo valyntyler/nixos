@@ -202,11 +202,11 @@
         "nvf": "nvf_2"
       },
       "locked": {
-        "lastModified": 1763128070,
-        "narHash": "sha256-54Vkdmb2SUOO4BXNS71Canbc8tqbFF26STOVf5IqUcI=",
+        "lastModified": 1763479085,
+        "narHash": "sha256-WGgWXnfXSX7cdP+5BY1zjU19Hppu/WYZq7+St3qE58o=",
         "owner": "valyntyler",
         "repo": "nvf",
-        "rev": "f9cee26fdc24989f5976ee9534311ee14b19dbc4",
+        "rev": "1a94cb62c2b5369ed9c3767c2b9785865cabb5b7",
         "type": "github"
       },
       "original": {
