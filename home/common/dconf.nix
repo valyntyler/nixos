@@ -324,7 +324,7 @@
     };
 
     "org/gnome/shell" = {
-      enabled-extensions = ["blur-my-shell@aunetx"];
+      # enabled-extensions = ["blur-my-shell@aunetx"];
       favorite-apps = [];
       app-picker-layout = map (lib.imap0 (position: (name: (mkDictionaryEntry [name (mkVariant [(mkDictionaryEntry ["position" (mkVariant position)])])])))) [
         [
