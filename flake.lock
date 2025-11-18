@@ -161,22 +161,6 @@
         "type": "github"
       }
     },
-    "nixpkgs-stable": {
-      "locked": {
-        "lastModified": 1763469780,
-        "narHash": "sha256-IW67Db/wBNQwJ5e0fF9Yk4SmdivMcecrUVDs7QJoC/s=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "a70b03ca5dc9d46294740f165abdef9f9bea5632",
-        "type": "github"
-      },
-      "original": {
-        "owner": "NixOS",
-        "ref": "master",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
     "nixpkgs_2": {
       "locked": {
         "lastModified": 1759386674,
@@ -244,7 +228,6 @@
         "home-manager": "home-manager",
         "nixos-hardware": "nixos-hardware",
         "nixpkgs": "nixpkgs",
-        "nixpkgs-stable": "nixpkgs-stable",
         "nvf": "nvf",
         "wofizilla": "wofizilla",
         "zen-browser": "zen-browser"
