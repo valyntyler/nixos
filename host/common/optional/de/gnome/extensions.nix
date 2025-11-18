@@ -10,5 +10,8 @@
     spotify-tray
     totp
     void
+
+    battery-health-charging
+    bluetooth-battery-meter
   ];
 }
