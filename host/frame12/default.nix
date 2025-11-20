@@ -4,6 +4,7 @@
     ../common/core
     ../common/optional/de/gnome
     ../common/optional/de/niri
+    ../common/optional/dm/gdm
     ../common/optional/home-manager.nix
     ../common/optional/xdg.nix
     ../common/optional/hardware/graphics.nix
