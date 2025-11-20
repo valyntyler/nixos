@@ -1,0 +1,3 @@
+{
+  nixGL.vulkan.enable = true;
+}
