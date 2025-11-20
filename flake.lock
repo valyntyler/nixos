@@ -202,11 +202,11 @@
         "nvf": "nvf_2"
       },
       "locked": {
-        "lastModified": 1763588612,
-        "narHash": "sha256-8CyJZ5e20uDFEOre2vzHSrrHStgm2RxrYEIfECjy9tk=",
+        "lastModified": 1763645815,
+        "narHash": "sha256-J4L/FslKAAJWDcegvqztsx3fuAyipInkrRokqeFUWqY=",
         "owner": "valyntyler",
         "repo": "nvf",
-        "rev": "637d9bab30a8af3ef66922d22534356f1f55c3f7",
+        "rev": "40aae9f65a5065e432ab8c8839b1cb0a72661809",
         "type": "github"
       },
       "original": {
@@ -224,16 +224,16 @@
         "systems": "systems_2"
       },
       "locked": {
-        "lastModified": 1763588583,
-        "narHash": "sha256-8R4eolMCinjCa+QLkGLd5NVZJZGYQQOskJ5fFdosLGw=",
+        "lastModified": 1763645536,
+        "narHash": "sha256-8+GaLKo38FhoiJhgNmZW4gZp9b+28uME9XRu3Ki2m88=",
         "owner": "valyntyler",
         "repo": "fork-nvf",
-        "rev": "fcba3e2e966f398dee49c382a5cfb35366641872",
+        "rev": "6f458a4aea905e6a7bc04e3d83b72d87c44d6cc6",
         "type": "github"
       },
       "original": {
         "owner": "valyntyler",
-        "ref": "emmet-ls",
+        "ref": "nil-ls",
         "repo": "fork-nvf",
         "type": "github"
       }
@@ -326,11 +326,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1763521945,
-        "narHash": "sha256-Zcrafbe4niRJMbzaVOwg7+iedJhwBFttre2DpyCC6qA=",
+        "lastModified": 1763616019,
+        "narHash": "sha256-yCNgkYovgIpOZankp38BxKFISmdc2b34vtEuVuxhTuk=",
         "owner": "0xc000022070",
         "repo": "zen-browser-flake",
-        "rev": "24d7381b9231c23daceec5d372cc28e877f7785d",
+        "rev": "a0a29968bccb2f118b33360697d5cc5fdae30cfa",
         "type": "github"
       },
       "original": {
