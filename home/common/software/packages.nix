@@ -3,6 +3,7 @@
     appimage-run
     bitwarden-desktop
     galaxy-buds-client
+    ida-free
     libreoffice-fresh
     obsidian
     prismlauncher
