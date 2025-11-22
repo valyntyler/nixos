@@ -3,6 +3,7 @@
     appimage-run
     bitwarden-desktop
     galaxy-buds-client
+    ghidra
     ida-free
     libreoffice-fresh
     obsidian
