@@ -8,6 +8,7 @@
     lsof
     ouch
     pass
+    radare2
     stow
     toktop
 
