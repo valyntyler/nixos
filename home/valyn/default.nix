@@ -22,12 +22,12 @@
     inputs.zen-browser.homeModules.beta
   ];
 
+  home = {
+    username = "valyn";
+    homeDirectory = "/home/valyn";
+    stateVersion = "24.05";
+  };
+
   targets.genericLinux.enable = true;
-
-  home.username = "valyn";
-  home.homeDirectory = "/home/valyn";
-
-  home.stateVersion = "24.05";
-
   programs.home-manager.enable = true;
 }
