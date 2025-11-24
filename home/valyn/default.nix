@@ -15,7 +15,6 @@
     ../common/dconf.nix
     ../common/fonts.nix
     ../common/gtk.nix
-    ../common/nixgl.nix
     ../common/xdg.nix
 
     # modules
