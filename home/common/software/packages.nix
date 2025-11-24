@@ -5,7 +5,6 @@
     galaxy-buds-client
     ghidra
     iaito
-    ida-free
     libreoffice-fresh
     obsidian
     prismlauncher
