@@ -23,6 +23,8 @@
     inputs.zen-browser.homeModules.beta
   ];
 
+  targets.genericLinux.enable = true;
+
   home.username = "valyn";
   home.homeDirectory = "/home/valyn";
 
