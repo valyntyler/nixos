@@ -9,6 +9,7 @@
     obsidian
     prismlauncher
     pwvucontrol
+    rnote
     tigervnc
     vmpk
     wl-clipboard
