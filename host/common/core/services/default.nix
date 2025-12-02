@@ -5,6 +5,5 @@
     ./iperf.nix
     ./libinput.nix
     ./openssh.nix
-    ./preload.nix
   ];
 }
