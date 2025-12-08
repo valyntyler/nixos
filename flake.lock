@@ -202,11 +202,11 @@
         "nvf": "nvf_2"
       },
       "locked": {
-        "lastModified": 1764938817,
-        "narHash": "sha256-B4+r95XDaANlbW3T3kWlk1Kk+C+CnxCB0jbobG1RbNU=",
+        "lastModified": 1765212292,
+        "narHash": "sha256-uUmbKA5phOVJTCNIyvG4QR8gulT0xpR4qzj/rmTc2eU=",
         "owner": "valyntyler",
         "repo": "nvf",
-        "rev": "5d438f9cf85d69e1e5c6ba07e2cbc65174055760",
+        "rev": "29732cc5db505bc1aed5d4ba68932d65ba10de36",
         "type": "github"
       },
       "original": {
@@ -224,11 +224,11 @@
         "systems": "systems_2"
       },
       "locked": {
-        "lastModified": 1764904740,
-        "narHash": "sha256-TzqXUQlESmS5XGJ3tR1/xdoU0vySyp6YUUpmGF5F0kY=",
+        "lastModified": 1765119282,
+        "narHash": "sha256-iI0fuBBYJMnOprGD2L+rum2P8lHMcZ5n35hzdlpwayI=",
         "owner": "notashelf",
         "repo": "nvf",
-        "rev": "249cabe0c5392c384c82fa9d28d3f49fbeb04266",
+        "rev": "26c4a7e3c33e739d474ddaf52aa4c5f3d11922ba",
         "type": "github"
       },
       "original": {
