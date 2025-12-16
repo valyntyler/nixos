@@ -1,5 +1,6 @@
 {
   imports = [
+    ./aerc.nix
     ./aichat.nix
     ./bat.nix
     ./btop.nix
