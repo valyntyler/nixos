@@ -1,5 +1,10 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
+    superfile
+    circumflex
+    # https://github.com/emprcl/signls
+    # https://github.com/Broderick-Westrope/tetrigo
+
     # utils
     alda
     cyme
