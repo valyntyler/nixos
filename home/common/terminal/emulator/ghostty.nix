@@ -9,7 +9,7 @@
   xdg.configFile."ghostty/config".text = ''
     # theme
     theme = Gruvbox Dark
-    title = " "
+    title = "Ghostty"
 
     # font
     font-family = JetBrainsMono NF
