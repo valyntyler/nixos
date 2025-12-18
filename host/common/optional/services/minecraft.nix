@@ -18,6 +18,12 @@ in {
       white-list = false;
       spawn-protection = 0;
       jvmOpts = "-Djava.net.preferIPv4Stack=true";
+
+      # RCON settings
+      enable-rcon = true;
+      "rcon.password" = "sesam";
+      "rcon.port" = 25575;
+      broadcast-rcon-to-ops = false;
     };
   };
 }
