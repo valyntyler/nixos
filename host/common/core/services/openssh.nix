@@ -10,5 +10,7 @@
       PermitRootLogin = "prohibit-password";
     };
   };
-  users.users.root.openssh.authorizedKeys.keys = [];
+  users.users.root.openssh.authorizedKeys.keys = [
+    "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPpDGLs0LclHmsIzpXzLuvf7Ptyp7OEGsIrr2g/ZpzNL valyn@frame12"
+  ];
 }
