@@ -35,6 +35,7 @@
     flake-parts.lib.mkFlake {inherit inputs;} {
       systems = ["x86_64-linux"];
       imports = [
+        ./systems/desktop.nix
         ./systems/frame12.nix
       ];
     };
