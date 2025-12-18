@@ -34,21 +34,8 @@
   } @ inputs:
     flake-parts.lib.mkFlake {inherit inputs;} {
       systems = ["x86_64-linux"];
-      flake = {
-        nixosConfigurations.frame12 = nixpkgs.lib.nixosSystem {
-          system = "x86_64-linux";
-          specialArgs = {
-            inherit inputs;
-            user = "valyn";
-            host = "frame12";
-          };
-          modules = [
-            ./modules/nixos
-            ./host/frame12
-            home-manager.nixosModules.home-manager
-            nixos-hardware.nixosModules.framework-12-13th-gen-intel
-          ];
-        };
-      };
+      imports = [
+        ./systems/frame12.nix
+      ];
     };
 }
