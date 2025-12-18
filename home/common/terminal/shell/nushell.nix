@@ -36,6 +36,7 @@
       zj = "zellij";
       ze = "zoxide edit";
       nr = "nix run";
+      rcon = "rcon-cli";
       lsusb = "cyme -l";
       license = "license-generator";
       speedtest = "speedtest-go";

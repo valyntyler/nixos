@@ -14,6 +14,7 @@
     ouch
     pass
     radare2
+    rcon-cli
     stow
     toktop
 
