@@ -1,7 +1,13 @@
-{
+{inputs, ...}: let
+  pkgs-mc = import inputs.nixpkgs-mc {
+    system = "x86_64-linux";
+    config.allowUnfree = true;
+  };
+in {
   services.minecraft-server = {
     enable = true;
     eula = true;
+    package = pkgs-mc.minecraft-server;
     openFirewall = true;
     declarative = true;
     serverProperties = {

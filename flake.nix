@@ -3,7 +3,9 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs-mc.url = "github:ChandlerSwift/nixpkgs/update-minecraft-1.21.11";
     nixpkgs-stable.url = "github:NixOS/nixpkgs/nixos-25.05";
+
     flake-parts.url = "github:hercules-ci/flake-parts";
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
