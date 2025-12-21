@@ -1,3 +1,3 @@
 {pkgs, ...}: {
-  home.packages = with pkgs; [jetbrains.idea-community];
+  home.packages = with pkgs; [jetbrains.idea];
 }
