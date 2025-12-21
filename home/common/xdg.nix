@@ -9,6 +9,7 @@
       };
     in
       builtins.listToAttrs (map (name: {inherit name value;}) [
+        "aerc"
         "btop"
         "fish"
         "nvim"
