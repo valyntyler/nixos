@@ -240,12 +240,13 @@
       apps = [
         "android-studio.desktop"
         "arduino-ide.desktop"
+        "code.desktop"
         "codium.desktop"
         "org.godotengine.Godot4.5.desktop"
         "neovide.desktop"
         "openscad.desktop"
         "unityhub.desktop"
-        "idea-community.desktop"
+        "idea-oss.desktop"
       ];
     };
 
