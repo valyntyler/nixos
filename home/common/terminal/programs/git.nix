@@ -6,7 +6,7 @@
       init.defaultBranch = "main";
       user = {
         name = "Valyn Tyler";
-        email = "115489989+ValynTyler@users.noreply.github.com";
+        email = "git@valyntyler.com";
       };
     };
   };
