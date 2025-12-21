@@ -23,6 +23,7 @@
 
     # these deserve to be a circle apps
     bottles
+    foliate
     helvum
     packet
     pods
