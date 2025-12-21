@@ -26,5 +26,6 @@
     helvum
     packet
     pods
+    rnote
   ];
 }
