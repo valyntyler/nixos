@@ -10,6 +10,7 @@
     ../common/optional/hardware/graphics.nix
     ../common/optional/programs/appimage.nix
     ../common/optional/programs/discord.nix
+    ../common/optional/programs/gamescope.nix
     ../common/optional/programs/localsend.nix
     ../common/optional/programs/nix-ld.nix
     ../common/optional/programs/spotify.nix
