@@ -4,7 +4,6 @@
     galaxy-buds-client
     ghidra
     iaito
-    kanri
     karere
     libreoffice-fresh
     obsidian
