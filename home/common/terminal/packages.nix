@@ -16,7 +16,6 @@
     radare2
     rcon-cli
     stow
-    toktop
 
     # repo
     gen-license
