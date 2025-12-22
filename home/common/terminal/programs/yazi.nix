@@ -1,4 +1,8 @@
-{pkgs, ...}: {
+{
+  inputs,
+  pkgs,
+  ...
+}: {
   programs.yazi = {
     enable = true;
     enableNushellIntegration = true;
@@ -32,7 +36,7 @@
       }
     ];
 
-    flavors = with pkgs.yaziFlavors; {inherit gruvbox-dark;};
+    flavors = with inputs.nixpkgs-yazi-flavors.legacyPackages.x86_64-linux.yaziFlavors; {inherit gruvbox-dark;};
     plugins = with pkgs.yaziPlugins; {
       inherit
         chmod
