@@ -17,6 +17,7 @@
     ../common/optional/programs/spotify.nix
     ../common/optional/programs/steam.nix
     ../common/optional/services/minecraft.nix
+    ../common/optional/services/nextcloud.nix
   ];
 
   system.stateVersion = "24.11";
