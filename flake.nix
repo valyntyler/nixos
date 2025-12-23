@@ -12,6 +12,9 @@
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
     nixos-hardware.url = "github:NixOS/nixos-hardware/master";
 
+    sops-nix.url = "github:Mic92/sops-nix";
+    sops-nix.inputs.nixpkgs.follows = "nixpkgs";
+
     nvf.url = "github:valyntyler/nvf";
     nvf.inputs.nixpkgs.follows = "nixpkgs";
 

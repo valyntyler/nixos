@@ -10,6 +10,7 @@
       modules = [
         ../host/desktop
         ../modules/nixos
+        inputs.sops-nix.nixosModules.sops
         inputs.home-manager.nixosModules.home-manager
       ];
     };

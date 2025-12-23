@@ -15,6 +15,7 @@
     pass
     radare2
     rcon-cli
+    sops
     stow
 
     # repo
