@@ -1,14 +1,18 @@
-{pkgs, ...}: let
-  adminpassFile = pkgs.writeText "nextcloud-admin-pass" "admin";
-in {
+{
+  pkgs,
+  config,
+  ...
+}: {
+  # initial admin password
+  sops.secrets."nextcloud/admin/pass".owner = "nextcloud";
   services.nextcloud = {
     enable = true;
     package = pkgs.nextcloud32;
     hostName = "localhost";
     config = {
       dbtype = "sqlite";
-      adminuser = "admin";
-      adminpassFile = "${adminpassFile}";
+      adminuser = "root";
+      adminpassFile = config.sops.secrets."nextcloud/admin/pass".path;
     };
   };
 }
