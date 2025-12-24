@@ -9,5 +9,6 @@
     ./user
     ./nix.nix
     ./nixpkgs.nix
+    ./sops.nix
   ];
 }
