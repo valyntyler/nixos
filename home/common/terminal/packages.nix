@@ -8,6 +8,7 @@
     # utils
     alda
     cyme
+    dig
     duf
     glow
     lsof
