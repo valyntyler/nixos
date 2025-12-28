@@ -381,6 +381,7 @@
         "nvf": "nvf",
         "sops-nix": "sops-nix",
         "wofizilla": "wofizilla",
+        "xmcl": "xmcl",
         "zen-browser": "zen-browser"
       }
     },
@@ -471,6 +472,26 @@
       "original": {
         "owner": "lassulus",
         "repo": "wrappers",
+        "type": "github"
+      }
+    },
+    "xmcl": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1766040075,
+        "narHash": "sha256-OTQJm9pu9Y54PDg/cMSrMolNcQsNarBbya7v7EZPjnE=",
+        "owner": "x45iq",
+        "repo": "xmcl-nix",
+        "rev": "1ccb10e1d333a8412c49dfc40b2ec71410859ebb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "x45iq",
+        "repo": "xmcl-nix",
         "type": "github"
       }
     },

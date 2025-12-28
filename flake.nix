@@ -21,6 +21,11 @@
     flint.url = "github:notashelf/flint";
     flint.inputs.nixpkgs.follows = "nixpkgs";
 
+    xmcl = {
+      url = "github:x45iq/xmcl-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     # import zen browser flake
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     zen-browser.inputs.nixpkgs.follows = "nixpkgs";
