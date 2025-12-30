@@ -3,7 +3,6 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    nixpkgs-mc.url = "github:ChandlerSwift/nixpkgs/update-minecraft-1.21.11";
     nixpkgs-stable.url = "github:NixOS/nixpkgs/nixos-25.05";
     nixpkgs-yazi-flavors.url = "github:valyntyler/nixpkgs/yazi-flavors";
 
@@ -20,6 +19,8 @@
 
     flint.url = "github:notashelf/flint";
     flint.inputs.nixpkgs.follows = "nixpkgs";
+
+    nix-minecraft.url = "github:Infinidoge/nix-minecraft";
 
     xmcl = {
       url = "github:x45iq/xmcl-nix";
