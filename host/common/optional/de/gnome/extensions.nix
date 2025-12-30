@@ -13,5 +13,8 @@
 
     battery-health-charging
     bluetooth-battery-meter
+
+    copyous
+    draw-on-gnome
   ];
 }
