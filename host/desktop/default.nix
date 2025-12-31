@@ -8,7 +8,7 @@
     ../common/optional/home-manager.nix
     ../common/optional/xdg.nix
     ../common/optional/hardware/graphics.nix
-    # ../common/optional/hardware/nvidia.nix
+    ../common/optional/hardware/nvidia.nix
     # ../common/optional/hardware/openrazer.nix
     # ../common/optional/hardware/openrgb.nix
     # ../common/optional/hardware/xone.nix
