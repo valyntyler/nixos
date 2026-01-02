@@ -19,6 +19,7 @@
     ../common/optional/services/jellyfin.nix
     ../common/optional/services/minecraft.nix
     ../common/optional/services/nextcloud.nix
+    ../common/optional/services/qbittorrent.nix
   ];
 
   system.stateVersion = "24.11";
