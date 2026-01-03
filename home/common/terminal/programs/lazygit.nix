@@ -3,6 +3,7 @@
     enable = true;
     settings = {
       notARepository = "quit";
+      git.log.order = "default";
       gui = {
         # scrolloff
         scrollPastBottom = true;
