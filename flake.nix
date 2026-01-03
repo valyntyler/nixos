@@ -5,6 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     nixpkgs-stable.url = "github:NixOS/nixpkgs/nixos-25.05";
     nixpkgs-yazi-flavors.url = "github:valyntyler/nixpkgs/yazi-flavors";
+    nixpkgs-qb-web.url = "github:valyntyler/nixpkgs/qb-web";
     nixpkgs-qbitwebui.url = "github:valyntyler/nixpkgs/qbitwebui";
 
     flake-parts.url = "github:hercules-ci/flake-parts";

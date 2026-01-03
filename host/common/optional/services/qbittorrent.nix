@@ -1,5 +1,5 @@
 {inputs, ...}: let
-  pkgs = import inputs.nixpkgs-qbitwebui {system = "x86_64-linux";};
+  pkgs = import inputs.nixpkgs-qb-web {system = "x86_64-linux";};
 in {
   services.qbittorrent = {
     enable = true;
@@ -7,7 +7,7 @@ in {
     webuiPort = 8181;
     serverConfig.Preferences.WebUI = {
       AlternativeUIEnabled = true;
-      RootFolder = "${pkgs.qbitwebui}/share/qbitwebui";
+      RootFolder = "${pkgs.qb-web}/share/qb-web";
     };
   };
   services.nginx.virtualHosts."torrent.valyntyler.com" = {
