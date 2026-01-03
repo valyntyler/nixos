@@ -5,7 +5,6 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     nixpkgs-stable.url = "github:NixOS/nixpkgs/nixos-25.05";
     nixpkgs-yazi-flavors.url = "github:valyntyler/nixpkgs/yazi-flavors";
-    nixpkgs-qbitwebui.url = "github:valyntyler/nixpkgs/qbitwebui";
 
     flake-parts.url = "github:hercules-ci/flake-parts";
     home-manager.url = "github:nix-community/home-manager";
@@ -21,6 +20,7 @@
     flint.url = "github:notashelf/flint";
     flint.inputs.nixpkgs.follows = "nixpkgs";
 
+    qbitwebui.url = "github:valyntyler/qbitwebui";
     nix-minecraft.url = "github:Infinidoge/nix-minecraft";
 
     xmcl = {
