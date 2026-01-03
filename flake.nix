@@ -5,6 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     nixpkgs-stable.url = "github:NixOS/nixpkgs/nixos-25.05";
     nixpkgs-yazi-flavors.url = "github:valyntyler/nixpkgs/yazi-flavors";
+    nixpkgs-qbitwebui.url = "github:valyntyler/nixpkgs/qbitwebui";
 
     flake-parts.url = "github:hercules-ci/flake-parts";
     home-manager.url = "github:nix-community/home-manager";
@@ -26,9 +27,6 @@
       url = "github:x45iq/xmcl-nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    qbitwebui.url = "github:valyntyler/qbitwebui";
-    qbitwebui.inputs.nixpkgs.follows = "nixpkgs";
 
     # import zen browser flake
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
