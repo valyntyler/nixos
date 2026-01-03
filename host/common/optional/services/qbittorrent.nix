@@ -1,5 +1,5 @@
 {inputs, ...}: let
-  pkgs = import inputs.nixpkgs-qb-web {system = "x86_64-linux";};
+  pkgs = import inputs.nixpkgs-qbitwebui {system = "x86_64-linux";};
 in {
   services.qbittorrent = {
     enable = true;
@@ -9,7 +9,7 @@ in {
       Username = "admin";
       Password_PBKDF2 = "@ByteArray(Dn9j11tFgSkcUQOY6WS8SA==:vbeQ/SP6v6GcJKKpUylpVm/zcFm4nNPXU5goV/IFzkhuwaTeA3vJG1LCvzanRt9Ohv5WF7ewayBZMNCj0pBgEQ==)";
       AlternativeUIEnabled = true;
-      RootFolder = "${pkgs.qb-web}/share/qb-web";
+      RootFolder = "${pkgs.qbitwebui}/share/qbitwebui";
     };
   };
   services.nginx.virtualHosts."torrent.valyntyler.com" = {

@@ -281,22 +281,6 @@
         "type": "github"
       }
     },
-    "nixpkgs-qb-web": {
-      "locked": {
-        "lastModified": 1767444267,
-        "narHash": "sha256-iNyzxCHZEROWT9oRhEv6JmCtnSm91A+1wPdk+E8mlmY=",
-        "owner": "valyntyler",
-        "repo": "nixpkgs",
-        "rev": "0cb6cdccd2a0904f1af9b2297fbde460a73b64f9",
-        "type": "github"
-      },
-      "original": {
-        "owner": "valyntyler",
-        "ref": "qb-web",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
     "nixpkgs-qbitwebui": {
       "locked": {
         "lastModified": 1767413711,
@@ -462,7 +446,6 @@
         "nix-minecraft": "nix-minecraft",
         "nixos-hardware": "nixos-hardware",
         "nixpkgs": "nixpkgs_2",
-        "nixpkgs-qb-web": "nixpkgs-qb-web",
         "nixpkgs-qbitwebui": "nixpkgs-qbitwebui",
         "nixpkgs-stable": "nixpkgs-stable",
         "nixpkgs-yazi-flavors": "nixpkgs-yazi-flavors",
