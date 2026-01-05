@@ -13,8 +13,6 @@
     musescore
 
     # davinci-resolve
-    figma-linux
-    penpot-desktop
     reaper
   ];
 }
