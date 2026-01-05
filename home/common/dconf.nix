@@ -247,6 +247,8 @@
         "openscad.desktop"
         "unityhub.desktop"
         "idea-oss.desktop"
+        "ghidra.desktop"
+        "org.radare.iaito.desktop"
       ];
     };
 
@@ -294,6 +296,7 @@
     "org/gnome/desktop/app-folders/folders/Games" = {
       name = "Games";
       categories = ["Game"];
+      apps = ["xmcl.desktop"];
       excluded-apps = [
         "com.usebottles.bottles.desktop"
         "page.kramo.Cartridges.desktop"
@@ -311,6 +314,7 @@
         "nvidia-settings.desktop"
         "org.raspberrypi.rpi-imager.desktop"
         "org.wireshark.Wireshark.desktop"
+        "LocalSend.desktop"
         "protonup-qt.desktop"
         "virt-manager.desktop"
         "virtualbox.desktop"
@@ -356,15 +360,15 @@
           "proton-mail.desktop"
           "obsidian.desktop"
           # row 2
-          "mullvad-vpn.desktop"
           "bitwarden.desktop"
           "discord.desktop"
+          "io.github.tobagin.karere.desktop"
           "spotify.desktop"
           "steam.desktop"
-          # row 3
           "Programming"
           "Office"
           "Creation"
+          # row 3
           "Sound & Video"
           "Games"
           "Settings"
