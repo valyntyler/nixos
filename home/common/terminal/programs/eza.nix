@@ -3,6 +3,6 @@
     enable = true;
     colors = "auto";
     icons = "auto";
-    enableNushellIntegration = true;
+    enableNushellIntegration = false;
   };
 }
