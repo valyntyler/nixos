@@ -37,6 +37,7 @@
       ze = "zoxide edit";
       nr = "nix run";
       rcon = "rcon-cli";
+      tree = "eza --tree";
       lsusb = "cyme -l";
       license = "license-generator";
       speedtest = "speedtest-go";
