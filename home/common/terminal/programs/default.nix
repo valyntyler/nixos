@@ -20,6 +20,7 @@
     ./nvf.nix
     ./opencode.nix
     ./ripgrep.nix
+    ./texlive.nix
     ./tmux.nix
     ./yazi.nix
     ./zellij.nix
