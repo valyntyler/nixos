@@ -4,6 +4,7 @@
     arc-menu
     blur-my-shell
     burn-my-windows
+    hide-top-bar
     just-perfection
     paperwm
     search-light
