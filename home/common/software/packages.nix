@@ -2,7 +2,6 @@
   home.packages = with pkgs; [
     bitwarden-desktop
     galaxy-buds-client
-    ghidra
     iaito
     karere
     libreoffice-fresh
