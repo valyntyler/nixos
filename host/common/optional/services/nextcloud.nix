@@ -9,6 +9,7 @@
     enable = true;
     package = pkgs.nextcloud32;
     hostName = "cloud.valyntyler.com";
+    appstoreEnable = true;
     config = {
       dbtype = "sqlite";
       adminuser = "root";
