@@ -10,6 +10,13 @@
     package = pkgs.nextcloud32;
     hostName = "cloud.valyntyler.com";
     appstoreEnable = true;
+    extraAppsEnable = true;
+    extraApps = with config.services.nextcloud.package.packages.apps; {
+      inherit
+        # ... other apps
+        richdocuments # Collabora Online for Nextcloud - https://apps.nextcloud.com/apps/richdocuments
+        ;
+    };
     config = {
       dbtype = "sqlite";
       adminuser = "root";
