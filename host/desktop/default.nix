@@ -16,6 +16,7 @@
     ../common/optional/programs/localsend.nix
     ../common/optional/programs/spotify.nix
     ../common/optional/programs/steam.nix
+    ../common/optional/services/collabora.nix
     ../common/optional/services/jellyfin.nix
     ../common/optional/services/minecraft.nix
     ../common/optional/services/nextcloud.nix
