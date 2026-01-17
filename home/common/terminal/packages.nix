@@ -7,6 +7,7 @@
     glow
     lsof
     ouch
+    sbctl
     stow
 
     # screensavers
