@@ -50,6 +50,7 @@
       imports = [
         ./systems/desktop.nix
         ./systems/frame12.nix
+        ./systems/ideapad.nix
       ];
     };
 }
