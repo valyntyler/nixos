@@ -13,5 +13,6 @@
   users.users.${user}.openssh.authorizedKeys.keys = [
     "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGIVxfTlZj47zMoLfBLVJgSXpsPE1h/9xSjs2hP31m7n valyn@desktop"
     "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPpDGLs0LclHmsIzpXzLuvf7Ptyp7OEGsIrr2g/ZpzNL valyn@frame12"
+    "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEPPZCKMfsY3wdpHIfYPQ2mGTwaMOp5ANKjwG4hs3Iig valyn@ideapad"
   ];
 }
