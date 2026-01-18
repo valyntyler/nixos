@@ -423,6 +423,7 @@
         "dev.bragefuglseth.Keypunch.Devel"
         "io.github.nozwock.Packet"
         "VSCodium"
+        "net.nokyan.Resources"
       ];
     };
   };
