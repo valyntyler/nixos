@@ -698,11 +698,11 @@
         "wrappers": "wrappers_2"
       },
       "locked": {
-        "lastModified": 1766529244,
-        "narHash": "sha256-JbgdSMLaf7YMWrNMPXBLqpKIRnqK8aRZvkWyvBpMdso=",
+        "lastModified": 1768712345,
+        "narHash": "sha256-eQBTt0T0zuaA+g+hGsJHSZ90iZhCmbimEbMiDg34dTg=",
         "owner": "valyntyler",
         "repo": "wofizilla",
-        "rev": "b4c979a5c2e84ea431fa6b6e02f780c06f724aa4",
+        "rev": "c8d264252466bcd4e4b090a13e7a4393bd0cc1b6",
         "type": "github"
       },
       "original": {
