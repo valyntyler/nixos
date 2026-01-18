@@ -17,6 +17,7 @@
     pass
     radare2
     rcon-cli
+    sbctl
     sops
     stow
 
