@@ -1,4 +1,4 @@
-{
+{lib, ...}: {
   imports = [
     ./hardware-configuration.nix
     ../common/core
@@ -21,4 +21,11 @@
   ];
 
   system.stateVersion = "24.05";
+
+  # Secure boot
+  boot.loader.systemd-boot.enable = lib.mkForce false;
+  boot.lanzaboote = {
+    enable = true;
+    pkiBundle = "/var/lib/sbctl";
+  };
 }

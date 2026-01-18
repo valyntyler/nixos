@@ -11,6 +11,7 @@
         ../host/ideapad
         ../modules/nixos
         inputs.sops-nix.nixosModules.sops
+        inputs.lanzaboote.nixosModules.lanzaboote
         inputs.home-manager.nixosModules.home-manager
       ];
     };
