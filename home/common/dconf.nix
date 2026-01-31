@@ -246,6 +246,7 @@
         "neovide.desktop"
         "openscad.desktop"
         "unityhub.desktop"
+        "idea-community.desktop"
         "idea-oss.desktop"
         "ghidra.desktop"
         "org.radare.iaito.desktop"
