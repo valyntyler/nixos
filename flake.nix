@@ -38,6 +38,7 @@
 
     # import firefox runner
     wofizilla.url = "github:valyntyler/wofizilla";
+    wofizilla.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = {
