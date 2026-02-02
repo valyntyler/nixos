@@ -242,7 +242,7 @@
         "arduino-ide.desktop"
         "code.desktop"
         "codium.desktop"
-        "org.godotengine.Godot4.5.desktop"
+        "org.godotengine.Godot4.6.desktop"
         "neovide.desktop"
         "openscad.desktop"
         "unityhub.desktop"
