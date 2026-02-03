@@ -452,6 +452,22 @@
         "type": "github"
       }
     },
+    "nixpkgs-termshark": {
+      "locked": {
+        "lastModified": 1769956812,
+        "narHash": "sha256-TpD7bkkBqmneNXE47Z9C6hlZaPzt1QExve1CBuP8ZXc=",
+        "owner": "amarshall",
+        "repo": "nixpkgs",
+        "rev": "c65d0b4ffe4f3241b7bc04f546564925b23e5cf5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "amarshall",
+        "ref": "termshark-fix-dumpcap-wrapper",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "nixpkgs-yazi-flavors": {
       "locked": {
         "lastModified": 1768244880,
@@ -647,6 +663,7 @@
         "nixos-hardware": "nixos-hardware",
         "nixpkgs": "nixpkgs_2",
         "nixpkgs-stable": "nixpkgs-stable",
+        "nixpkgs-termshark": "nixpkgs-termshark",
         "nixpkgs-yazi-flavors": "nixpkgs-yazi-flavors",
         "nvf": "nvf",
         "qbitwebui": "qbitwebui",

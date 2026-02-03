@@ -1,8 +1,10 @@
 {
-  pkgs,
+  inputs,
   user,
   ...
-}: {
+}: let
+  pkgs = inputs.nixpkgs-termshark.legacyPackages.x86_64-linux;
+in {
   users.users.${user}.extraGroups = ["wireshark"];
   services.udev.extraRules = ''
     SUBSYSTEM=="usbmon", GROUP="wireshark", MODE="0640"
