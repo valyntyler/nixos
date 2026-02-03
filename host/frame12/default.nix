@@ -16,6 +16,7 @@
     ../common/optional/programs/nix-ld.nix
     ../common/optional/programs/spotify.nix
     ../common/optional/programs/steam.nix
+    ../common/optional/programs/wireshark.nix
     ../common/optional/services/kanata.nix
   ];
 
