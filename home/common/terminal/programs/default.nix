@@ -19,6 +19,7 @@
     ./nh.nix
     ./nvf.nix
     ./opencode.nix
+    ./pandoc.nix
     ./ripgrep.nix
     ./texlive.nix
     ./tmux.nix
