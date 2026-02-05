@@ -13,6 +13,7 @@
     ../common/terminal/prompt
     ../common/terminal/shell
     ../common/terminal/packages.nix
+    ../common/cursor.nix
     ../common/dconf.nix
     ../common/fonts.nix
     ../common/gtk.nix
