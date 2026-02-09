@@ -19,7 +19,6 @@
     sops-nix.inputs.nixpkgs.follows = "nixpkgs";
 
     nvf.url = "github:valyntyler/nvf";
-    nvf.inputs.nixpkgs.follows = "nixpkgs";
 
     flint.url = "github:notashelf/flint";
     flint.inputs.nixpkgs.follows = "nixpkgs";
