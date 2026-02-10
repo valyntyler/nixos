@@ -19,7 +19,8 @@
     # ../common/optional/services/collabora.nix
     ../common/optional/services/jellyfin.nix
     ../common/optional/services/minecraft.nix
-    ../common/optional/services/nextcloud.nix
+    # ../common/optional/services/nextcloud.nix
+    ../common/optional/services/opencloud.nix
     ../common/optional/services/qbittorrent.nix
     ../common/optional/services/radicale.nix
     ../common/optional/virtual/docker.nix
