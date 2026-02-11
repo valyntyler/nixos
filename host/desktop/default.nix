@@ -24,7 +24,6 @@
     ../common/optional/services/opencloud.nix
     ../common/optional/services/qbittorrent.nix
     ../common/optional/services/radicale.nix
-    ../common/optional/virtual/docker.nix
   ];
 
   system.stateVersion = "24.11";
