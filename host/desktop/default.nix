@@ -22,6 +22,7 @@
     ../common/optional/services/jellyfin.nix
     ../common/optional/services/minecraft.nix
     ../common/optional/services/nextcloud.nix
+    ../common/optional/services/onlyoffice.nix
     ../common/optional/services/qbittorrent.nix
   ];
 
