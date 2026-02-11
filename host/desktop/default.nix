@@ -21,7 +21,6 @@
     ../common/optional/services/minecraft.nix
     # ../common/optional/services/nextcloud.nix
     ../common/optional/services/nginx.nix
-    ../common/optional/services/opencloud.nix
     ../common/optional/services/qbittorrent.nix
   ];
 
