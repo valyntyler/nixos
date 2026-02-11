@@ -6,7 +6,6 @@
     karere
     libreoffice-fresh
     obsidian
-    onlyoffice-desktopeditors
     prismlauncher
     pwvucontrol
     tigervnc

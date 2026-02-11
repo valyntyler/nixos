@@ -1,5 +1,6 @@
 {inputs, ...}: {
   imports = [
+    ../common/software/programs/onlyoffice.nix
     ../common/software/browser
     ../common/software/editor
     ../common/software/email
