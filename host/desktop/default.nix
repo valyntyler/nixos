@@ -23,7 +23,6 @@
     ../common/optional/services/nginx.nix
     ../common/optional/services/opencloud.nix
     ../common/optional/services/qbittorrent.nix
-    ../common/optional/services/radicale.nix
   ];
 
   system.stateVersion = "24.11";
