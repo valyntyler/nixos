@@ -7,18 +7,21 @@
     ../common/optional/dm/gdm
     ../common/optional/home-manager.nix
     ../common/optional/xdg.nix
+
+    # hardware
     ../common/optional/hardware/graphics.nix
     ../common/optional/hardware/nvidia.nix
-    # ../common/optional/hardware/openrazer.nix
-    # ../common/optional/hardware/openrgb.nix
-    # ../common/optional/hardware/xone.nix
+
+    # programs
     ../common/optional/programs/discord.nix
     ../common/optional/programs/localsend.nix
     ../common/optional/programs/spotify.nix
     ../common/optional/programs/steam.nix
+
+    # services
     ../common/optional/services/jellyfin.nix
     ../common/optional/services/minecraft.nix
-    # ../common/optional/services/nextcloud.nix
+    ../common/optional/services/nextcloud.nix
     ../common/optional/services/qbittorrent.nix
   ];
 
