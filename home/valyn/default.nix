@@ -6,7 +6,6 @@
     ../common/software/launcher
     ../common/software/creation.nix
     ../common/software/packages.nix
-    ../common/software/xmcl.nix
     ../common/terminal/emulator
     ../common/terminal/programs
     ../common/terminal/prompt
@@ -20,7 +19,6 @@
 
     # modules
     ../../modules/home-manager
-    inputs.xmcl.homeModules.xmcl
     inputs.zen-browser.homeModules.beta
   ];
 

@@ -683,7 +683,6 @@
         "qbitwebui": "qbitwebui",
         "sops-nix": "sops-nix",
         "wofizilla": "wofizilla",
-        "xmcl": "xmcl",
         "zen-browser": "zen-browser"
       }
     },
@@ -880,26 +879,6 @@
       "original": {
         "owner": "lassulus",
         "repo": "wrappers",
-        "type": "github"
-      }
-    },
-    "xmcl": {
-      "inputs": {
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1769842205,
-        "narHash": "sha256-5im5p5df58WOv2dMmHcGdEfGtpqZwvxGhb7t2bd+j7Q=",
-        "owner": "x45iq",
-        "repo": "xmcl-nix",
-        "rev": "727c39c9b744666bcff84b0b09eb68b3a367f0e3",
-        "type": "github"
-      },
-      "original": {
-        "owner": "x45iq",
-        "repo": "xmcl-nix",
         "type": "github"
       }
     },
