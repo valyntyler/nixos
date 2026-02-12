@@ -15,4 +15,5 @@
   system.activationScripts.onlyoffice-readable.text = ''
     chmod a+x /var/lib/onlyoffice/documentserver/
   '';
+  networking.firewall.allowedTCPPorts = [8111];
 }
