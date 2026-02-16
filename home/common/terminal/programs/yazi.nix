@@ -6,6 +6,7 @@
   programs.yazi = {
     enable = true;
     enableNushellIntegration = true;
+    shellWrapperName = "yy";
 
     theme.flavor.dark = "gruvbox-dark";
     initLua = ''
