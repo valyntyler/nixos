@@ -8,6 +8,7 @@
     obsidian
     prismlauncher
     pwvucontrol
+    signal-desktop
     tigervnc
     vmpk
     wl-clipboard
