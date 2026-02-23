@@ -19,6 +19,7 @@
     ../common/optional/programs/wireshark.nix
     ../common/optional/services/kanata.nix
     ../common/optional/virtual/docker.nix
+    ../common/optional/virtual/podman.nix
   ];
 
   system.stateVersion = "25.11";
