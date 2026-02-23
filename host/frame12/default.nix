@@ -18,6 +18,7 @@
     ../common/optional/programs/steam.nix
     ../common/optional/programs/wireshark.nix
     ../common/optional/services/kanata.nix
+    ../common/optional/virtual/docker.nix
   ];
 
   system.stateVersion = "25.11";
