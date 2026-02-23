@@ -18,6 +18,7 @@
     ../common/optional/programs/steam.nix
     ../common/optional/programs/wireshark.nix
     ../common/optional/services/kanata.nix
+    ../common/optional/services/pipewire.nix
     ../common/optional/virtual/docker.nix
     ../common/optional/virtual/podman.nix
   ];
