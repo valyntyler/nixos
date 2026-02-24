@@ -287,6 +287,7 @@
         "base.desktop"
         "math.desktop"
         "draw.desktop"
+        "onlyoffice-desktopeditors.desktop"
       ];
     };
 
@@ -325,9 +326,9 @@
       app-picker-layout = map (lib.imap0 (position: (name: (mkDictionaryEntry [name (mkVariant [(mkDictionaryEntry ["position" (mkVariant position)])])])))) [
         [
           # row 1
+          "nixos-manual.desktop"
           "org.gnome.Nautilus.desktop"
           "org.gnome.Epiphany.desktop"
-          "org.gnome.Geary.desktop"
           "org.gnome.Calendar.desktop"
           "org.gnome.Contacts.desktop"
           "org.gnome.clocks.desktop"
@@ -348,7 +349,6 @@
         ]
         [
           # row 1
-          "nixos-manual.desktop"
           "Alacritty.desktop"
           "com.mitchellh.ghostty.desktop"
           "zen-beta.desktop"
@@ -356,9 +356,10 @@
           "thunderbird.desktop"
           "proton-mail.desktop"
           "obsidian.desktop"
-          # row 2
           "bitwarden.desktop"
+          # row 2
           "discord.desktop"
+          "signal.desktop"
           "io.github.tobagin.karere.desktop"
           "spotify.desktop"
           "steam.desktop"
