@@ -28,12 +28,5 @@
     ../common/optional/virtual/podman.nix
   ];
 
-  # dolphin-emu
-  services.udev.packages = [pkgs.dolphin-emu];
-  boot = {
-    extraModulePackages = [config.boot.kernelPackages.gcadapter-oc-kmod];
-    kernelModules = ["gcadapter_oc"];
-  };
-
   system.stateVersion = "25.11";
 }
