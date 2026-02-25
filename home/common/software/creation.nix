@@ -5,6 +5,7 @@
     gimp3
     inkscape
     krita
+    lmms
     material-maker
     obs-studio
 
