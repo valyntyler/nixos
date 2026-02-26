@@ -3,6 +3,7 @@
     blender
     freecad
     gimp3
+    guitarix
     inkscape
     krita
     lmms
