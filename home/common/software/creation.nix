@@ -1,20 +1,31 @@
-{pkgs, ...}: {
-  home.packages = with pkgs; [
-    blender
-    freecad
-    gimp3
-    guitarix
-    inkscape
-    krita
-    lmms
-    material-maker
-    obs-studio
+{
+  inputs,
+  pkgs,
+  ...
+}: {
+  home.packages = with pkgs;
+    [
+      blender
+      freecad
+      gimp3
+      inkscape
+      krita
+      lmms
+      material-maker
+      obs-studio
 
-    aseprite
-    audacity
-    musescore
+      aseprite
+      audacity
+      musescore
 
-    # davinci-resolve
-    reaper
-  ];
+      # davinci-resolve
+      reaper
+    ]
+    ++ (let
+      pkgs-stable = import inputs.nixpkgs-stable {
+        inherit (pkgs.stdenv.hostPlatform) system;
+        config.allowUnfree = true;
+      };
+    in
+      with pkgs-stable; [guitarix]);
 }
