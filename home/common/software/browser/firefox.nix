@@ -52,10 +52,28 @@
                 definedAliases = ["@np"];
               };
 
+              "NixOS Wiki" = {
+                urls = [{template = "https://wiki.nixos.org/w/index.php?search={searchTerms}";}];
+                iconMapObj."16" = "https://wiki.nixos.org/favicon.ico";
+                definedAliases = ["@nw"];
+              };
+
               "MyNixOS" = {
                 urls = [{template = "https://mynixos.com/search?q={searchTerms}";}];
                 iconMapObj."16" = "https://mynixos.com/favicon-dark.svg";
                 definedAliases = ["@mn"];
+              };
+
+              "NVF Options" = {
+                urls = [{template = "https://nvf.notashelf.dev/search.html?q={searchTerms}";}];
+                iconMapObj."16" = "https://github.com/NotAShelf/nvf/blob/main/.github/assets/nvf-logo-work.svg";
+                definedAliases = ["@vf"];
+              };
+
+              "Github" = {
+                urls = [{template = "https://github.com/search?q={searchTerms}";}];
+                iconMapObj."16" = "https://github.com/favicon.ico";
+                definedAliases = ["@gh"];
               };
 
               # disable defaults
