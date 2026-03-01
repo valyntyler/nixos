@@ -1,0 +1,3 @@
+{
+  musnix.enable = true;
+}

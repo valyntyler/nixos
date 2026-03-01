@@ -12,6 +12,9 @@
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
     nixos-hardware.url = "github:valyntyler/nixos-hardware/master";
 
+    musnix.url = "github:musnix/musnix";
+    musnix.inputs.nixpkgs.follows = "nixpkgs";
+
     lanzaboote.url = "github:nix-community/lanzaboote/v1.0.0";
     lanzaboote.inputs.nixpkgs.follows = "nixpkgs";
 

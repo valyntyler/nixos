@@ -11,6 +11,7 @@
         ../host/frame12
         ../modules/nixos
         inputs.sops-nix.nixosModules.sops
+        inputs.musnix.nixosModules.musnix
         inputs.home-manager.nixosModules.home-manager
         inputs.nixos-hardware.nixosModules.framework-12-13th-gen-intel
       ];

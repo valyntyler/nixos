@@ -10,6 +10,7 @@
     ../common/optional/de/niri
     ../common/optional/dm/gdm
     ../common/optional/home-manager.nix
+    ../common/optional/musnix.nix
     ../common/optional/xdg.nix
     ../common/optional/hardware/graphics.nix
     ../common/optional/programs/appimage.nix
