@@ -14,7 +14,6 @@
       material-maker
       obs-studio
 
-      aseprite
       audacity
       musescore
 
@@ -27,5 +26,8 @@
         config.allowUnfree = true;
       };
     in
-      with pkgs-stable; [guitarix]);
+      with pkgs-stable; [
+        aseprite
+        guitarix
+      ]);
 }
