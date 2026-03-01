@@ -19,6 +19,8 @@
 
       # davinci-resolve
       reaper
+
+      vital
     ]
     ++ (let
       pkgs-stable = import inputs.nixpkgs-stable {
