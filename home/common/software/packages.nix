@@ -6,6 +6,7 @@
     karere
     libreoffice-fresh
     obsidian
+    openra
     prismlauncher
     pwvucontrol
     signal-desktop
