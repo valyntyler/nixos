@@ -1,6 +1,3 @@
 {
-  programs.zen-browser = {
-    enable = true;
-    suppressXdgMigrationWarning = true;
-  };
+  programs.zen-browser.enable = true;
 }
