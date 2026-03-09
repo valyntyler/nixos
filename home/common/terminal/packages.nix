@@ -11,6 +11,7 @@
     dig
     duf
     glow
+    hledger
     imagemagick
     lsof
     ouch
