@@ -274,6 +274,8 @@
         "org.rncbc.qjackctl.desktop"
         "org.zrythm.Zrythm.desktop"
         "net.sourceforge.VMPK.desktop"
+        "lmms.desktop"
+        "vital.desktop"
       ];
     };
 
