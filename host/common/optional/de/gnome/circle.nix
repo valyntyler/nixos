@@ -23,8 +23,8 @@
 
     # these deserve to be a circle apps
     bottles
+    crosspipe
     foliate
-    helvum
     packet
     pods
     rnote
