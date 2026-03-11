@@ -20,6 +20,7 @@
     radare2
     rcon-cli
     sbctl
+    scli
     sops
     stow
 
