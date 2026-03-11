@@ -12,6 +12,7 @@
     dig
     duf
     glow
+    gurk-rs
     hledger
     imagemagick
     lsof
