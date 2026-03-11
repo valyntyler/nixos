@@ -20,6 +20,7 @@
     textpieces
     video-trimmer
     warp
+    wike
     wordbook
 
     # these deserve to be a circle apps
