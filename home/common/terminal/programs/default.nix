@@ -15,6 +15,7 @@
     ./git.nix
     ./gitui.nix
     ./glab.nix
+    ./gurk.nix
     ./lazygit.nix
     ./nh.nix
     ./nvf.nix
