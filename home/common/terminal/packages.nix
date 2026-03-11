@@ -7,6 +7,7 @@
 
     # utils
     alda
+    cf-tool
     cyme
     dig
     duf
