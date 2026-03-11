@@ -17,6 +17,7 @@
     resources
     switcheroo
     tangram
+    textpieces
     video-trimmer
     warp
     wordbook
