@@ -225,8 +225,10 @@
         "net.nokyan.Resources.desktop"
         "com.github.flxzt.rnote.desktop"
         "re.sonny.Tangram.desktop"
+        "io.gitlab.liferooter.TextPieces.desktop"
         "org.gnome.gitlab.YaLTeR.VideoTrimmer.desktop"
         "app.drey.Warp.desktop"
+        "com.github.hugolabe.Wike.desktop"
         "dev.mufeed.Wordbook.desktop"
       ];
     };
