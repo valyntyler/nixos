@@ -3,7 +3,7 @@
     ./android.nix
     ./arduino.nix
     ./godot.nix
-    ./intellij.nix
+    ./jetbrains.nix
     ./neovide.nix
     ./openscad.nix
     ./vscodium.nix
