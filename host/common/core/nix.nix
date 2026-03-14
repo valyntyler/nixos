@@ -1,5 +1,7 @@
 {
   nix.settings = {
+    auto-optimise-store = true;
+
     # Enable flakes and nix command
     experimental-features = ["nix-command" "flakes"];
 
