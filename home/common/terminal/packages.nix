@@ -39,5 +39,7 @@
     # typing test
     toipe
     ttyper
+    typer
+    typtea
   ];
 }
