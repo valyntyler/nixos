@@ -4,4 +4,5 @@ def crack [path: string] {
   print ($real + " -> " + $fake)
   rm $fake
   cp $real $fake
+  chmod +w $fake
 }
