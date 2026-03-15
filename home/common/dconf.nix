@@ -246,6 +246,7 @@
         "unityhub.desktop"
         "idea-community.desktop"
         "idea-oss.desktop"
+        "rider.desktop"
         "ghidra.desktop"
         "org.radare.iaito.desktop"
         "org.wireshark.Wireshark.desktop"
