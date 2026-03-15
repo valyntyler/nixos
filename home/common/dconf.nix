@@ -248,6 +248,7 @@
         "idea-oss.desktop"
         "ghidra.desktop"
         "org.radare.iaito.desktop"
+        "org.wireshark.Wireshark.desktop"
       ];
     };
 
@@ -315,7 +316,6 @@
         "com.saivert.pwvucontrol.desktop"
         "nvidia-settings.desktop"
         "org.raspberrypi.rpi-imager.desktop"
-        "org.wireshark.Wireshark.desktop"
         "LocalSend.desktop"
         "protonup-qt.desktop"
         "virt-manager.desktop"
