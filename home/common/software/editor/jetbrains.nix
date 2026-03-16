@@ -8,8 +8,8 @@
     config.allowUnfree = true;
   };
 in {
-  home.packages = with pkgs-stable.jetbrains; [
-    idea-community
-    rider
+  home.packages = [
+    pkgs-stable.jetbrains.idea-community
+    pkgs.jetbrains.rider
   ];
 }
