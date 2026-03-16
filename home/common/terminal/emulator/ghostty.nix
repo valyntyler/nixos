@@ -9,7 +9,7 @@
   xdg.configFile."ghostty/config".text = ''
     # theme
     theme = Gruvbox Dark
-    title = "Ghostty"
+    title = ""
 
     # font
     font-family = JetBrainsMono NF
@@ -45,15 +45,20 @@
     # keybind = ctrl+shift+t=new_tab
     # keybind = ctrl+shift+w=close_tab
 
-    # keybind = alt+1=goto_tab:1
-    # keybind = alt+2=goto_tab:2
-    # keybind = alt+3=goto_tab:3
-    # keybind = alt+4=goto_tab:4
-    # keybind = alt+5=goto_tab:5
-    # keybind = alt+6=goto_tab:6
-    # keybind = alt+7=goto_tab:7
-    # keybind = alt+8=goto_tab:8
-    # keybind = alt+9=goto_tab:9
-    # keybind = alt+0=goto_tab:10
+    # switch between tabs
+    keybind = alt+1=goto_tab:1
+    keybind = alt+2=goto_tab:2
+    keybind = alt+3=goto_tab:3
+    keybind = alt+4=goto_tab:4
+    keybind = alt+5=goto_tab:5
+    keybind = alt+6=goto_tab:6
+    keybind = alt+7=goto_tab:7
+    keybind = alt+8=goto_tab:8
+    keybind = alt+9=goto_tab:9
+    keybind = alt+0=goto_tab:10
+
+    # create/remove tabs
+    keybind = ctrl+t=new_tab
+    keybind = ctrl+w=close_tab
   '';
 }
