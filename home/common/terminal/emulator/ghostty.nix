@@ -60,5 +60,8 @@
     # create/remove tabs
     keybind = ctrl+t=new_tab
     keybind = ctrl+w=close_tab
+
+    # ssh configuration
+    shell-integration-features = ssh-env
   '';
 }
