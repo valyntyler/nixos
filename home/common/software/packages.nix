@@ -9,6 +9,7 @@
     openra
     prismlauncher
     pwvucontrol
+    rpi-imager
     signal-desktop
     tigervnc
     vmpk
