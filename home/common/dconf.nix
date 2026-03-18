@@ -244,6 +244,7 @@
         "neovide.desktop"
         "openscad.desktop"
         "unityhub.desktop"
+        "codeblocks.desktop"
         "idea-community.desktop"
         "idea-oss.desktop"
         "rider.desktop"
