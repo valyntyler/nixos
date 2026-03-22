@@ -9,6 +9,7 @@
     openra
     prismlauncher
     pwvucontrol
+    qbittorrent
     signal-desktop
     tigervnc
     vmpk
