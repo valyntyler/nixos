@@ -8,9 +8,11 @@
     ./scripts.nix
     ./settings.nix
   ];
-  programs.nushell = {
+  programs.nushell = let
+    banner = lib.getExe pkgs.nitch;
+  in {
     enable = true;
     plugins = with pkgs.nushellPlugins; [formats];
-    extraConfig = ''${lib.getExe pkgs.nitch}'';
+    extraConfig = ''${banner}'';
   };
 }
