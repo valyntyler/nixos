@@ -9,7 +9,7 @@
     ./settings.nix
   ];
   programs.nushell = let
-    banner = lib.getExe pkgs.nitch;
+    banner = lib.getExe pkgs.microfetch;
   in {
     enable = true;
     plugins = with pkgs.nushellPlugins; [formats];
