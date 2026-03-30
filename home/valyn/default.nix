@@ -1,6 +1,5 @@
 {inputs, ...}: {
   imports = [
-    ../common/software/programs/element.nix
     ../common/software/programs/onlyoffice.nix
     ../common/software/programs/retroarch.nix
     ../common/software/services/walker.nix
