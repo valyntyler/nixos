@@ -428,6 +428,7 @@
         "io.github.nozwock.Packet"
         "VSCodium"
         "net.nokyan.Resources"
+        "org.gnome.Fractal"
       ];
     };
   };
