@@ -27,6 +27,7 @@
     bottles
     crosspipe
     foliate
+    fractal
     packet
     pods
     rnote
