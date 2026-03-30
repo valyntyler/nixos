@@ -31,5 +31,6 @@
     packet
     pods
     rnote
+    varia
   ];
 }
