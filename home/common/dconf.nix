@@ -215,6 +215,7 @@
         "io.github.revisto.drum-machine.desktop"
         "com.github.johnfactotum.Foliate.desktop"
         "com.mardojai.ForgeSparks.desktop"
+        "org.gnome.Fractal"
         "dev.bragefuglseth.Keypunch.Devel.desktop"
         "io.github.mrvladus.List.desktop"
         "de.haeckerfelix.Fragments.desktop"
