@@ -58,8 +58,8 @@
     keybind = alt+0=goto_tab:10
 
     # create/remove tabs
-    keybind = ctrl+t=new_tab
-    keybind = ctrl+w=close_tab
+    keybind = ctrl+shift+t=new_tab
+    keybind = ctrl+shift+w=close_tab
 
     # ssh configuration
     shell-integration-features = ssh-env
