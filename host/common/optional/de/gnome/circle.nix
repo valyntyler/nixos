@@ -12,6 +12,7 @@
     fragments
     fretboard
     gnome-decoder
+    gradia
     impression
     keypunch
     resources
