@@ -4,5 +4,6 @@
     gnome-boxes
     gnome-sound-recorder
     gnome-usage
+    gnome-tecla
   ];
 }
