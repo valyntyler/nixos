@@ -27,6 +27,7 @@
     # these deserve to be a circle apps
     bottles
     crosspipe
+    exhibit
     foliate
     fractal
     packet
