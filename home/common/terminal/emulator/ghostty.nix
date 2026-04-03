@@ -59,6 +59,7 @@
 
     # create/remove tabs
     keybind = ctrl+t=new_tab
+    keybind = ctrl+shift+t=new_tab
     keybind = ctrl+shift+w=close_tab
 
     # ssh configuration
