@@ -20,6 +20,7 @@
 
     # services
     ../common/optional/services/collabora.nix
+    ../common/optional/services/immich.nix
     ../common/optional/services/jellyfin.nix
     ../common/optional/services/minecraft.nix
     ../common/optional/services/nextcloud.nix
