@@ -26,7 +26,13 @@ in {
       "opcache.enable_cli" = "1";
     };
     extraApps = {
-      inherit (pkgs.nextcloud33Packages.apps) richdocuments;
+      inherit
+        (pkgs.nextcloud33Packages.apps)
+        calendar
+        contacts
+        richdocuments
+        tasks
+        ;
     };
     extraAppsEnable = true;
   };
