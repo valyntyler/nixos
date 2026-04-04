@@ -1,3 +1,0 @@
-{
-  programs.iamb.enable = true;
-}

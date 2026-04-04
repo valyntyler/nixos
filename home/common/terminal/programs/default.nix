@@ -16,7 +16,6 @@
     ./gitui.nix
     ./glab.nix
     ./gurk.nix
-    ./iamb.nix
     ./lazygit.nix
     ./nh.nix
     ./nvf.nix
