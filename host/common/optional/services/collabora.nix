@@ -13,14 +13,12 @@ in {
       };
     };
   };
-  services.nginx.virtualHosts = {
-    ${domain} = {
-      forceSSL = true;
-      enableACME = true;
-      locations."/" = {
-        proxyPass = "http://localhost:${toString cfg.port}";
-        proxyWebsockets = true;
-      };
+  services.nginx.virtualHosts.${domain} = {
+    forceSSL = true;
+    enableACME = true;
+    locations."/" = {
+      proxyPass = "http://localhost:${toString cfg.port}";
+      proxyWebsockets = true;
     };
   };
 }

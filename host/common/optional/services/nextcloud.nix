@@ -36,11 +36,9 @@ in {
     };
     extraAppsEnable = true;
   };
-  services.nginx.virtualHosts = {
-    ${domain} = {
-      forceSSL = true;
-      enableACME = true;
-    };
+  services.nginx.virtualHosts.${domain} = {
+    forceSSL = true;
+    enableACME = true;
   };
   # initial admin password
   sops.secrets."nextcloud/admin/pass".owner = "nextcloud";
