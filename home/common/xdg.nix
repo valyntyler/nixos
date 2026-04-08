@@ -20,7 +20,8 @@
     mimeApps = {
       enable = true;
       defaultApplications = {
-        "text/html" = "firefox.desktop";
+        "text/html" = ["firefox.desktop"];
+        "text/markdown" = ["org.gnome.gitlab.somas.Apostrophe.desktop"];
         "x-scheme-handler/http" = ["firefox.desktop"];
         "x-scheme-handler/https" = ["firefox.desktop"];
         "x-scheme-handler/about" = "firefox.desktop";
