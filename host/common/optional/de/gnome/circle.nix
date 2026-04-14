@@ -8,6 +8,7 @@
     curtail
     diebahn
     drum-machine
+    errands
     forge-sparks
     fragments
     fretboard
