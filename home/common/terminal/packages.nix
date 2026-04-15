@@ -12,6 +12,7 @@
     dig
     duf
     glow
+    gnumake
     hledger
     imagemagick
     lsof
