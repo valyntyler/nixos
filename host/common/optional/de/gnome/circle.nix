@@ -32,6 +32,7 @@
     foliate
     fractal
     packet
+    planify
     pods
     rnote
     varia
