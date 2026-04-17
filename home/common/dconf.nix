@@ -433,6 +433,7 @@
         "VSCodium"
         "net.nokyan.Resources"
         "org.gnome.Fractal"
+        "io.github.alainm23.planify"
       ];
     };
   };
