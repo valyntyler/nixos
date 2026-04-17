@@ -15,12 +15,15 @@
     gradia
     impression
     keypunch
+    lorem
     resources
+    share-preview
     switcheroo
     tangram
     textpieces
     video-trimmer
     warp
+    webfont-bundler
     wike
     wordbook
 
