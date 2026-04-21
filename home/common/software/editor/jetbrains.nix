@@ -10,6 +10,6 @@
 in {
   home.packages = [
     pkgs-stable.jetbrains.idea-community
-    pkgs.jetbrains.rider
+    # pkgs.jetbrains.rider
   ];
 }
