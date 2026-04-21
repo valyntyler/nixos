@@ -33,6 +33,7 @@
     exhibit
     foliate
     fractal
+    gelly
     packet
     planify
     pods
