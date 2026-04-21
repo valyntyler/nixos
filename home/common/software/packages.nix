@@ -3,6 +3,7 @@
     bitwarden-desktop
     galaxy-buds-client
     iaito
+    jellyfin-desktop
     karere
     libreoffice-fresh
     obsidian
