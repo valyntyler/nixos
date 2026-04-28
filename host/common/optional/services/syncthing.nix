@@ -4,11 +4,9 @@
     openDefaultPorts = true;
     # guiAddress = "0.0.0.0:8384";
     settings = {
-      # gui.user = "myuser";
-      # devices = {
-      #   "device1" = {id = "DEVICE-ID-GOES-HERE";};
-      #   "device2" = {id = "DEVICE-ID-GOES-HERE";};
-      # };
+      devices = {
+        "frame12" = {id = "KJCYSJQ-NUDVKLV-PQ7IHR6-TMSHFXZ-DCIH5OG-B5H34E7-PCVRFGA-CKAY5AD";};
+      };
       folders = {
         "Notes" = {
           path = "/home/${user}/Notes";
