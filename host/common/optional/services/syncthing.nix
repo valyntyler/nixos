@@ -1,7 +1,10 @@
 {user, ...}: {
   services.syncthing = {
+    inherit user;
     enable = true;
     openDefaultPorts = true;
+    dataDir = "/home/${user}";
+    configDir = "/home/${user}/.config/syncthing";
     # guiAddress = "0.0.0.0:8384";
     settings = {
       devices = {
@@ -12,8 +15,8 @@
         "Notes" = {
           path = "/home/${user}/Notes";
           devices = [
-            # "device1"
-            # "device2"
+            "frame12"
+            "ideapad"
           ];
         };
       };
