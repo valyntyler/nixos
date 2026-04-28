@@ -8,7 +8,7 @@
     # guiAddress = "0.0.0.0:8384";
     settings = {
       devices = {
-        "frame12" = {id = "KJCYSJQ-NUDVKLV-PQ7IHR6-TMSHFXZ-DCIH5OG-B5H34E7-PCVRFGA-CKAY5AD";};
+        "frame12" = {id = "KMXK3ED-VLR5HBI-APXL74C-TEUZ45Y-OTHCDBU-DJ6IV4M-F4ZAE36-EZ5FKQL";};
         "ideapad" = {id = "CHJ24Z2-ADITCXI-3BABDI6-22CS47T-YD5W63U-HB34QVX-KOMWWQ6-I3XVLAH";};
       };
       folders = {
