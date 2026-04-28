@@ -1,8 +1,4 @@
 {
-  config,
-  pkgs,
-  ...
-}: {
   imports = [
     ./hardware-configuration.nix
     ../common/core
@@ -14,6 +10,8 @@
     ../common/optional/nix-auth.nix
     ../common/optional/xdg.nix
     ../common/optional/hardware/graphics.nix
+
+    # programs
     ../common/optional/programs/appimage.nix
     ../common/optional/programs/discord.nix
     ../common/optional/programs/gamemode.nix
@@ -24,9 +22,13 @@
     ../common/optional/programs/spotify.nix
     ../common/optional/programs/steam.nix
     ../common/optional/programs/wireshark.nix
+
+    # services
     ../common/optional/services/kanata.nix
     ../common/optional/services/pipewire.nix
     ../common/optional/services/syncthing.nix
+
+    # virtualization
     ../common/optional/virtual/docker.nix
     ../common/optional/virtual/podman.nix
   ];
