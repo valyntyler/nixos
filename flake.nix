@@ -12,7 +12,7 @@
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
     nixos-hardware.url = "github:valyntyler/nixos-hardware/master";
 
-    nix-auth.url = "github:numtide/nix-auth";
+    # nix-auth.url = "github:numtide/nix-auth";
 
     musnix.url = "github:musnix/musnix";
     musnix.inputs.nixpkgs.follows = "nixpkgs";
