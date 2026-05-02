@@ -1,7 +1,12 @@
-{pkgs, ...}: {
+{
+  config,
+  pkgs,
+  ...
+}: {
   programs.firefox = {
     enable = true;
     nativeMessagingHosts = [pkgs.firefoxpwa];
+    configPath = "${config.xdg.configHome}/mozilla/firefox";
     policies = {
       DisableTelemetry = true;
       EnableTrackingProtection = {
