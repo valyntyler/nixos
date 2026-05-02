@@ -8,7 +8,7 @@
     SUBSYSTEM=="usbmon", GROUP="wireshark", MODE="0640"
   '';
   environment.systemPackages = with pkgs; [
-    termshark
+    # termshark
     wireshark
   ];
   programs.wireshark = {
