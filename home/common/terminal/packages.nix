@@ -24,6 +24,7 @@
     scli
     sops
     stow
+    tlock
 
     # repo
     gen-license
