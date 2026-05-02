@@ -28,7 +28,7 @@
     wordbook
 
     # these deserve to be a circle apps
-    bottles
+    # bottles
     crosspipe
     exhibit
     foliate
