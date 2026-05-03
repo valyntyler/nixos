@@ -11,6 +11,7 @@
     cyme
     dig
     duf
+    gfold
     glow
     gnumake
     hledger
