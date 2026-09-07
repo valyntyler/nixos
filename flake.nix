@@ -46,6 +46,9 @@
     # import firefox runner
     wofizilla.url = "github:valyntyler/wofizilla";
     wofizilla.inputs.nixpkgs.follows = "nixpkgs";
+
+    nix-software-center.url = "github:snowfallorg/nix-software-center";
+    nix-software-center.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = {

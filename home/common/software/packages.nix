@@ -1,4 +1,8 @@
-{pkgs, ...}: {
+{
+  inputs,
+  pkgs,
+  ...
+}: {
   home.packages = with pkgs; [
     # bitwarden-desktop
     galaxy-buds-client
@@ -11,5 +15,6 @@
     tigervnc
     vmpk
     wl-clipboard
+    inputs.nix-software-center.packages.${system}.nix-software-center
   ];
 }
