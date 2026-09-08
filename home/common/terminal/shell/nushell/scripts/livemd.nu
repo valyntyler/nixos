@@ -1,8 +1,17 @@
 #!/usr/bin/env nu
 
+def is-markdown [] {
+  return (($in | path parse | get extension) == "md")
+}
+
+def compile [file: string] {
+  pandoc $file -o $"($file | path parse | get stem).pdf"
+}
+
 def livemd [file: string] {
-  if ($file | path exists) and (($file | path parse | get extension) == "md") {
-    watch $file | each {|event| pandoc $file -o $"($file | path parse | get stem).pdf" }
+  if ($file | path exists) and ($file | is-markdown) {
+    compile file
+    watch $file | each {|event| compile file }
     return
   }
 }
